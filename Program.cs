@@ -37,14 +37,14 @@ namespace websitechangenotifier
 
             if (changedPages.Any())
             {
-                Log.Information("Sending Changed pages email");                
-                new EmailHelpers().SendEmail("Kingsleigh have CHANGED pages", dataManipulator.GetUris(changedPages).ToString());
+                Log.Information($"Sending Changed pages email containing {changedPages.Count} items");                
+                new EmailHelpers().SendEmail($"Kingsleigh have {changedPages.Count} CHANGED pages", dataManipulator.GetUris(changedPages).ToString());
             }
 
             if (newPages.Any())
             {
-                Log.Information("Sending NEW pages email");                
-                new EmailHelpers().SendEmail("Kingsleigh have NEW pages", dataManipulator.GetUris(newPages).ToString());
+                Log.Information($"Sending NEW pages email containing {newPages.Count} items");
+                new EmailHelpers().SendEmail($"Kingsleigh have {newPages.Count} NEW pages", dataManipulator.GetUris(newPages).ToString());
             }
 
             Log.Information("Completed!");
@@ -53,9 +53,7 @@ namespace websitechangenotifier
         private static async Task CrawlPages()
         {
             PoliteWebCrawler crawler = SetupCrawler();
-            var crawlResult = await crawler.CrawlAsync(new Uri("https://www.kingsleighprimary.co.uk/parents/letters/"));
-            var crawlResult2 = await crawler.CrawlAsync(new Uri("https://www.kingsleighprimary.co.uk/classes/reception/"));
-
+            var crawlResult = await crawler.CrawlAsync(new Uri("https://www.kingsleighprimary.co.uk"));            
         }
 
         private static PoliteWebCrawler SetupCrawler()
@@ -89,12 +87,14 @@ namespace websitechangenotifier
             {
                 //Did not find it previously.
                 //Alert about the new page
+                Log.Information($"NEW page: {e.CrawledPage.Uri}");
                 newPages[e.CrawledPage.Uri] = pageContent;
             }
             else if (retrievedValue != hash)
             {
                 //Found it previously, but the content has changed
                 //Alert about content changed
+                Log.Information($"CHANGED page: {e.CrawledPage.Uri}");
                 changedPages[e.CrawledPage.Uri] = pageContent;
             }
 

@@ -16,7 +16,7 @@ namespace websitechangenotifier
             foreach (string lineItem in previousItems)
             {
                 var lineData = lineItem.Split(',');
-                previousResults[new Uri(lineData[0])] = lineData[1];
+                previousResults[new Uri(lineData[0].Trim())] = lineData[1].Trim();
             }
             return previousResults;
         }
