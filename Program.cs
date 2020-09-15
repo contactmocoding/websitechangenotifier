@@ -15,6 +15,9 @@ namespace websitechangenotifier
     class Program
     {
           private static Dictionary<Uri, string> allUrisFound = new Dictionary<Uri, string>();
+          private static Dictionary<Uri, string> previouslyFoundUris = new Dictionary<Uri, string>();
+          private static Dictionary<Uri, string> newPages = new Dictionary<Uri, string>();
+          private static Dictionary<Uri, string> changedPages = new Dictionary<Uri, string>();
 
         public static async Task Main(string[] args)
         {
@@ -24,18 +27,32 @@ namespace websitechangenotifier
                 .WriteTo.Console(outputTemplate: "[{Timestamp:yyyy-MM-dd HH:mm:ss:fff zzz}] [{ThreadId}] [{Level:u3}] - {Message:lj}{NewLine}{Exception}")
                 .CreateLogger();
 
+            //Load in the previous results
+            var previousItems = System.IO.File.ReadAllLines(@"AllUrisFound.txt");
+            foreach (string lineItem in previousItems)
+            {
+                var lineData = lineItem.Split(',');
+                previouslyFoundUris[new Uri(lineData[0])] = lineData[1];
+            }
             Log.Information("Demo starting up!");
 
             // await DemoPageRequester();
             await DemoSimpleCrawler();
+            ExportData(@"ChangedUrisFound.txt",changedPages );
+            ExportData(@"NewUrisFound.txt",newPages );
+            ExportData(@"AllUrisFound.txt",allUrisFound );
+            Log.Information("Demo done!");
+            //Console.ReadKey();
+        }
+
+        private static void ExportData(string fileName, Dictionary<Uri,string> itemToExport)
+        {
             StringBuilder fileContents = new StringBuilder();
-            foreach (KeyValuePair<Uri, string> kvp in allUrisFound)
+            foreach (KeyValuePair<Uri, string> kvp in itemToExport.OrderBy(t => t.Key.AbsoluteUri))
             {
                 fileContents.AppendLine($"{kvp.Key}, {kvp.Value}");
             }
-            System.IO.File.WriteAllText(@"AllUrisFound.txt", fileContents.ToString());
-            Log.Information("Demo done!");
-            //Console.ReadKey();
+            System.IO.File.WriteAllText(fileName, fileContents.ToString());
         }
 
         private static async Task DemoSimpleCrawler()
@@ -61,14 +78,27 @@ namespace websitechangenotifier
             Log.Information($"------- Completed [{e.CrawledPage.Uri}].");
 
 
-            string theString = e.CrawledPage.AngleSharpHtmlDocument.Body.InnerHtml;
+            string pageContent = e.CrawledPage.AngleSharpHtmlDocument.Body.OuterHtml;
 
             string hash;
             using (System.Security.Cryptography.MD5 md5 = System.Security.Cryptography.MD5.Create())
             {
                 hash = BitConverter.ToString(
-                  md5.ComputeHash(Encoding.UTF8.GetBytes(theString))
+                  md5.ComputeHash(Encoding.UTF8.GetBytes(pageContent))
                 ).Replace("-", String.Empty);
+            }
+
+            if (previouslyFoundUris[e.CrawledPage.Uri] ==null)
+            {
+                //Did not find it previously.
+                //Alert about the new page
+                newPages[e.CrawledPage.Uri] = pageContent;
+            }
+            else if(previouslyFoundUris[e.CrawledPage.Uri] !=hash)
+            {
+                //Found it previously, but the content has changed
+                //Alert about content changed
+                changedPages[e.CrawledPage.Uri] = pageContent;
             }
 
             allUrisFound[e.CrawledPage.Uri] = hash;
