@@ -9,6 +9,7 @@ using Serilog.Formatting.Json;
 using System.Linq;
 using System.Collections.Generic;
 using System.Text;
+using System.Diagnostics;
 
 namespace websitechangenotifier
 {
@@ -21,6 +22,8 @@ namespace websitechangenotifier
 
         public static async Task Main(string[] args)
         {
+            Stopwatch timedRun = new Stopwatch();
+            timedRun.Start();
             Log.Logger = new LoggerConfiguration()
                 .MinimumLevel.Information()
                 .Enrich.WithThreadId()
@@ -37,7 +40,7 @@ namespace websitechangenotifier
 
             if (changedPages.Any())
             {
-                Log.Information($"Sending Changed pages email containing {changedPages.Count} items");                
+                Log.Information($"Sending Changed pages email containing {changedPages.Count} items");
                 new EmailHelpers().SendEmail($"Kingsleigh have {changedPages.Count} CHANGED pages", dataManipulator.GetUris(changedPages).ToString());
             }
 
@@ -47,13 +50,13 @@ namespace websitechangenotifier
                 new EmailHelpers().SendEmail($"Kingsleigh have {newPages.Count} NEW pages", dataManipulator.GetUris(newPages).ToString());
             }
 
-            Log.Information("Completed!");
+            Log.Information($"Completed in {timedRun.Elapsed}!");
         }
 
         private static async Task CrawlPages()
         {
             PoliteWebCrawler crawler = SetupCrawler();
-            var crawlResult = await crawler.CrawlAsync(new Uri("https://www.kingsleighprimary.co.uk"));            
+            var crawlResult = await crawler.CrawlAsync(new Uri("https://www.kingsleighprimary.co.uk"));
         }
 
         private static PoliteWebCrawler SetupCrawler()
