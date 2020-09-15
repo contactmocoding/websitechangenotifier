@@ -14,10 +14,10 @@ namespace websitechangenotifier
 {
     class Program
     {
-          private static Dictionary<Uri, string> allUrisFound = new Dictionary<Uri, string>();
-          private static Dictionary<Uri, string> previouslyFoundUris = new Dictionary<Uri, string>();
-          private static Dictionary<Uri, string> newPages = new Dictionary<Uri, string>();
-          private static Dictionary<Uri, string> changedPages = new Dictionary<Uri, string>();
+        private static Dictionary<Uri, string> allUrisFound = new Dictionary<Uri, string>();
+        private static Dictionary<Uri, string> previouslyFoundUris = new Dictionary<Uri, string>();
+        private static Dictionary<Uri, string> newPages = new Dictionary<Uri, string>();
+        private static Dictionary<Uri, string> changedPages = new Dictionary<Uri, string>();
 
         public static async Task Main(string[] args)
         {
@@ -26,60 +26,68 @@ namespace websitechangenotifier
                 .Enrich.WithThreadId()
                 .WriteTo.Console(outputTemplate: "[{Timestamp:yyyy-MM-dd HH:mm:ss:fff zzz}] [{ThreadId}] [{Level:u3}] - {Message:lj}{NewLine}{Exception}")
                 .CreateLogger();
+            ExternalDataManipulator dataManipulator = new ExternalDataManipulator();
 
-            //Load in the previous results
-            var previousItems = System.IO.File.ReadAllLines(@"AllUrisFound.txt");
-            foreach (string lineItem in previousItems)
-            {
-                var lineData = lineItem.Split(',');
-                previouslyFoundUris[new Uri(lineData[0])] = lineData[1];
-            }
-            Log.Information("Demo starting up!");
-
-            // await DemoPageRequester();
-            await DemoSimpleCrawler();
-            ExportData(@"ChangedUrisFound.txt",changedPages );
-            ExportData(@"NewUrisFound.txt",newPages );
-            ExportData(@"AllUrisFound.txt",allUrisFound );
-            Log.Information("Demo done!");
-            //Console.ReadKey();
+            previouslyFoundUris = await dataManipulator.LoadPreviousResults();
+            await CrawlPages();
+            await dataManipulator.ExportData(@"ChangedUrisFound.txt", changedPages);
+            await dataManipulator.ExportData(@"NewUrisFound.txt", newPages);
+            await dataManipulator.ExportData(@"AllUrisFound.txt", allUrisFound);
         }
 
-        private static void ExportData(string fileName, Dictionary<Uri,string> itemToExport)
+        private static async Task CrawlPages()
         {
-            StringBuilder fileContents = new StringBuilder();
-            foreach (KeyValuePair<Uri, string> kvp in itemToExport.OrderBy(t => t.Key.AbsoluteUri))
-            {
-                fileContents.AppendLine($"{kvp.Key}, {kvp.Value}");
-            }
-            System.IO.File.WriteAllText(fileName, fileContents.ToString());
+            PoliteWebCrawler crawler = SetupCrawler();
+            var crawlResult = await crawler.CrawlAsync(new Uri("https://www.kingsleighprimary.co.uk/parents/letters/"));
+            var crawlResult2 = await crawler.CrawlAsync(new Uri("https://www.kingsleighprimary.co.uk/classes/reception/"));
+
         }
 
-        private static async Task DemoSimpleCrawler()
+        private static PoliteWebCrawler SetupCrawler()
         {
             var config = new CrawlConfiguration
             {
-                MaxPagesToCrawl = 5,
+                MaxPagesToCrawl = 0,
                 MaxLinksPerPage = 0,
                 MinCrawlDelayPerDomainMilliSeconds = 3000,
             };
             var crawler = new PoliteWebCrawler(config);
 
             crawler.PageCrawlCompleted += Crawler_PageCrawlCompleted;
+            crawler.PageCrawlDisallowed += Crawler_PageCrawlDisallowed;
+            return crawler;
+        }
 
-            //   var crawlResult = await crawler.CrawlAsync(new Uri("https://www.kingsleighprimary.co.uk/parents/letters/"));
-            //var crawlResult2 = await crawler.CrawlAsync(new Uri("https://www.kingsleighprimary.co.uk/classes/reception/"));                        
-            var crawlResult2 = await crawler.CrawlAsync(new Uri("https://www.kingsleighprimary.co.uk"));
-
+        private static void Crawler_PageCrawlDisallowed(object sender, PageCrawlDisallowedArgs e)
+        {
+            Log.Error($"Unable to parse {e.PageToCrawl.Uri.AbsoluteUri} because {e.DisallowedReason}");
         }
 
         private static void Crawler_PageCrawlCompleted(object sender, PageCrawlCompletedArgs e)
         {
-            Log.Information($"------- Completed [{e.CrawledPage.Uri}].");
-
-
             string pageContent = e.CrawledPage.AngleSharpHtmlDocument.Body.OuterHtml;
+            string hash = ComputeCheckSum(pageContent);
 
+            string retrievedValue = null;
+            bool foundSomething = previouslyFoundUris.TryGetValue(e.CrawledPage.Uri, out retrievedValue);
+            if (!foundSomething)
+            {
+                //Did not find it previously.
+                //Alert about the new page
+                newPages[e.CrawledPage.Uri] = pageContent;
+            }
+            else if (retrievedValue != hash)
+            {
+                //Found it previously, but the content has changed
+                //Alert about content changed
+                changedPages[e.CrawledPage.Uri] = pageContent;
+            }
+
+            allUrisFound[e.CrawledPage.Uri] = hash;
+        }
+
+        private static string ComputeCheckSum(string pageContent)
+        {
             string hash;
             using (System.Security.Cryptography.MD5 md5 = System.Security.Cryptography.MD5.Create())
             {
@@ -88,32 +96,7 @@ namespace websitechangenotifier
                 ).Replace("-", String.Empty);
             }
 
-            if (previouslyFoundUris[e.CrawledPage.Uri] ==null)
-            {
-                //Did not find it previously.
-                //Alert about the new page
-                newPages[e.CrawledPage.Uri] = pageContent;
-            }
-            else if(previouslyFoundUris[e.CrawledPage.Uri] !=hash)
-            {
-                //Found it previously, but the content has changed
-                //Alert about content changed
-                changedPages[e.CrawledPage.Uri] = pageContent;
-            }
-
-            allUrisFound[e.CrawledPage.Uri] = hash;
-            // Log.Information($"Found {String.Join(",",e.CrawledPage.ParsedLinks.Select(t=>t.HrefValue))}");
-        }
-
-        private static async Task DemoPageRequester()
-        {
-            var pageRequester =
-                new PageRequester(new CrawlConfiguration(), new WebContentExtractor());
-
-            //var result = await pageRequester.MakeRequestAsync(new Uri("http://google.com"));
-            var result = await pageRequester.MakeRequestAsync(new Uri("https://www.kingsleighprimary.co.uk/parents/"));
-            Log.Information($"{result}", new { url = result.Uri, status = Convert.ToInt32(result.HttpResponseMessage.StatusCode) });
-
+            return hash;
         }
     }
 }

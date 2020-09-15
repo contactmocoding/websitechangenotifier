@@ -1,5 +1,15 @@
-https://www.kingsleighprimary.co.uk/, 388C6822AF83F12BB869CFA6AD9A3CAC
+https://www.kingsleighprimary.co.uk/, 25765182E4B03DE95D3232A0CCFB100D
 https://www.kingsleighprimary.co.uk/about/, 7437FB18E20B39A72D7F0A1AF611B343
+https://www.kingsleighprimary.co.uk/blog/, 24D1E697AD5331942FAE642CE751E7C6
 https://www.kingsleighprimary.co.uk/classes/, 38603FC284584AE09735BDCB1860439F
+https://www.kingsleighprimary.co.uk/contact/, 226832531D13CE5663A79C9BC38AB5AB
+https://www.kingsleighprimary.co.uk/events/, 00D2471B8C2A41ED819A455573AFCC6E
+https://www.kingsleighprimary.co.uk/letter/information-leaflet-for-children-new-intake-in-reception-sep-2020/, F193E0D87917CB8866EF6464C5096C6A
+https://www.kingsleighprimary.co.uk/letter/information-leaflet-for-parents-new-intake-in-reception-sep-2020/, F193E0D87917CB8866EF6464C5096C6A
+https://www.kingsleighprimary.co.uk/letter/kps-update-and-plans-september-2020/, F193E0D87917CB8866EF6464C5096C6A
+https://www.kingsleighprimary.co.uk/letter/new-classes-reception-new-intake-september-2020/, F193E0D87917CB8866EF6464C5096C6A
+https://www.kingsleighprimary.co.uk/letter/returning-to-school-september-2020/, F193E0D87917CB8866EF6464C5096C6A
 https://www.kingsleighprimary.co.uk/parents/, 4F01ACCBF17DB7CE34FF71C0507E772B
+https://www.kingsleighprimary.co.uk/parents/letters/, 5993F5AB0C3F0170DDE38A2EEEEA5A17
 https://www.kingsleighprimary.co.uk/policies/, C394B796329B2601B518B54627CE1F8F
+https://www.kingsleighprimary.co.uk/pupil-parent-voice/, ED77DEF45CAFA19475EA8F1A6A45B235

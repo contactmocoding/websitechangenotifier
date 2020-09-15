@@ -1,0 +1,891 @@
+https://www.kingsleighprimary.co.uk/blog/, <body class="body  body--blog">
+
+    <header class="header">
+        <div class="l-container">
+            <a href="/" title="Kingsleigh Primary School" class="header__brand">
+                <img src="https://www.kingsleighprimary.co.uk/wp-content/themes/kingsleigh2017/assets/img/header-logo.png" alt="Kingsleigh Primary School" title="Kingsleigh Primary School" class="header__logo">
+            </a>
+                            <a href="#" title="Toggle Menu" class="header__menu_toggle"><span class="glyphicons glyphicons-menu-hamburger"></span></a>
+                <div class="header__nav-primary">
+                    <ul class="header__nav">
+                                                    <li class="header__nav-item  header__nav-item--menu-item header__nav-item--menu-item-type-post_type header__nav-item--menu-item-object-page header__nav-item--menu-item-home header__nav-item--menu-item-11741">
+                                <a href="https://www.kingsleighprimary.co.uk/" target="" title="Home" class="header__nav-link">Home</a>
+                            </li>
+                                                    <li class="header__nav-item  header__nav-item--menu-item header__nav-item--menu-item-type-post_type header__nav-item--menu-item-object-page header__nav-item--menu-item-11743">
+                                <a href="https://www.kingsleighprimary.co.uk/about/" target="" title="About" class="header__nav-link">About</a>
+                            </li>
+                                                    <li class="header__nav-item  header__nav-item--menu-item header__nav-item--menu-item-type-post_type header__nav-item--menu-item-object-page header__nav-item--menu-item-11744">
+                                <a href="https://www.kingsleighprimary.co.uk/policies/" target="" title="Policies" class="header__nav-link">Policies</a>
+                            </li>
+                                                    <li class="header__nav-item  header__nav-item--menu-item header__nav-item--menu-item-type-post_type header__nav-item--menu-item-object-page header__nav-item--menu-item-11745">
+                                <a href="https://www.kingsleighprimary.co.uk/parents/" target="" title="Parents" class="header__nav-link">Parents</a>
+                            </li>
+                                                    <li class="header__nav-item  header__nav-item--menu-item header__nav-item--menu-item-type-post_type header__nav-item--menu-item-object-page header__nav-item--menu-item-11746">
+                                <a href="https://www.kingsleighprimary.co.uk/classes/" target="" title="Classes" class="header__nav-link">Classes</a>
+                            </li>
+                                                    <li class="header__nav-item  header__nav-item--menu-item header__nav-item--menu-item-type-post_type header__nav-item--menu-item-object-page header__nav-item--current-menu-item header__nav-item--page_item header__nav-item--page-item-19 header__nav-item--current_page_item header__nav-item--current_page_parent header__nav-item--menu-item-11750">
+                                <a href="https://www.kingsleighprimary.co.uk/blog/" target="" title="Blog" class="header__nav-link">Blog</a>
+                            </li>
+                                                    <li class="header__nav-item  header__nav-item--menu-item header__nav-item--menu-item-type-post_type header__nav-item--menu-item-object-page header__nav-item--menu-item-11747">
+                                <a href="https://www.kingsleighprimary.co.uk/events/" target="" title="Events" class="header__nav-link">Events</a>
+                            </li>
+                                                    <li class="header__nav-item  header__nav-item--menu-item header__nav-item--menu-item-type-post_type header__nav-item--menu-item-object-page header__nav-item--menu-item-12390">
+                                <a href="https://www.kingsleighprimary.co.uk/pupil-parent-voice/" target="" title="Your Voice" class="header__nav-link">Your Voice</a>
+                            </li>
+                                            </ul>
+                </div>
+                        <div class="header__nav-secondary">
+                                    <ul class="header__social">
+                                                    <li class="header__social-item  header__social-item--menu-item header__social-item--menu-item-type-custom header__social-item--menu-item-object-custom header__social-item--menu-item-20104">
+                                <a href="http://www.brigade.uk.com" target="" class="header__social-link"><span class="glyphicons glyphicons-t-shirt"></span> Uniform</a>
+                            </li>
+                                                    <li class="header__social-item  header__social-item--menu-item header__social-item--menu-item-type-custom header__social-item--menu-item-object-custom header__social-item--menu-item-15995">
+                                <a href="https://dorset.mealselector.co.uk/" target="" class="header__social-link"><span class="glyphicons glyphicons-cutlery"></span> Meal Order</a>
+                            </li>
+                                                    <li class="header__social-item  header__social-item--menu-item header__social-item--menu-item-type-custom header__social-item--menu-item-object-custom header__social-item--menu-item-11751">
+                                <a href="https://www.wisepay.co.uk/store/generic/template.asp?mID=17080&amp;ACT=nav" target="" class="header__social-link"><span class="glyphicons glyphicons-coins"></span> WisePay</a>
+                            </li>
+                                                    <li class="header__social-item  header__social-item--menu-item header__social-item--menu-item-type-custom header__social-item--menu-item-object-custom header__social-item--menu-item-11752">
+                                <a href="https://www.facebook.com/groups/KingsleighPrimarySchool/" target="_blank" class="header__social-link"><span class="glyphicons glyphicons-social glyphicons-social-facebook"></span> Facebook</a>
+                            </li>
+                                                    <li class="header__social-item  header__social-item--menu-item header__social-item--menu-item-type-custom header__social-item--menu-item-object-custom header__social-item--menu-item-11753">
+                                <a href="https://www.youtube.com/channel/UCr8HMMobIJ_tpfzcBXY3jdg" target="_blank" class="header__social-link"><span class="glyphicons glyphicons-social glyphicons-social-youtube"></span> YouTube</a>
+                            </li>
+                                                    <li class="header__social-item  header__social-item--menu-item header__social-item--menu-item-type-post_type header__social-item--menu-item-object-page header__social-item--menu-item-12414">
+                                <a href="https://www.kingsleighprimary.co.uk/contact/" target="" class="header__social-link"><span class="glyphicons glyphicons-envelope"></span> Contact</a>
+                            </li>
+                                            </ul>
+                            </div>
+        </div>
+    </header>
+
+    
+    <div class="title-strip">
+        <div class="l-container">
+            <h1 class="title-strip__title">School Blog</h1>
+                            <div class="title-strip__jump">
+                    <select class="title-strip__jumper js-jumper">
+                        <option>Choose a category...</option>
+                                                    <option value="https://www.kingsleighprimary.co.uk/blog-category/art/">Art</option>
+                                                    <option value="https://www.kingsleighprimary.co.uk/blog-category/black-mambas/">Black Mambas</option>
+                                                    <option value="https://www.kingsleighprimary.co.uk/blog-category/blue-bears/">Blue Bears</option>
+                                                    <option value="https://www.kingsleighprimary.co.uk/blog-category/christmas/">Christmas</option>
+                                                    <option value="https://www.kingsleighprimary.co.uk/blog-category/classes/">Classes</option>
+                                                    <option value="https://www.kingsleighprimary.co.uk/blog-category/dt/">D&amp;T</option>
+                                                    <option value="https://www.kingsleighprimary.co.uk/blog-category/english/">English</option>
+                                                    <option value="https://www.kingsleighprimary.co.uk/blog-category/esafety/">eSafety</option>
+                                                    <option value="https://www.kingsleighprimary.co.uk/blog-category/foundation/">Foundation</option>
+                                                    <option value="https://www.kingsleighprimary.co.uk/blog-category/geography/">Geography</option>
+                                                    <option value="https://www.kingsleighprimary.co.uk/blog-category/governors/">Governors</option>
+                                                    <option value="https://www.kingsleighprimary.co.uk/blog-category/great-white-sharks/">Great White Sharks</option>
+                                                    <option value="https://www.kingsleighprimary.co.uk/blog-category/green-lizards/">Green Lizards</option>
+                                                    <option value="https://www.kingsleighprimary.co.uk/blog-category/health-and-well-being/">Health and Well-Being</option>
+                                                    <option value="https://www.kingsleighprimary.co.uk/blog-category/history/">History</option>
+                                                    <option value="https://www.kingsleighprimary.co.uk/blog-category/home/">Home</option>
+                                                    <option value="https://www.kingsleighprimary.co.uk/blog-category/houses/">Houses</option>
+                                                    <option value="https://www.kingsleighprimary.co.uk/blog-category/literacy/">Literacy</option>
+                                                    <option value="https://www.kingsleighprimary.co.uk/blog-category/maths/">Maths</option>
+                                                    <option value="https://www.kingsleighprimary.co.uk/blog-category/music-classes-2/">Music</option>
+                                                    <option value="https://www.kingsleighprimary.co.uk/blog-category/orange-orangutans/">Orange Orangutans</option>
+                                                    <option value="https://www.kingsleighprimary.co.uk/blog-category/pe/">PE</option>
+                                                    <option value="https://www.kingsleighprimary.co.uk/blog-category/pre-school/">Pre-School</option>
+                                                    <option value="https://www.kingsleighprimary.co.uk/blog-category/pshce/">PSHCE</option>
+                                                    <option value="https://www.kingsleighprimary.co.uk/blog-category/purple-penguins/">Purple Penguins</option>
+                                                    <option value="https://www.kingsleighprimary.co.uk/blog-category/re/">RE</option>
+                                                    <option value="https://www.kingsleighprimary.co.uk/blog-category/reception/">Reception</option>
+                                                    <option value="https://www.kingsleighprimary.co.uk/blog-category/red-kangaroos/">Red Kangaroos</option>
+                                                    <option value="https://www.kingsleighprimary.co.uk/blog-category/science/">Science</option>
+                                                    <option value="https://www.kingsleighprimary.co.uk/blog-category/uncategorised/">Uncategorised</option>
+                                                    <option value="https://www.kingsleighprimary.co.uk/blog-category/uncategorized/">Uncategorized</option>
+                                                    <option value="https://www.kingsleighprimary.co.uk/blog-category/whole-school/">Whole School</option>
+                                                    <option value="https://www.kingsleighprimary.co.uk/blog-category/year-1/">Year 1</option>
+                                                    <option value="https://www.kingsleighprimary.co.uk/blog-category/year-1-tigers/">Year 1 - Tigers</option>
+                                                    <option value="https://www.kingsleighprimary.co.uk/blog-category/year-2/">Year 2</option>
+                                                    <option value="https://www.kingsleighprimary.co.uk/blog-category/year-2-panthers/">Year 2 – Panthers</option>
+                                                    <option value="https://www.kingsleighprimary.co.uk/blog-category/year-3/">Year 3</option>
+                                                    <option value="https://www.kingsleighprimary.co.uk/blog-category/year-4/">Year 4</option>
+                                                    <option value="https://www.kingsleighprimary.co.uk/blog-category/year-5/">Year 5</option>
+                                                    <option value="https://www.kingsleighprimary.co.uk/blog-category/year-6/">Year 6</option>
+                                                    <option value="https://www.kingsleighprimary.co.uk/blog-category/yellow-lions/">Yellow Lions</option>
+                                            </select>
+                </div>
+                    </div>
+    </div>
+
+        <div class="blog-cards blog-cards--clear3">
+        <div class="l-container">
+            <div class="blog-cards__cards blog-cards__cards--tight blog-cards__cards--clear3">
+                                    <div class="blog-card">
+                        <a href="https://www.kingsleighprimary.co.uk/blog/year-2s-habitat-fun/" class="blog-card__cover" title="Year 2’s Habitat Fun" style="background-image:url( https://www.kingsleighprimary.co.uk/wp-content/uploads/2020/07/5-Amara-1-e1593787149561-349x392.jpg );">
+                            <p class="blog-card__date">16th July 2020</p>
+                        </a>
+                        <div class="blog-card__body">
+                            <h3 class="blog-card__title"><a href="https://www.kingsleighprimary.co.uk/blog/year-2s-habitat-fun/" title="Year 2’s Habitat Fun">Year 2’s Habitat Fun</a></h3>
+                            <div class="l-wysiwyg blog-card__excerpt">
+                                <p>This week, the Year 2 children have been doing research on habitats.&nbsp;They discovered that a habitat is a place where an&nbsp;animal or plant&nbsp;lives.</p>
+                            </div>
+                            <p class="blog-card__more"><a href="https://www.kingsleighprimary.co.uk/blog/year-2s-habitat-fun/" class="btn btn--green btn--block" title="Read More: Year 2’s Habitat Fun">Read More »</a></p>
+                        </div>
+                    </div>
+                                    <div class="blog-card">
+                        <a href="https://www.kingsleighprimary.co.uk/blog/year-3s-creative-creations/" class="blog-card__cover" title="Year 3’s creative creations!" style="background-image:url( https://www.kingsleighprimary.co.uk/wp-content/uploads/2020/07/thumbnail_IMG_20200630_154656399-523x392.jpg );">
+                            <p class="blog-card__date">15th July 2020</p>
+                        </a>
+                        <div class="blog-card__body">
+                            <h3 class="blog-card__title"><a href="https://www.kingsleighprimary.co.uk/blog/year-3s-creative-creations/" title="Year 3’s creative creations!">Year 3’s creative creations!</a></h3>
+                            <div class="l-wysiwyg blog-card__excerpt">
+                                <p>It has been lovely seeing all of the activities Year 3 have been up to as part of their home learning this week! There are…</p>
+                            </div>
+                            <p class="blog-card__more"><a href="https://www.kingsleighprimary.co.uk/blog/year-3s-creative-creations/" class="btn btn--green btn--block" title="Read More: Year 3’s creative creations!">Read More »</a></p>
+                        </div>
+                    </div>
+                                    <div class="blog-card">
+                        <a href="https://www.kingsleighprimary.co.uk/blog/taking-up-the-challenge-in-year-4/" class="blog-card__cover" title="Taking up the challenge in Year 4" style="background-image:url( https://www.kingsleighprimary.co.uk/wp-content/uploads/2020/07/TTRS-e1593783284955-437x392.jpg );">
+                            <p class="blog-card__date">14th July 2020</p>
+                        </a>
+                        <div class="blog-card__body">
+                            <h3 class="blog-card__title"><a href="https://www.kingsleighprimary.co.uk/blog/taking-up-the-challenge-in-year-4/" title="Taking up the challenge in Year 4">Taking up the challenge in Year 4</a></h3>
+                            <div class="l-wysiwyg blog-card__excerpt">
+                                <p>Year 4 have had another great week at home challenging themselves with a variety of English and Maths activities alongside the weekly grid.  It…</p>
+                            </div>
+                            <p class="blog-card__more"><a href="https://www.kingsleighprimary.co.uk/blog/taking-up-the-challenge-in-year-4/" class="btn btn--green btn--block" title="Read More: Taking up the challenge in Year 4">Read More »</a></p>
+                        </div>
+                    </div>
+                                    <div class="blog-card">
+                        <a href="https://www.kingsleighprimary.co.uk/blog/our-year-1-art-challenges/" class="blog-card__cover" title="Our Year 1 Art Challenges" style="background-image:url( https://www.kingsleighprimary.co.uk/wp-content/uploads/2020/07/thumbnail_CDAFC95A-BA94-4EC6-ABC0-9D97BC66B985-421x392.jpg );">
+                            <p class="blog-card__date">13th July 2020</p>
+                        </a>
+                        <div class="blog-card__body">
+                            <h3 class="blog-card__title"><a href="https://www.kingsleighprimary.co.uk/blog/our-year-1-art-challenges/" title="Our Year 1 Art Challenges">Our Year 1 Art Challenges</a></h3>
+                            <div class="l-wysiwyg blog-card__excerpt">
+                                <p>Year 1 have been completing some lovely art challenges both at home and at school this half term. As part of their learning at school,…</p>
+                            </div>
+                            <p class="blog-card__more"><a href="https://www.kingsleighprimary.co.uk/blog/our-year-1-art-challenges/" class="btn btn--green btn--block" title="Read More: Our Year 1 Art Challenges">Read More »</a></p>
+                        </div>
+                    </div>
+                                    <div class="blog-card">
+                        <a href="https://www.kingsleighprimary.co.uk/blog/marvellous-mathematicians/" class="blog-card__cover" title="Marvellous Mathematicians!" style="background-image:url( https://www.kingsleighprimary.co.uk/wp-content/uploads/2020/07/Lucas-B-294x392.jpg );">
+                            <p class="blog-card__date">10th July 2020</p>
+                        </a>
+                        <div class="blog-card__body">
+                            <h3 class="blog-card__title"><a href="https://www.kingsleighprimary.co.uk/blog/marvellous-mathematicians/" title="Marvellous Mathematicians!">Marvellous Mathematicians!</a></h3>
+                            <div class="l-wysiwyg blog-card__excerpt">
+                                <p>This week sees the end of our Isee Maths videos (but panic not there will be other videos to challenge the children!) They have been…</p>
+                            </div>
+                            <p class="blog-card__more"><a href="https://www.kingsleighprimary.co.uk/blog/marvellous-mathematicians/" class="btn btn--green btn--block" title="Read More: Marvellous Mathematicians!">Read More »</a></p>
+                        </div>
+                    </div>
+                                    <div class="blog-card">
+                        <a href="https://www.kingsleighprimary.co.uk/blog/help-supertato/" class="blog-card__cover" title="Help Supertato!" style="background-image:url( https://www.kingsleighprimary.co.uk/wp-content/uploads/2020/06/image-3-504x392.png );">
+                            <p class="blog-card__date">9th July 2020</p>
+                        </a>
+                        <div class="blog-card__body">
+                            <h3 class="blog-card__title"><a href="https://www.kingsleighprimary.co.uk/blog/help-supertato/" title="Help Supertato!">Help Supertato!</a></h3>
+                            <div class="l-wysiwyg blog-card__excerpt">
+                                <p>Hi Reception. This post is mixture of the children learning at home and at school doing similar activities. The children explored how fruit and vegetables…</p>
+                            </div>
+                            <p class="blog-card__more"><a href="https://www.kingsleighprimary.co.uk/blog/help-supertato/" class="btn btn--green btn--block" title="Read More: Help Supertato!">Read More »</a></p>
+                        </div>
+                    </div>
+                                    <div class="blog-card">
+                        <a href="https://www.kingsleighprimary.co.uk/blog/year-3s-amazing-guided-reading/" class="blog-card__cover" title="Year 3’s Amazing Guided Reading!" style="background-image:url( https://www.kingsleighprimary.co.uk/wp-content/uploads/2020/06/thumbnail_image0-8-295x392.jpg );">
+                            <p class="blog-card__date">8th July 2020</p>
+                        </a>
+                        <div class="blog-card__body">
+                            <h3 class="blog-card__title"><a href="https://www.kingsleighprimary.co.uk/blog/year-3s-amazing-guided-reading/" title="Year 3’s Amazing Guided Reading!">Year 3’s Amazing Guided Reading!</a></h3>
+                            <div class="l-wysiwyg blog-card__excerpt">
+                                <p>Year 3 are completely engrossed in their book, The Secret Lake, and this week they continued to unravel the mystery. On Monday they discovered that,…</p>
+                            </div>
+                            <p class="blog-card__more"><a href="https://www.kingsleighprimary.co.uk/blog/year-3s-amazing-guided-reading/" class="btn btn--green btn--block" title="Read More: Year 3’s Amazing Guided Reading!">Read More »</a></p>
+                        </div>
+                    </div>
+                                    <div class="blog-card">
+                        <a href="https://www.kingsleighprimary.co.uk/blog/getting-creative-in-year-4/" class="blog-card__cover" title="Getting Creative in Year 4" style="background-image:url( https://www.kingsleighprimary.co.uk/wp-content/uploads/2020/06/letter-E-295x392.jpg );">
+                            <p class="blog-card__date">7th July 2020</p>
+                        </a>
+                        <div class="blog-card__body">
+                            <h3 class="blog-card__title"><a href="https://www.kingsleighprimary.co.uk/blog/getting-creative-in-year-4/" title="Getting Creative in Year 4">Getting Creative in Year 4</a></h3>
+                            <div class="l-wysiwyg blog-card__excerpt">
+                                <p>This week we have enjoyed seeing artistic and creative skills at work in the learning that has been taking place at home. One of the…</p>
+                            </div>
+                            <p class="blog-card__more"><a href="https://www.kingsleighprimary.co.uk/blog/getting-creative-in-year-4/" class="btn btn--green btn--block" title="Read More: Getting Creative in Year 4">Read More »</a></p>
+                        </div>
+                    </div>
+                                    <div class="blog-card">
+                        <a href="https://www.kingsleighprimary.co.uk/blog/year-4-explain-how-to/" class="blog-card__cover" title="Year 4 explain how to …" style="background-image:url( https://www.kingsleighprimary.co.uk/wp-content/uploads/2020/06/middle-2-295x392.jpg );">
+                            <p class="blog-card__date">6th July 2020</p>
+                        </a>
+                        <div class="blog-card__body">
+                            <h3 class="blog-card__title"><a href="https://www.kingsleighprimary.co.uk/blog/year-4-explain-how-to/" title="Year 4 explain how to …">Year 4 explain how to …</a></h3>
+                            <div class="l-wysiwyg blog-card__excerpt">
+                                <p>This week Year 4 have been working hard to improve their writing skills. They have been learning how to write an explanation text. First they…</p>
+                            </div>
+                            <p class="blog-card__more"><a href="https://www.kingsleighprimary.co.uk/blog/year-4-explain-how-to/" class="btn btn--green btn--block" title="Read More: Year 4 explain how to …">Read More »</a></p>
+                        </div>
+                    </div>
+                                    <div class="blog-card">
+                        <a href="https://www.kingsleighprimary.co.uk/blog/staying-fabulous-in-year-4/" class="blog-card__cover" title="Staying fabulous in Year 4!" style="background-image:url( https://www.kingsleighprimary.co.uk/wp-content/uploads/2020/06/triangle-art-featured-image-294x392.jpg );">
+                            <p class="blog-card__date">3rd July 2020</p>
+                        </a>
+                        <div class="blog-card__body">
+                            <h3 class="blog-card__title"><a href="https://www.kingsleighprimary.co.uk/blog/staying-fabulous-in-year-4/" title="Staying fabulous in Year 4!">Staying fabulous in Year 4!</a></h3>
+                            <div class="l-wysiwyg blog-card__excerpt">
+                                <p>It’s been another busy week in Year 4 where the children have continued to really challenge themselves. They have been tackling fractions and decimals in…</p>
+                            </div>
+                            <p class="blog-card__more"><a href="https://www.kingsleighprimary.co.uk/blog/staying-fabulous-in-year-4/" class="btn btn--green btn--block" title="Read More: Staying fabulous in Year 4!">Read More »</a></p>
+                        </div>
+                    </div>
+                                    <div class="blog-card">
+                        <a href="https://www.kingsleighprimary.co.uk/blog/year-1-photo-frames/" class="blog-card__cover" title="Year 1 Photo Frames" style="background-image:url( https://www.kingsleighprimary.co.uk/wp-content/uploads/2020/06/thumbnail_C8C709B7-5276-4C83-A79F-3863A8185F1F-293x392.jpg );">
+                            <p class="blog-card__date">2nd July 2020</p>
+                        </a>
+                        <div class="blog-card__body">
+                            <h3 class="blog-card__title"><a href="https://www.kingsleighprimary.co.uk/blog/year-1-photo-frames/" title="Year 1 Photo Frames">Year 1 Photo Frames</a></h3>
+                            <div class="l-wysiwyg blog-card__excerpt">
+                                <p>Many of our Year 1 children are now back at school. As well as enjoying their English, Phonics, Reading and Maths lessons, the children are…</p>
+                            </div>
+                            <p class="blog-card__more"><a href="https://www.kingsleighprimary.co.uk/blog/year-1-photo-frames/" class="btn btn--green btn--block" title="Read More: Year 1 Photo Frames">Read More »</a></p>
+                        </div>
+                    </div>
+                                    <div class="blog-card">
+                        <a href="https://www.kingsleighprimary.co.uk/blog/year-2s-african-craft-%f0%9f%8e%a8/" class="blog-card__cover" title="Year 2’s African Craft 🎨" style="background-image:url( https://www.kingsleighprimary.co.uk/wp-content/uploads/2020/06/6-2-e1593163774801-364x392.jpg );">
+                            <p class="blog-card__date">1st July 2020</p>
+                        </a>
+                        <div class="blog-card__body">
+                            <h3 class="blog-card__title"><a href="https://www.kingsleighprimary.co.uk/blog/year-2s-african-craft-%f0%9f%8e%a8/" title="Year 2’s African Craft 🎨">Year 2’s African Craft 🎨</a></h3>
+                            <div class="l-wysiwyg blog-card__excerpt">
+                                <p>This week, Year 2 have been busy getting crafty! As part of our ‘Africa’ topic, one of the challenges we set was to…</p>
+                            </div>
+                            <p class="blog-card__more"><a href="https://www.kingsleighprimary.co.uk/blog/year-2s-african-craft-%f0%9f%8e%a8/" class="btn btn--green btn--block" title="Read More: Year 2’s African Craft 🎨">Read More »</a></p>
+                        </div>
+                    </div>
+                            </div>
+        </div>
+    </div>
+
+            <div class="pagination">
+            <div class="l-container">
+                <div class="pagination__inner">
+                                                                <a title="Older Posts" href="https://www.kingsleighprimary.co.uk/blog/page/2/" class="pagination__btn pagination__btn--next">Older Posts »</a>
+                                    </div>
+            </div>
+        </div>
+    
+
+
+    <footer class="footer">
+        <div class="l-container">
+            <p>© Copyright 2017. <strong>Kingsleigh Primary School</strong> is part of the <a title="Bournemouth Septenary Trust" href="http://www.bournemouthseptenarytrust.org.uk/" target="_blank" rel="noopener noreferrer">Bournemouth Septenary Trust</a>.</p>
+<p>Hadow Road, Bournemouth, Dorset, BH10 5HT &nbsp; | &nbsp; 01202&nbsp;528893&nbsp;&nbsp; | &nbsp; <a title="office@kingsleighprimary.co.uk" href="mailto:office@kingsleighprimary.co.uk">office@kingsleighprimary.co.uk</a></p>
+
+            <p class="footer__credits">Website by <a href="https://www.georgebuckingham.com/" title="Website by George Buckingham">George Buckingham</a></p>
+        </div>
+    </footer>
+
+    <div class="video-player remodal--video-player" data-remodal-id="video-player">
+        <button data-remodal-action="close" class="remodal-close"></button>
+        <div class="video-player__canvas">
+
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js?ver=1.11.0"></script>
+<script type="text/javascript" src="https://www.kingsleighprimary.co.uk/wp-content/themes/kingsleigh2017/script.min.js?ver=1.1"></script>
+
+
+</body>
+https://www.kingsleighprimary.co.uk/contact/, <body class="body  body--page-template body--page-template-page--contact body--page-template-page--contact-php body--page body--page-id-11739">
+
+    <header class="header">
+        <div class="l-container">
+            <a href="/" title="Kingsleigh Primary School" class="header__brand">
+                <img src="https://www.kingsleighprimary.co.uk/wp-content/themes/kingsleigh2017/assets/img/header-logo.png" alt="Kingsleigh Primary School" title="Kingsleigh Primary School" class="header__logo">
+            </a>
+                            <a href="#" title="Toggle Menu" class="header__menu_toggle"><span class="glyphicons glyphicons-menu-hamburger"></span></a>
+                <div class="header__nav-primary">
+                    <ul class="header__nav">
+                                                    <li class="header__nav-item  header__nav-item--menu-item header__nav-item--menu-item-type-post_type header__nav-item--menu-item-object-page header__nav-item--menu-item-home header__nav-item--menu-item-11741">
+                                <a href="https://www.kingsleighprimary.co.uk/" target="" title="Home" class="header__nav-link">Home</a>
+                            </li>
+                                                    <li class="header__nav-item  header__nav-item--menu-item header__nav-item--menu-item-type-post_type header__nav-item--menu-item-object-page header__nav-item--menu-item-11743">
+                                <a href="https://www.kingsleighprimary.co.uk/about/" target="" title="About" class="header__nav-link">About</a>
+                            </li>
+                                                    <li class="header__nav-item  header__nav-item--menu-item header__nav-item--menu-item-type-post_type header__nav-item--menu-item-object-page header__nav-item--menu-item-11744">
+                                <a href="https://www.kingsleighprimary.co.uk/policies/" target="" title="Policies" class="header__nav-link">Policies</a>
+                            </li>
+                                                    <li class="header__nav-item  header__nav-item--menu-item header__nav-item--menu-item-type-post_type header__nav-item--menu-item-object-page header__nav-item--menu-item-11745">
+                                <a href="https://www.kingsleighprimary.co.uk/parents/" target="" title="Parents" class="header__nav-link">Parents</a>
+                            </li>
+                                                    <li class="header__nav-item  header__nav-item--menu-item header__nav-item--menu-item-type-post_type header__nav-item--menu-item-object-page header__nav-item--menu-item-11746">
+                                <a href="https://www.kingsleighprimary.co.uk/classes/" target="" title="Classes" class="header__nav-link">Classes</a>
+                            </li>
+                                                    <li class="header__nav-item  header__nav-item--menu-item header__nav-item--menu-item-type-post_type header__nav-item--menu-item-object-page header__nav-item--menu-item-11750">
+                                <a href="https://www.kingsleighprimary.co.uk/blog/" target="" title="Blog" class="header__nav-link">Blog</a>
+                            </li>
+                                                    <li class="header__nav-item  header__nav-item--menu-item header__nav-item--menu-item-type-post_type header__nav-item--menu-item-object-page header__nav-item--menu-item-11747">
+                                <a href="https://www.kingsleighprimary.co.uk/events/" target="" title="Events" class="header__nav-link">Events</a>
+                            </li>
+                                                    <li class="header__nav-item  header__nav-item--menu-item header__nav-item--menu-item-type-post_type header__nav-item--menu-item-object-page header__nav-item--menu-item-12390">
+                                <a href="https://www.kingsleighprimary.co.uk/pupil-parent-voice/" target="" title="Your Voice" class="header__nav-link">Your Voice</a>
+                            </li>
+                                            </ul>
+                </div>
+                        <div class="header__nav-secondary">
+                                    <ul class="header__social">
+                                                    <li class="header__social-item  header__social-item--menu-item header__social-item--menu-item-type-custom header__social-item--menu-item-object-custom header__social-item--menu-item-20104">
+                                <a href="http://www.brigade.uk.com" target="" class="header__social-link"><span class="glyphicons glyphicons-t-shirt"></span> Uniform</a>
+                            </li>
+                                                    <li class="header__social-item  header__social-item--menu-item header__social-item--menu-item-type-custom header__social-item--menu-item-object-custom header__social-item--menu-item-15995">
+                                <a href="https://dorset.mealselector.co.uk/" target="" class="header__social-link"><span class="glyphicons glyphicons-cutlery"></span> Meal Order</a>
+                            </li>
+                                                    <li class="header__social-item  header__social-item--menu-item header__social-item--menu-item-type-custom header__social-item--menu-item-object-custom header__social-item--menu-item-11751">
+                                <a href="https://www.wisepay.co.uk/store/generic/template.asp?mID=17080&amp;ACT=nav" target="" class="header__social-link"><span class="glyphicons glyphicons-coins"></span> WisePay</a>
+                            </li>
+                                                    <li class="header__social-item  header__social-item--menu-item header__social-item--menu-item-type-custom header__social-item--menu-item-object-custom header__social-item--menu-item-11752">
+                                <a href="https://www.facebook.com/groups/KingsleighPrimarySchool/" target="_blank" class="header__social-link"><span class="glyphicons glyphicons-social glyphicons-social-facebook"></span> Facebook</a>
+                            </li>
+                                                    <li class="header__social-item  header__social-item--menu-item header__social-item--menu-item-type-custom header__social-item--menu-item-object-custom header__social-item--menu-item-11753">
+                                <a href="https://www.youtube.com/channel/UCr8HMMobIJ_tpfzcBXY3jdg" target="_blank" class="header__social-link"><span class="glyphicons glyphicons-social glyphicons-social-youtube"></span> YouTube</a>
+                            </li>
+                                                    <li class="header__social-item  header__social-item--menu-item header__social-item--menu-item-type-post_type header__social-item--menu-item-object-page header__social-item--current-menu-item header__social-item--page_item header__social-item--page-item-11739 header__social-item--current_page_item header__social-item--menu-item-12414">
+                                <a href="https://www.kingsleighprimary.co.uk/contact/" target="" class="header__social-link"><span class="glyphicons glyphicons-envelope"></span> Contact</a>
+                            </li>
+                                            </ul>
+                            </div>
+        </div>
+    </header>
+
+    
+    <div class="title-strip">
+        <div class="l-container">
+            <h1 class="title-strip__title">Contact Us</h1>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="l-container">
+            <div class="page__col page__col--wide">
+                <div class="l-wysiwyg page__wysiwyg">
+                                            <p>If you need to contact us, you can send us a message using the form below. If it’s urgent, please call the school office on 01202 528893.</p>
+<p>Enquiries: FAO Tania Peden (Office Manager)</p>
+
+                                        <form class="contact-form" action="" method="post">
+                                                <input type="hidden" name="kps__form" value="contact">
+                        <label class="contact-form__label" for="kps__name">Your name *</label>
+                        <input class="contact-form__field" type="text" name="kps__name" id="kps__name" value="">
+                        <label class="contact-form__label" for="kps__email">Your email address *</label>
+                        <input class="contact-form__field" type="email" name="kps__email" id="kps__email" value="">
+                        <label class="contact-form__label" for="kps__phone">Your telephone number</label>
+                        <input class="contact-form__field" type="text" name="kps__phone" id="kps__phone" value="">
+                        <label class="contact-form__label" for="kps__message">Message *</label>
+                        <textarea class="contact-form__field contact-form__field--tall" name="kps__message" id="kps__message"></textarea>
+                        <button class="btn btn--green" title="Send Message" type="submit"><span class="glyphicons glyphicons-ok-sign"></span> Send Message</button>
+                    </form>
+                </div>
+            </div>
+            <div class="page__col page__col--narrow">
+                <div class="contact-details">
+                    <h4>Contact Details</h4>
+                                            <p><strong>Address</strong><br>Kingsleigh Primary School, Hadow Rd, Bournemouth, Dorset, BH10 5HT</p>
+                                                                <p><strong>Telephone</strong><br>01202 528893</p>
+                                                                <p><strong>Email Address</strong><br><a href="mailto:office@kingsleighprimary.co.uk" title="office@kingsleighprimary.co.uk">office@kingsleighprimary.co.uk</a></p>
+                                    </div>
+                <div class="contact-details">
+                    <h4>Map</h4>
+                    <iframe class="contact-details__map" src="https://maps.google.co.uk/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Kingsleigh+Primary+School,+Hadow+Road,+Bournemouth&amp;aq=0&amp;oq=kingsleigh+primart+&amp;sll=52.8382,-2.327815&amp;sspn=8.750909,19.973145&amp;ie=UTF8&amp;hq=&amp;hnear=&amp;t=m&amp;iwloc=A&amp;ll=50.755994,-1.899953&amp;spn=0.006295,0.006295&amp;output=embed" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="l-container">
+            <p>© Copyright 2017. <strong>Kingsleigh Primary School</strong> is part of the <a title="Bournemouth Septenary Trust" href="http://www.bournemouthseptenarytrust.org.uk/" target="_blank" rel="noopener noreferrer">Bournemouth Septenary Trust</a>.</p>
+<p>Hadow Road, Bournemouth, Dorset, BH10 5HT &nbsp; | &nbsp; 01202&nbsp;528893&nbsp;&nbsp; | &nbsp; <a title="office@kingsleighprimary.co.uk" href="mailto:office@kingsleighprimary.co.uk">office@kingsleighprimary.co.uk</a></p>
+
+            <p class="footer__credits">Website by <a href="https://www.georgebuckingham.com/" title="Website by George Buckingham">George Buckingham</a></p>
+        </div>
+    </footer>
+
+    <div class="video-player remodal--video-player" data-remodal-id="video-player">
+        <button data-remodal-action="close" class="remodal-close"></button>
+        <div class="video-player__canvas">
+
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js?ver=1.11.0"></script>
+<script type="text/javascript" src="https://www.kingsleighprimary.co.uk/wp-content/themes/kingsleigh2017/script.min.js?ver=1.1"></script>
+
+
+</body>
+https://www.kingsleighprimary.co.uk/events/, <body class="body  body--page-template body--page-template-page--events body--page-template-page--events-php body--page body--page-id-11715">
+
+    <header class="header">
+        <div class="l-container">
+            <a href="/" title="Kingsleigh Primary School" class="header__brand">
+                <img src="https://www.kingsleighprimary.co.uk/wp-content/themes/kingsleigh2017/assets/img/header-logo.png" alt="Kingsleigh Primary School" title="Kingsleigh Primary School" class="header__logo">
+            </a>
+                            <a href="#" title="Toggle Menu" class="header__menu_toggle"><span class="glyphicons glyphicons-menu-hamburger"></span></a>
+                <div class="header__nav-primary">
+                    <ul class="header__nav">
+                                                    <li class="header__nav-item  header__nav-item--menu-item header__nav-item--menu-item-type-post_type header__nav-item--menu-item-object-page header__nav-item--menu-item-home header__nav-item--menu-item-11741">
+                                <a href="https://www.kingsleighprimary.co.uk/" target="" title="Home" class="header__nav-link">Home</a>
+                            </li>
+                                                    <li class="header__nav-item  header__nav-item--menu-item header__nav-item--menu-item-type-post_type header__nav-item--menu-item-object-page header__nav-item--menu-item-11743">
+                                <a href="https://www.kingsleighprimary.co.uk/about/" target="" title="About" class="header__nav-link">About</a>
+                            </li>
+                                                    <li class="header__nav-item  header__nav-item--menu-item header__nav-item--menu-item-type-post_type header__nav-item--menu-item-object-page header__nav-item--menu-item-11744">
+                                <a href="https://www.kingsleighprimary.co.uk/policies/" target="" title="Policies" class="header__nav-link">Policies</a>
+                            </li>
+                                                    <li class="header__nav-item  header__nav-item--menu-item header__nav-item--menu-item-type-post_type header__nav-item--menu-item-object-page header__nav-item--menu-item-11745">
+                                <a href="https://www.kingsleighprimary.co.uk/parents/" target="" title="Parents" class="header__nav-link">Parents</a>
+                            </li>
+                                                    <li class="header__nav-item  header__nav-item--menu-item header__nav-item--menu-item-type-post_type header__nav-item--menu-item-object-page header__nav-item--menu-item-11746">
+                                <a href="https://www.kingsleighprimary.co.uk/classes/" target="" title="Classes" class="header__nav-link">Classes</a>
+                            </li>
+                                                    <li class="header__nav-item  header__nav-item--menu-item header__nav-item--menu-item-type-post_type header__nav-item--menu-item-object-page header__nav-item--menu-item-11750">
+                                <a href="https://www.kingsleighprimary.co.uk/blog/" target="" title="Blog" class="header__nav-link">Blog</a>
+                            </li>
+                                                    <li class="header__nav-item  header__nav-item--menu-item header__nav-item--menu-item-type-post_type header__nav-item--menu-item-object-page header__nav-item--current-menu-item header__nav-item--page_item header__nav-item--page-item-11715 header__nav-item--current_page_item header__nav-item--menu-item-11747">
+                                <a href="https://www.kingsleighprimary.co.uk/events/" target="" title="Events" class="header__nav-link">Events</a>
+                            </li>
+                                                    <li class="header__nav-item  header__nav-item--menu-item header__nav-item--menu-item-type-post_type header__nav-item--menu-item-object-page header__nav-item--menu-item-12390">
+                                <a href="https://www.kingsleighprimary.co.uk/pupil-parent-voice/" target="" title="Your Voice" class="header__nav-link">Your Voice</a>
+                            </li>
+                                            </ul>
+                </div>
+                        <div class="header__nav-secondary">
+                                    <ul class="header__social">
+                                                    <li class="header__social-item  header__social-item--menu-item header__social-item--menu-item-type-custom header__social-item--menu-item-object-custom header__social-item--menu-item-20104">
+                                <a href="http://www.brigade.uk.com" target="" class="header__social-link"><span class="glyphicons glyphicons-t-shirt"></span> Uniform</a>
+                            </li>
+                                                    <li class="header__social-item  header__social-item--menu-item header__social-item--menu-item-type-custom header__social-item--menu-item-object-custom header__social-item--menu-item-15995">
+                                <a href="https://dorset.mealselector.co.uk/" target="" class="header__social-link"><span class="glyphicons glyphicons-cutlery"></span> Meal Order</a>
+                            </li>
+                                                    <li class="header__social-item  header__social-item--menu-item header__social-item--menu-item-type-custom header__social-item--menu-item-object-custom header__social-item--menu-item-11751">
+                                <a href="https://www.wisepay.co.uk/store/generic/template.asp?mID=17080&amp;ACT=nav" target="" class="header__social-link"><span class="glyphicons glyphicons-coins"></span> WisePay</a>
+                            </li>
+                                                    <li class="header__social-item  header__social-item--menu-item header__social-item--menu-item-type-custom header__social-item--menu-item-object-custom header__social-item--menu-item-11752">
+                                <a href="https://www.facebook.com/groups/KingsleighPrimarySchool/" target="_blank" class="header__social-link"><span class="glyphicons glyphicons-social glyphicons-social-facebook"></span> Facebook</a>
+                            </li>
+                                                    <li class="header__social-item  header__social-item--menu-item header__social-item--menu-item-type-custom header__social-item--menu-item-object-custom header__social-item--menu-item-11753">
+                                <a href="https://www.youtube.com/channel/UCr8HMMobIJ_tpfzcBXY3jdg" target="_blank" class="header__social-link"><span class="glyphicons glyphicons-social glyphicons-social-youtube"></span> YouTube</a>
+                            </li>
+                                                    <li class="header__social-item  header__social-item--menu-item header__social-item--menu-item-type-post_type header__social-item--menu-item-object-page header__social-item--menu-item-12414">
+                                <a href="https://www.kingsleighprimary.co.uk/contact/" target="" class="header__social-link"><span class="glyphicons glyphicons-envelope"></span> Contact</a>
+                            </li>
+                                            </ul>
+                            </div>
+        </div>
+    </header>
+
+    
+    <div class="title-strip">
+        <div class="l-container">
+            <h1 class="title-strip__title">Events Calendar: September 2020</h1>
+        </div>
+    </div>
+
+    <div class="calendar">
+        <div class="l-container">
+            <div class="calendar__browser">
+                <a href="https://www.kingsleighprimary.co.uk/events/?kps-month=2020-08" title="Previous Month (August 2020)" class="calendar__nav calendar__nav--prev">« August 2020</a>
+                <a href="https://www.kingsleighprimary.co.uk/events/?kps-month=2020-10" title="Next Month (August 2020)" class="calendar__nav calendar__nav--next">October 2020 »</a>
+                                    <div class="calendar__jump">
+                        <select class="calendar__jumper js-jumper">
+                            <option value="https://www.kingsleighprimary.co.uk/events/?kps-month=2020-09">Select a class...</option>
+                                                            <option value="https://www.kingsleighprimary.co.uk/events/?kps-category=95&amp;kps-month=2020-09">Pre-School</option>
+                                                            <option value="https://www.kingsleighprimary.co.uk/events/?kps-category=96&amp;kps-month=2020-09">Reception</option>
+                                                            <option value="https://www.kingsleighprimary.co.uk/events/?kps-category=97&amp;kps-month=2020-09">Whole School</option>
+                                                            <option value="https://www.kingsleighprimary.co.uk/events/?kps-category=98&amp;kps-month=2020-09">Year 1</option>
+                                                            <option value="https://www.kingsleighprimary.co.uk/events/?kps-category=99&amp;kps-month=2020-09">Year 2</option>
+                                                            <option value="https://www.kingsleighprimary.co.uk/events/?kps-category=100&amp;kps-month=2020-09">Year 3</option>
+                                                            <option value="https://www.kingsleighprimary.co.uk/events/?kps-category=101&amp;kps-month=2020-09">Year 4</option>
+                                                            <option value="https://www.kingsleighprimary.co.uk/events/?kps-category=102&amp;kps-month=2020-09">Year 5</option>
+                                                            <option value="https://www.kingsleighprimary.co.uk/events/?kps-category=103&amp;kps-month=2020-09">Year 6</option>
+                                                    </select>
+                    </div>
+                            </div>
+
+            <div class="calendar__wrap">
+                <table class="calendar__grid">
+                    <thead>
+                    <tr>
+                        <th>Mon</th>
+                        <th>Tue</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                        <th>Sat</th>
+                        <th>Sun</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="calendar__pad-day" data-label="Mon"></td><td class="calendar__day" data-label="Tue"><p class="calendar__date">1</p></td><td class="calendar__day" data-label="Wed"><p class="calendar__date">2</p></td><td class="calendar__day" data-label="Thu"><p class="calendar__date">3</p></td><td class="calendar__day" data-label="Fri"><p class="calendar__date">4</p></td><td class="calendar__day" data-label="Sat"><p class="calendar__date">5</p></td><td class="calendar__day" data-label="Sun"><p class="calendar__date">6</p></td></tr><tr class="calendar-row"><td class="calendar__day" data-label="Mon"><p class="calendar__date">7</p></td><td class="calendar__day" data-label="Tue"><p class="calendar__date">8</p></td><td class="calendar__day" data-label="Wed"><p class="calendar__date">9</p></td><td class="calendar__day" data-label="Thu"><p class="calendar__date">10</p></td><td class="calendar__day" data-label="Fri"><p class="calendar__date">11</p></td><td class="calendar__day" data-label="Sat"><p class="calendar__date">12</p></td><td class="calendar__day" data-label="Sun"><p class="calendar__date">13</p></td></tr><tr class="calendar-row"><td class="calendar__day" data-label="Mon"><p class="calendar__date">14</p></td><td class="calendar__day" data-label="Tue"><p class="calendar__date">15</p></td><td class="calendar__day" data-label="Wed"><p class="calendar__date">16</p></td><td class="calendar__day" data-label="Thu"><p class="calendar__date">17</p></td><td class="calendar__day" data-label="Fri"><p class="calendar__date">18</p></td><td class="calendar__day" data-label="Sat"><p class="calendar__date">19</p></td><td class="calendar__day" data-label="Sun"><p class="calendar__date">20</p></td></tr><tr class="calendar-row"><td class="calendar__day" data-label="Mon"><p class="calendar__date">21</p></td><td class="calendar__day" data-label="Tue"><p class="calendar__date">22</p></td><td class="calendar__day" data-label="Wed"><p class="calendar__date">23</p></td><td class="calendar__day" data-label="Thu"><p class="calendar__date">24</p></td><td class="calendar__day" data-label="Fri"><p class="calendar__date">25</p></td><td class="calendar__day" data-label="Sat"><p class="calendar__date">26</p></td><td class="calendar__day" data-label="Sun"><p class="calendar__date">27</p></td></tr><tr class="calendar-row"><td class="calendar__day" data-label="Mon"><p class="calendar__date">28</p></td><td class="calendar__day" data-label="Tue"><p class="calendar__date">29</p></td><td class="calendar__day" data-label="Wed"><p class="calendar__date">30</p></td><td class="calendar__pad-day" data-label="Thu"></td><td class="calendar__pad-day" data-label="Fri"></td><td class="calendar__pad-day" data-label="Sat"></td><td class="calendar__pad-day" data-label="Sun"></td>
+                    </tr></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="l-container">
+            <p>© Copyright 2017. <strong>Kingsleigh Primary School</strong> is part of the <a title="Bournemouth Septenary Trust" href="http://www.bournemouthseptenarytrust.org.uk/" target="_blank" rel="noopener noreferrer">Bournemouth Septenary Trust</a>.</p>
+<p>Hadow Road, Bournemouth, Dorset, BH10 5HT &nbsp; | &nbsp; 01202&nbsp;528893&nbsp;&nbsp; | &nbsp; <a title="office@kingsleighprimary.co.uk" href="mailto:office@kingsleighprimary.co.uk">office@kingsleighprimary.co.uk</a></p>
+
+            <p class="footer__credits">Website by <a href="https://www.georgebuckingham.com/" title="Website by George Buckingham">George Buckingham</a></p>
+        </div>
+    </footer>
+
+    <div class="video-player remodal--video-player" data-remodal-id="video-player">
+        <button data-remodal-action="close" class="remodal-close"></button>
+        <div class="video-player__canvas">
+
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js?ver=1.11.0"></script>
+<script type="text/javascript" src="https://www.kingsleighprimary.co.uk/wp-content/themes/kingsleigh2017/script.min.js?ver=1.1"></script>
+
+
+</body>
+https://www.kingsleighprimary.co.uk/letter/information-leaflet-for-children-new-intake-in-reception-sep-2020/, <body></body>
+https://www.kingsleighprimary.co.uk/letter/information-leaflet-for-parents-new-intake-in-reception-sep-2020/, <body></body>
+https://www.kingsleighprimary.co.uk/letter/kps-update-and-plans-september-2020/, <body></body>
+https://www.kingsleighprimary.co.uk/letter/new-classes-reception-new-intake-september-2020/, <body></body>
+https://www.kingsleighprimary.co.uk/letter/returning-to-school-september-2020/, <body></body>
+https://www.kingsleighprimary.co.uk/parents/letters/, <body class="body  body--page-template body--page-template-page--letters body--page-template-page--letters-php body--page body--page-id-11820 body--page-child body--parent-pageid-11737">
+
+    <header class="header">
+        <div class="l-container">
+            <a href="/" title="Kingsleigh Primary School" class="header__brand">
+                <img src="https://www.kingsleighprimary.co.uk/wp-content/themes/kingsleigh2017/assets/img/header-logo.png" alt="Kingsleigh Primary School" title="Kingsleigh Primary School" class="header__logo">
+            </a>
+                            <a href="#" title="Toggle Menu" class="header__menu_toggle"><span class="glyphicons glyphicons-menu-hamburger"></span></a>
+                <div class="header__nav-primary">
+                    <ul class="header__nav">
+                                                    <li class="header__nav-item  header__nav-item--menu-item header__nav-item--menu-item-type-post_type header__nav-item--menu-item-object-page header__nav-item--menu-item-home header__nav-item--menu-item-11741">
+                                <a href="https://www.kingsleighprimary.co.uk/" target="" title="Home" class="header__nav-link">Home</a>
+                            </li>
+                                                    <li class="header__nav-item  header__nav-item--menu-item header__nav-item--menu-item-type-post_type header__nav-item--menu-item-object-page header__nav-item--menu-item-11743">
+                                <a href="https://www.kingsleighprimary.co.uk/about/" target="" title="About" class="header__nav-link">About</a>
+                            </li>
+                                                    <li class="header__nav-item  header__nav-item--menu-item header__nav-item--menu-item-type-post_type header__nav-item--menu-item-object-page header__nav-item--menu-item-11744">
+                                <a href="https://www.kingsleighprimary.co.uk/policies/" target="" title="Policies" class="header__nav-link">Policies</a>
+                            </li>
+                                                    <li class="header__nav-item  header__nav-item--menu-item header__nav-item--menu-item-type-post_type header__nav-item--menu-item-object-page header__nav-item--current-page-ancestor header__nav-item--menu-item-11745">
+                                <a href="https://www.kingsleighprimary.co.uk/parents/" target="" title="Parents" class="header__nav-link">Parents</a>
+                            </li>
+                                                    <li class="header__nav-item  header__nav-item--menu-item header__nav-item--menu-item-type-post_type header__nav-item--menu-item-object-page header__nav-item--menu-item-11746">
+                                <a href="https://www.kingsleighprimary.co.uk/classes/" target="" title="Classes" class="header__nav-link">Classes</a>
+                            </li>
+                                                    <li class="header__nav-item  header__nav-item--menu-item header__nav-item--menu-item-type-post_type header__nav-item--menu-item-object-page header__nav-item--menu-item-11750">
+                                <a href="https://www.kingsleighprimary.co.uk/blog/" target="" title="Blog" class="header__nav-link">Blog</a>
+                            </li>
+                                                    <li class="header__nav-item  header__nav-item--menu-item header__nav-item--menu-item-type-post_type header__nav-item--menu-item-object-page header__nav-item--menu-item-11747">
+                                <a href="https://www.kingsleighprimary.co.uk/events/" target="" title="Events" class="header__nav-link">Events</a>
+                            </li>
+                                                    <li class="header__nav-item  header__nav-item--menu-item header__nav-item--menu-item-type-post_type header__nav-item--menu-item-object-page header__nav-item--menu-item-12390">
+                                <a href="https://www.kingsleighprimary.co.uk/pupil-parent-voice/" target="" title="Your Voice" class="header__nav-link">Your Voice</a>
+                            </li>
+                                            </ul>
+                </div>
+                        <div class="header__nav-secondary">
+                                    <ul class="header__social">
+                                                    <li class="header__social-item  header__social-item--menu-item header__social-item--menu-item-type-custom header__social-item--menu-item-object-custom header__social-item--menu-item-20104">
+                                <a href="http://www.brigade.uk.com" target="" class="header__social-link"><span class="glyphicons glyphicons-t-shirt"></span> Uniform</a>
+                            </li>
+                                                    <li class="header__social-item  header__social-item--menu-item header__social-item--menu-item-type-custom header__social-item--menu-item-object-custom header__social-item--menu-item-15995">
+                                <a href="https://dorset.mealselector.co.uk/" target="" class="header__social-link"><span class="glyphicons glyphicons-cutlery"></span> Meal Order</a>
+                            </li>
+                                                    <li class="header__social-item  header__social-item--menu-item header__social-item--menu-item-type-custom header__social-item--menu-item-object-custom header__social-item--menu-item-11751">
+                                <a href="https://www.wisepay.co.uk/store/generic/template.asp?mID=17080&amp;ACT=nav" target="" class="header__social-link"><span class="glyphicons glyphicons-coins"></span> WisePay</a>
+                            </li>
+                                                    <li class="header__social-item  header__social-item--menu-item header__social-item--menu-item-type-custom header__social-item--menu-item-object-custom header__social-item--menu-item-11752">
+                                <a href="https://www.facebook.com/groups/KingsleighPrimarySchool/" target="_blank" class="header__social-link"><span class="glyphicons glyphicons-social glyphicons-social-facebook"></span> Facebook</a>
+                            </li>
+                                                    <li class="header__social-item  header__social-item--menu-item header__social-item--menu-item-type-custom header__social-item--menu-item-object-custom header__social-item--menu-item-11753">
+                                <a href="https://www.youtube.com/channel/UCr8HMMobIJ_tpfzcBXY3jdg" target="_blank" class="header__social-link"><span class="glyphicons glyphicons-social glyphicons-social-youtube"></span> YouTube</a>
+                            </li>
+                                                    <li class="header__social-item  header__social-item--menu-item header__social-item--menu-item-type-post_type header__social-item--menu-item-object-page header__social-item--menu-item-12414">
+                                <a href="https://www.kingsleighprimary.co.uk/contact/" target="" class="header__social-link"><span class="glyphicons glyphicons-envelope"></span> Contact</a>
+                            </li>
+                                            </ul>
+                            </div>
+        </div>
+    </header>
+
+    
+    <div class="title-strip">
+        <div class="l-container">
+            <h1 class="title-strip__title">Recent Letters</h1>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="l-container">
+                            <div class="l-wysiwyg page__wysiwyg">
+                                                                                            <h3>August 2020</h3>
+                            <ul class="letters">
+                                                                    <li class="letters__letter">
+                                        <a class="letters__link" href="https://www.kingsleighprimary.co.uk/letter/returning-to-school-september-2020/" title="28th Aug: Returning to School – September 2020">Returning to School – September 2020</a>
+                                        <span class="letters__date">28th August 2020</span>
+                                                                                    <span class="letters__terms">(Whole School)</span>
+                                                                            </li>
+                                                            </ul>
+                                                    <h3>July 2020</h3>
+                            <ul class="letters">
+                                                                    <li class="letters__letter">
+                                        <a class="letters__link" href="https://www.kingsleighprimary.co.uk/letter/information-leaflet-for-parents-new-intake-in-reception-sep-2020/" title="9th Jul: Information Leaflet for Parents – New Intake in Reception – Sep 2020">Information Leaflet for Parents – New Intake in Reception – Sep 2020</a>
+                                        <span class="letters__date">9th July 2020</span>
+                                                                                    <span class="letters__terms">(Pre-School)</span>
+                                                                            </li>
+                                                                    <li class="letters__letter">
+                                        <a class="letters__link" href="https://www.kingsleighprimary.co.uk/letter/information-leaflet-for-children-new-intake-in-reception-sep-2020/" title="9th Jul: Information Leaflet for Children – New Intake in Reception – Sep 2020">Information Leaflet for Children – New Intake in Reception – Sep 2020</a>
+                                        <span class="letters__date">9th July 2020</span>
+                                                                                    <span class="letters__terms">(Pre-School)</span>
+                                                                            </li>
+                                                                    <li class="letters__letter">
+                                        <a class="letters__link" href="https://www.kingsleighprimary.co.uk/letter/kps-update-and-plans-september-2020/" title="9th Jul: KPS Update and Plans – September 2020">KPS Update and Plans – September 2020</a>
+                                        <span class="letters__date">9th July 2020</span>
+                                                                                    <span class="letters__terms">(Pre-School, Reception, Year 1, Year 2, Year 3, Year 4, Year 5)</span>
+                                                                            </li>
+                                                                    <li class="letters__letter">
+                                        <a class="letters__link" href="https://www.kingsleighprimary.co.uk/letter/new-classes-reception-new-intake-september-2020/" title="9th Jul: New Classes – Reception New Intake September 2020">New Classes – Reception New Intake September 2020</a>
+                                        <span class="letters__date">9th July 2020</span>
+                                                                                    <span class="letters__terms">(Pre-School, Reception)</span>
+                                                                            </li>
+                                                                    <li class="letters__letter">
+                                        <a class="letters__link" href="https://www.kingsleighprimary.co.uk/letter/new-classes-september-2020/" title="9th Jul: New Classes September 2020">New Classes September 2020</a>
+                                        <span class="letters__date">9th July 2020</span>
+                                                                                    <span class="letters__terms">(Year 1, Year 2, Year 3, Year 4, Year 5)</span>
+                                                                            </li>
+                                                            </ul>
+                                                    <h3>June 2020</h3>
+                            <ul class="letters">
+                                                                    <li class="letters__letter">
+                                        <a class="letters__link" href="https://www.kingsleighprimary.co.uk/letter/change-of-provision-key-workers/" title="11th Jun: Change of Provision – Key Workers">Change of Provision – Key Workers</a>
+                                        <span class="letters__date">11th June 2020</span>
+                                                                                    <span class="letters__terms">(Whole School)</span>
+                                                                            </li>
+                                                                    <li class="letters__letter">
+                                        <a class="letters__link" href="https://www.kingsleighprimary.co.uk/letter/year-1-year-6-returning-to-school/" title="3rd Jun: Year 1 &amp; Year 6 – Returning to school">Year 1 &amp; Year 6 – Returning to school</a>
+                                        <span class="letters__date">3rd June 2020</span>
+                                                                                    <span class="letters__terms">(Year 1, Year 6)</span>
+                                                                            </li>
+                                                                    <li class="letters__letter">
+                                        <a class="letters__link" href="https://www.kingsleighprimary.co.uk/letter/reception-update/" title="3rd Jun: Reception update">Reception update</a>
+                                        <span class="letters__date">3rd June 2020</span>
+                                                                                    <span class="letters__terms">(Reception)</span>
+                                                                            </li>
+                                                            </ul>
+                                                    <h3>May 2020</h3>
+                            <ul class="letters">
+                                                                    <li class="letters__letter">
+                                        <a class="letters__link" href="https://www.kingsleighprimary.co.uk/letter/back-to-kingsleigh/" title="27th May: Back To Kingsleigh">Back To Kingsleigh</a>
+                                        <span class="letters__date">27th May 2020</span>
+                                                                                    <span class="letters__terms">(Reception)</span>
+                                                                            </li>
+                                                            </ul>
+                                                    <h3>March 2020</h3>
+                            <ul class="letters">
+                                                                    <li class="letters__letter">
+                                        <a class="letters__link" href="https://www.kingsleighprimary.co.uk/letter/learning-and-well-being-19th-march-2020-4/" title="19th Mar: Learning and Well-being 19th March 2020">Learning and Well-being 19th March 2020</a>
+                                        <span class="letters__date">19th March 2020</span>
+                                                                                    <span class="letters__terms">(Year 5, Year 6)</span>
+                                                                            </li>
+                                                                    <li class="letters__letter">
+                                        <a class="letters__link" href="https://www.kingsleighprimary.co.uk/letter/learning-and-well-being-19th-march-2020-3/" title="19th Mar: Learning and Well-being 19th March 2020">Learning and Well-being 19th March 2020</a>
+                                        <span class="letters__date">19th March 2020</span>
+                                                                                    <span class="letters__terms">(Year 3, Year 4)</span>
+                                                                            </li>
+                                                                    <li class="letters__letter">
+                                        <a class="letters__link" href="https://www.kingsleighprimary.co.uk/letter/learning-and-well-being-19th-march-2020-2/" title="19th Mar: Learning and Well-being 19th March 2020">Learning and Well-being 19th March 2020</a>
+                                        <span class="letters__date">19th March 2020</span>
+                                                                                    <span class="letters__terms">(Year 1, Year 2)</span>
+                                                                            </li>
+                                                                    <li class="letters__letter">
+                                        <a class="letters__link" href="https://www.kingsleighprimary.co.uk/letter/learning-and-well-being-19th-march-2020/" title="19th Mar: Learning and Well-being 19th March 2020">Learning and Well-being 19th March 2020</a>
+                                        <span class="letters__date">19th March 2020</span>
+                                                                                    <span class="letters__terms">(Reception)</span>
+                                                                            </li>
+                                                            </ul>
+                                                    <h3>January 2020</h3>
+                            <ul class="letters">
+                                                                    <li class="letters__letter">
+                                        <a class="letters__link" href="https://www.kingsleighprimary.co.uk/letter/attendance-letter-jan-2020/" title="22nd Jan: Attendance Letter Jan 2020">Attendance Letter Jan 2020</a>
+                                        <span class="letters__date">22nd January 2020</span>
+                                                                                    <span class="letters__terms">(Whole School)</span>
+                                                                            </li>
+                                                                    <li class="letters__letter">
+                                        <a class="letters__link" href="https://www.kingsleighprimary.co.uk/letter/absence-at-school-clarifying-daily-procedure/" title="22nd Jan: Absence at School – Clarifying daily procedure Jan 2020">Absence at School – Clarifying daily procedure Jan 2020</a>
+                                        <span class="letters__date">22nd January 2020</span>
+                                                                                    <span class="letters__terms">(Whole School)</span>
+                                                                            </li>
+                                                            </ul>
+                                                            </div>
+                    </div>
+    </div>
+
+    
+    
+
+    <footer class="footer">
+        <div class="l-container">
+            <p>© Copyright 2017. <strong>Kingsleigh Primary School</strong> is part of the <a title="Bournemouth Septenary Trust" href="http://www.bournemouthseptenarytrust.org.uk/" target="_blank" rel="noopener noreferrer">Bournemouth Septenary Trust</a>.</p>
+<p>Hadow Road, Bournemouth, Dorset, BH10 5HT &nbsp; | &nbsp; 01202&nbsp;528893&nbsp;&nbsp; | &nbsp; <a title="office@kingsleighprimary.co.uk" href="mailto:office@kingsleighprimary.co.uk">office@kingsleighprimary.co.uk</a></p>
+
+            <p class="footer__credits">Website by <a href="https://www.georgebuckingham.com/" title="Website by George Buckingham">George Buckingham</a></p>
+        </div>
+    </footer>
+
+    <div class="video-player remodal--video-player" data-remodal-id="video-player">
+        <button data-remodal-action="close" class="remodal-close"></button>
+        <div class="video-player__canvas">
+
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js?ver=1.11.0"></script>
+<script type="text/javascript" src="https://www.kingsleighprimary.co.uk/wp-content/themes/kingsleigh2017/script.min.js?ver=1.1"></script>
+
+
+</body>
+https://www.kingsleighprimary.co.uk/pupil-parent-voice/, <body class="body  body--page-template-default body--page body--page-id-12388 body--page-parent">
+
+    <header class="header">
+        <div class="l-container">
+            <a href="/" title="Kingsleigh Primary School" class="header__brand">
+                <img src="https://www.kingsleighprimary.co.uk/wp-content/themes/kingsleigh2017/assets/img/header-logo.png" alt="Kingsleigh Primary School" title="Kingsleigh Primary School" class="header__logo">
+            </a>
+                            <a href="#" title="Toggle Menu" class="header__menu_toggle"><span class="glyphicons glyphicons-menu-hamburger"></span></a>
+                <div class="header__nav-primary">
+                    <ul class="header__nav">
+                                                    <li class="header__nav-item  header__nav-item--menu-item header__nav-item--menu-item-type-post_type header__nav-item--menu-item-object-page header__nav-item--menu-item-home header__nav-item--menu-item-11741">
+                                <a href="https://www.kingsleighprimary.co.uk/" target="" title="Home" class="header__nav-link">Home</a>
+                            </li>
+                                                    <li class="header__nav-item  header__nav-item--menu-item header__nav-item--menu-item-type-post_type header__nav-item--menu-item-object-page header__nav-item--menu-item-11743">
+                                <a href="https://www.kingsleighprimary.co.uk/about/" target="" title="About" class="header__nav-link">About</a>
+                            </li>
+                                                    <li class="header__nav-item  header__nav-item--menu-item header__nav-item--menu-item-type-post_type header__nav-item--menu-item-object-page header__nav-item--menu-item-11744">
+                                <a href="https://www.kingsleighprimary.co.uk/policies/" target="" title="Policies" class="header__nav-link">Policies</a>
+                            </li>
+                                                    <li class="header__nav-item  header__nav-item--menu-item header__nav-item--menu-item-type-post_type header__nav-item--menu-item-object-page header__nav-item--menu-item-11745">
+                                <a href="https://www.kingsleighprimary.co.uk/parents/" target="" title="Parents" class="header__nav-link">Parents</a>
+                            </li>
+                                                    <li class="header__nav-item  header__nav-item--menu-item header__nav-item--menu-item-type-post_type header__nav-item--menu-item-object-page header__nav-item--menu-item-11746">
+                                <a href="https://www.kingsleighprimary.co.uk/classes/" target="" title="Classes" class="header__nav-link">Classes</a>
+                            </li>
+                                                    <li class="header__nav-item  header__nav-item--menu-item header__nav-item--menu-item-type-post_type header__nav-item--menu-item-object-page header__nav-item--menu-item-11750">
+                                <a href="https://www.kingsleighprimary.co.uk/blog/" target="" title="Blog" class="header__nav-link">Blog</a>
+                            </li>
+                                                    <li class="header__nav-item  header__nav-item--menu-item header__nav-item--menu-item-type-post_type header__nav-item--menu-item-object-page header__nav-item--menu-item-11747">
+                                <a href="https://www.kingsleighprimary.co.uk/events/" target="" title="Events" class="header__nav-link">Events</a>
+                            </li>
+                                                    <li class="header__nav-item  header__nav-item--menu-item header__nav-item--menu-item-type-post_type header__nav-item--menu-item-object-page header__nav-item--current-menu-item header__nav-item--page_item header__nav-item--page-item-12388 header__nav-item--current_page_item header__nav-item--menu-item-12390">
+                                <a href="https://www.kingsleighprimary.co.uk/pupil-parent-voice/" target="" title="Your Voice" class="header__nav-link">Your Voice</a>
+                            </li>
+                                            </ul>
+                </div>
+                        <div class="header__nav-secondary">
+                                    <ul class="header__social">
+                                                    <li class="header__social-item  header__social-item--menu-item header__social-item--menu-item-type-custom header__social-item--menu-item-object-custom header__social-item--menu-item-20104">
+                                <a href="http://www.brigade.uk.com" target="" class="header__social-link"><span class="glyphicons glyphicons-t-shirt"></span> Uniform</a>
+                            </li>
+                                                    <li class="header__social-item  header__social-item--menu-item header__social-item--menu-item-type-custom header__social-item--menu-item-object-custom header__social-item--menu-item-15995">
+                                <a href="https://dorset.mealselector.co.uk/" target="" class="header__social-link"><span class="glyphicons glyphicons-cutlery"></span> Meal Order</a>
+                            </li>
+                                                    <li class="header__social-item  header__social-item--menu-item header__social-item--menu-item-type-custom header__social-item--menu-item-object-custom header__social-item--menu-item-11751">
+                                <a href="https://www.wisepay.co.uk/store/generic/template.asp?mID=17080&amp;ACT=nav" target="" class="header__social-link"><span class="glyphicons glyphicons-coins"></span> WisePay</a>
+                            </li>
+                                                    <li class="header__social-item  header__social-item--menu-item header__social-item--menu-item-type-custom header__social-item--menu-item-object-custom header__social-item--menu-item-11752">
+                                <a href="https://www.facebook.com/groups/KingsleighPrimarySchool/" target="_blank" class="header__social-link"><span class="glyphicons glyphicons-social glyphicons-social-facebook"></span> Facebook</a>
+                            </li>
+                                                    <li class="header__social-item  header__social-item--menu-item header__social-item--menu-item-type-custom header__social-item--menu-item-object-custom header__social-item--menu-item-11753">
+                                <a href="https://www.youtube.com/channel/UCr8HMMobIJ_tpfzcBXY3jdg" target="_blank" class="header__social-link"><span class="glyphicons glyphicons-social glyphicons-social-youtube"></span> YouTube</a>
+                            </li>
+                                                    <li class="header__social-item  header__social-item--menu-item header__social-item--menu-item-type-post_type header__social-item--menu-item-object-page header__social-item--menu-item-12414">
+                                <a href="https://www.kingsleighprimary.co.uk/contact/" target="" class="header__social-link"><span class="glyphicons glyphicons-envelope"></span> Contact</a>
+                            </li>
+                                            </ul>
+                            </div>
+        </div>
+    </header>
+
+    
+    <div class="title-strip">
+        <div class="l-container">
+            <h1 class="title-strip__title">Pupil &amp; Parent Voice</h1>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="l-container">
+                    </div>
+    </div>
+
+    
+            <div class="hub">
+            <div class="l-container">
+                                                                                        <div class="hub__row hub__row--first">
+                                                <a href="https://www.kingsleighprimary.co.uk/pupil-parent-voice/peer-mediators/" title="Peer Mediators" class="hub__item">
+                            <div class="hub__cover" style="background-image:url(https://www.kingsleighprimary.co.uk/wp-content/uploads/2019/09/AD68D841-76ED-401D-A2AB-7B96AE391C46-523x392.jpeg);"></div>
+                            <div class="hub__body">
+                                <h3 class="hub__name">Peer Mediators</h3>
+                            </div>
+                        </a>
+                                                                                            <a href="https://www.kingsleighprimary.co.uk/pupil-parent-voice/parent-teacher-association-pta/" title="Parent Teacher Association (PTA)" class="hub__item">
+                            <div class="hub__cover" style="background-image:url(https://www.kingsleighprimary.co.uk/wp-content/uploads/2017/06/pta.png);"></div>
+                            <div class="hub__body">
+                                <h3 class="hub__name">Parent Teacher Association (PTA)</h3>
+                            </div>
+                        </a>
+                                                                                            <a href="https://www.kingsleighprimary.co.uk/pupil-parent-voice/results-of-pupil-survey/" title="Questionnaires" class="hub__item">
+                            <div class="hub__cover" style="background-image:url(https://www.kingsleighprimary.co.uk/wp-content/uploads/2019/10/IMG_5096-525x392.jpg);"></div>
+                            <div class="hub__body">
+                                <h3 class="hub__name">Questionnaires</h3>
+                            </div>
+                        </a>
+                                                                                            <a href="https://www.kingsleighprimary.co.uk/pupil-parent-voice/houses/" title="Houses" class="hub__item">
+                            <div class="hub__cover" style="background-image:url(https://www.kingsleighprimary.co.uk/wp-content/uploads/2019/10/house-featured-page-627x392.jpg);"></div>
+                            <div class="hub__body">
+                                <h3 class="hub__name">Houses</h3>
+                            </div>
+                        </a>
+                                                    </div>
+                                                                                                <div class="hub__row ">
+                                                <a href="https://www.kingsleighprimary.co.uk/pupil-parent-voice/school-council/" title="School Council" class="hub__item">
+                            <div class="hub__cover" style="background-image:url(https://www.kingsleighprimary.co.uk/wp-content/uploads/2019/12/School-council-dec-2019-525x392.jpg);"></div>
+                            <div class="hub__body">
+                                <h3 class="hub__name">School Council</h3>
+                            </div>
+                        </a>
+                                                    </div>
+                                                                        </div>
+        </div>
+    
+
+    <footer class="footer">
+        <div class="l-container">
+            <p>© Copyright 2017. <strong>Kingsleigh Primary School</strong> is part of the <a title="Bournemouth Septenary Trust" href="http://www.bournemouthseptenarytrust.org.uk/" target="_blank" rel="noopener noreferrer">Bournemouth Septenary Trust</a>.</p>
+<p>Hadow Road, Bournemouth, Dorset, BH10 5HT &nbsp; | &nbsp; 01202&nbsp;528893&nbsp;&nbsp; | &nbsp; <a title="office@kingsleighprimary.co.uk" href="mailto:office@kingsleighprimary.co.uk">office@kingsleighprimary.co.uk</a></p>
+
+            <p class="footer__credits">Website by <a href="https://www.georgebuckingham.com/" title="Website by George Buckingham">George Buckingham</a></p>
+        </div>
+    </footer>
+
+    <div class="video-player remodal--video-player" data-remodal-id="video-player">
+        <button data-remodal-action="close" class="remodal-close"></button>
+        <div class="video-player__canvas">
+
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js?ver=1.11.0"></script>
+<script type="text/javascript" src="https://www.kingsleighprimary.co.uk/wp-content/themes/kingsleigh2017/script.min.js?ver=1.1"></script>
+
+
+</body>
