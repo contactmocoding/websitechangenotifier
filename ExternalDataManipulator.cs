@@ -30,5 +30,15 @@ namespace websitechangenotifier
             }
             await System.IO.File.WriteAllTextAsync(fileName, fileContents.ToString());
         }
+
+        internal StringBuilder GetUris( Dictionary<Uri,string> itemToExport)
+        {
+            StringBuilder fileContents = new StringBuilder();
+            foreach (KeyValuePair<Uri, string> kvp in itemToExport.OrderBy(t => t.Key.AbsoluteUri))
+            {
+                fileContents.AppendLine($"{kvp.Key}");
+            }
+            return fileContents;
+        }
     }
 }

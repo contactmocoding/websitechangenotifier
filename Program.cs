@@ -22,9 +22,10 @@ namespace websitechangenotifier
         public static async Task Main(string[] args)
         {
             Log.Logger = new LoggerConfiguration()
-                .MinimumLevel.Debug()
+                .MinimumLevel.Information()
                 .Enrich.WithThreadId()
                 .WriteTo.Console(outputTemplate: "[{Timestamp:yyyy-MM-dd HH:mm:ss:fff zzz}] [{ThreadId}] [{Level:u3}] - {Message:lj}{NewLine}{Exception}")
+                .WriteTo.File("log.txt")
                 .CreateLogger();
             ExternalDataManipulator dataManipulator = new ExternalDataManipulator();
 
@@ -33,6 +34,20 @@ namespace websitechangenotifier
             await dataManipulator.ExportData(@"ChangedUrisFound.txt", changedPages);
             await dataManipulator.ExportData(@"NewUrisFound.txt", newPages);
             await dataManipulator.ExportData(@"AllUrisFound.txt", allUrisFound);
+
+            if (changedPages.Any())
+            {
+                Log.Information("Sending Changed pages email");                
+                new EmailHelpers().SendEmail("Kingsleigh have CHANGED pages", dataManipulator.GetUris(changedPages).ToString());
+            }
+
+            if (newPages.Any())
+            {
+                Log.Information("Sending NEW pages email");                
+                new EmailHelpers().SendEmail("Kingsleigh have NEW pages", dataManipulator.GetUris(newPages).ToString());
+            }
+
+            Log.Information("Completed!");
         }
 
         private static async Task CrawlPages()

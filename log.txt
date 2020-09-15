@@ -1,0 +1,188 @@
+2020-09-15 19:14:50.614 +01:00 [INF] About to crawl site [https://www.kingsleighprimary.co.uk/parents/letters/]
+2020-09-15 19:14:50.697 +01:00 [INF] Configuration Values:
+2020-09-15 19:14:50.699 +01:00 [INF]   Abot Version: 2.0.64.0
+2020-09-15 19:14:50.706 +01:00 [INF]   MaxConcurrentThreads: 10
+2020-09-15 19:14:50.710 +01:00 [INF]   MaxPagesToCrawl: 5
+2020-09-15 19:14:50.710 +01:00 [INF]   MaxPagesToCrawlPerDomain: 0
+2020-09-15 19:14:50.710 +01:00 [INF]   MaxPageSizeInBytes: 0
+2020-09-15 19:14:50.710 +01:00 [INF]   UserAgentString: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+2020-09-15 19:14:50.711 +01:00 [INF]   HttpProtocolVersion: "NotSpecified"
+2020-09-15 19:14:50.715 +01:00 [INF]   CrawlTimeoutSeconds: 0
+2020-09-15 19:14:50.715 +01:00 [INF]   IsUriRecrawlingEnabled: false
+2020-09-15 19:14:50.716 +01:00 [INF]   IsExternalPageCrawlingEnabled: false
+2020-09-15 19:14:50.716 +01:00 [INF]   IsExternalPageLinksCrawlingEnabled: false
+2020-09-15 19:14:50.716 +01:00 [INF]   IsRespectUrlNamedAnchorOrHashbangEnabled: false
+2020-09-15 19:14:50.716 +01:00 [INF]   DownloadableContentTypes: text/html
+2020-09-15 19:14:50.716 +01:00 [INF]   HttpServicePointConnectionLimit: 200
+2020-09-15 19:14:50.716 +01:00 [INF]   HttpRequestTimeoutInSeconds: 15
+2020-09-15 19:14:50.716 +01:00 [INF]   HttpRequestMaxAutoRedirects: 7
+2020-09-15 19:14:50.717 +01:00 [INF]   IsHttpRequestAutoRedirectsEnabled: true
+2020-09-15 19:14:50.717 +01:00 [INF]   IsHttpRequestAutomaticDecompressionEnabled: false
+2020-09-15 19:14:50.717 +01:00 [INF]   IsSendingCookiesEnabled: false
+2020-09-15 19:14:50.717 +01:00 [INF]   IsSslCertificateValidationEnabled: false
+2020-09-15 19:14:50.717 +01:00 [INF]   MinAvailableMemoryRequiredInMb: 0
+2020-09-15 19:14:50.717 +01:00 [INF]   MaxMemoryUsageInMb: 0
+2020-09-15 19:14:50.717 +01:00 [INF]   MaxMemoryUsageCacheTimeInSeconds: 0
+2020-09-15 19:14:50.717 +01:00 [INF]   MaxCrawlDepth: 100
+2020-09-15 19:14:50.717 +01:00 [INF]   MaxLinksPerPage: 0
+2020-09-15 19:14:50.718 +01:00 [INF]   IsForcedLinkParsingEnabled: false
+2020-09-15 19:14:50.718 +01:00 [INF]   MaxRetryCount: 0
+2020-09-15 19:14:50.718 +01:00 [INF]   MinRetryDelayInMilliseconds: 0
+2020-09-15 19:14:50.718 +01:00 [INF]   IsRespectRobotsDotTextEnabled: false
+2020-09-15 19:14:50.718 +01:00 [INF]   IsRespectMetaRobotsNoFollowEnabled: false
+2020-09-15 19:14:50.718 +01:00 [INF]   IsRespectHttpXRobotsTagHeaderNoFollowEnabled: false
+2020-09-15 19:14:50.718 +01:00 [INF]   IsRespectAnchorRelNoFollowEnabled: false
+2020-09-15 19:14:50.718 +01:00 [INF]   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: false
+2020-09-15 19:14:50.719 +01:00 [INF]   RobotsDotTextUserAgentString: abot
+2020-09-15 19:14:50.719 +01:00 [INF]   MinCrawlDelayPerDomainMilliSeconds: 3000
+2020-09-15 19:14:50.719 +01:00 [INF]   MaxRobotsDotTextCrawlDelayInSeconds: 5
+2020-09-15 19:14:50.719 +01:00 [INF]   IsAlwaysLogin: false
+2020-09-15 19:14:50.719 +01:00 [INF]   LoginUser: null
+2020-09-15 19:14:50.719 +01:00 [INF]   LoginPassword: null
+2020-09-15 19:14:50.719 +01:00 [INF]   UseDefaultCredentials: false
+2020-09-15 19:14:52.509 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/parents/letters/] Elapsed:[1207.7885] Parent:["https://www.kingsleighprimary.co.uk/parents/letters/"] Retry:[0]
+2020-09-15 19:14:53.087 +01:00 [INF] MaxPagesToCrawlLimit has been reached or scheduled. No more pages will be scheduled.
+2020-09-15 19:14:54.952 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/policies/] Elapsed:[735.6757] Parent:["https://www.kingsleighprimary.co.uk/parents/letters/"] Retry:[0]
+2020-09-15 19:14:57.979 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/about/] Elapsed:[723.4705] Parent:["https://www.kingsleighprimary.co.uk/parents/letters/"] Retry:[0]
+2020-09-15 19:15:01.028 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/parents/] Elapsed:[746.8184] Parent:["https://www.kingsleighprimary.co.uk/parents/letters/"] Retry:[0]
+2020-09-15 19:15:04.356 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/] Elapsed:[1043.1497] Parent:["https://www.kingsleighprimary.co.uk/parents/letters/"] Retry:[0]
+2020-09-15 19:15:06.790 +01:00 [INF] Crawl complete for site [https://www.kingsleighprimary.co.uk/parents/letters/]: Crawled [5] pages in ["00:00:16.0697328"]
+2020-09-15 19:15:06.793 +01:00 [INF] About to crawl site [https://www.kingsleighprimary.co.uk/classes/reception/]
+2020-09-15 19:15:06.793 +01:00 [INF] Configuration Values:
+2020-09-15 19:15:06.793 +01:00 [INF]   Abot Version: 2.0.64.0
+2020-09-15 19:15:06.794 +01:00 [INF]   MaxConcurrentThreads: 10
+2020-09-15 19:15:06.794 +01:00 [INF]   MaxPagesToCrawl: 5
+2020-09-15 19:15:06.794 +01:00 [INF]   MaxPagesToCrawlPerDomain: 0
+2020-09-15 19:15:06.794 +01:00 [INF]   MaxPageSizeInBytes: 0
+2020-09-15 19:15:06.794 +01:00 [INF]   UserAgentString: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+2020-09-15 19:15:06.794 +01:00 [INF]   HttpProtocolVersion: "NotSpecified"
+2020-09-15 19:15:06.794 +01:00 [INF]   CrawlTimeoutSeconds: 0
+2020-09-15 19:15:06.794 +01:00 [INF]   IsUriRecrawlingEnabled: false
+2020-09-15 19:15:06.794 +01:00 [INF]   IsExternalPageCrawlingEnabled: false
+2020-09-15 19:15:06.795 +01:00 [INF]   IsExternalPageLinksCrawlingEnabled: false
+2020-09-15 19:15:06.795 +01:00 [INF]   IsRespectUrlNamedAnchorOrHashbangEnabled: false
+2020-09-15 19:15:06.795 +01:00 [INF]   DownloadableContentTypes: text/html
+2020-09-15 19:15:06.795 +01:00 [INF]   HttpServicePointConnectionLimit: 200
+2020-09-15 19:15:06.795 +01:00 [INF]   HttpRequestTimeoutInSeconds: 15
+2020-09-15 19:15:06.795 +01:00 [INF]   HttpRequestMaxAutoRedirects: 7
+2020-09-15 19:15:06.795 +01:00 [INF]   IsHttpRequestAutoRedirectsEnabled: true
+2020-09-15 19:15:06.795 +01:00 [INF]   IsHttpRequestAutomaticDecompressionEnabled: false
+2020-09-15 19:15:06.795 +01:00 [INF]   IsSendingCookiesEnabled: false
+2020-09-15 19:15:06.795 +01:00 [INF]   IsSslCertificateValidationEnabled: false
+2020-09-15 19:15:06.796 +01:00 [INF]   MinAvailableMemoryRequiredInMb: 0
+2020-09-15 19:15:06.796 +01:00 [INF]   MaxMemoryUsageInMb: 0
+2020-09-15 19:15:06.796 +01:00 [INF]   MaxMemoryUsageCacheTimeInSeconds: 0
+2020-09-15 19:15:06.796 +01:00 [INF]   MaxCrawlDepth: 100
+2020-09-15 19:15:06.796 +01:00 [INF]   MaxLinksPerPage: 0
+2020-09-15 19:15:06.796 +01:00 [INF]   IsForcedLinkParsingEnabled: false
+2020-09-15 19:15:06.796 +01:00 [INF]   MaxRetryCount: 0
+2020-09-15 19:15:06.796 +01:00 [INF]   MinRetryDelayInMilliseconds: 0
+2020-09-15 19:15:06.796 +01:00 [INF]   IsRespectRobotsDotTextEnabled: false
+2020-09-15 19:15:06.796 +01:00 [INF]   IsRespectMetaRobotsNoFollowEnabled: false
+2020-09-15 19:15:06.796 +01:00 [INF]   IsRespectHttpXRobotsTagHeaderNoFollowEnabled: false
+2020-09-15 19:15:06.796 +01:00 [INF]   IsRespectAnchorRelNoFollowEnabled: false
+2020-09-15 19:15:06.796 +01:00 [INF]   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: false
+2020-09-15 19:15:06.797 +01:00 [INF]   RobotsDotTextUserAgentString: abot
+2020-09-15 19:15:06.797 +01:00 [INF]   MinCrawlDelayPerDomainMilliSeconds: 3000
+2020-09-15 19:15:06.797 +01:00 [INF]   MaxRobotsDotTextCrawlDelayInSeconds: 5
+2020-09-15 19:15:06.797 +01:00 [INF]   IsAlwaysLogin: false
+2020-09-15 19:15:06.797 +01:00 [INF]   LoginUser: null
+2020-09-15 19:15:06.797 +01:00 [INF]   LoginPassword: null
+2020-09-15 19:15:06.797 +01:00 [INF]   UseDefaultCredentials: false
+2020-09-15 19:15:06.797 +01:00 [INF] Crawl complete for site [https://www.kingsleighprimary.co.uk/classes/reception/]: Crawled [5] pages in ["00:00:00.0001304"]
+2020-09-15 19:15:06.880 +01:00 [INF] Sending Changed pages email
+2020-09-15 19:15:08.444 +01:00 [INF] Completed!
+2020-09-15 19:17:09.841 +01:00 [INF] About to crawl site [https://www.kingsleighprimary.co.uk/parents/letters/]
+2020-09-15 19:17:09.875 +01:00 [INF] Configuration Values:
+2020-09-15 19:17:09.877 +01:00 [INF]   Abot Version: 2.0.64.0
+2020-09-15 19:17:09.887 +01:00 [INF]   MaxConcurrentThreads: 10
+2020-09-15 19:17:09.890 +01:00 [INF]   MaxPagesToCrawl: 5
+2020-09-15 19:17:09.891 +01:00 [INF]   MaxPagesToCrawlPerDomain: 0
+2020-09-15 19:17:09.891 +01:00 [INF]   MaxPageSizeInBytes: 0
+2020-09-15 19:17:09.891 +01:00 [INF]   UserAgentString: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+2020-09-15 19:17:09.892 +01:00 [INF]   HttpProtocolVersion: "NotSpecified"
+2020-09-15 19:17:09.897 +01:00 [INF]   CrawlTimeoutSeconds: 0
+2020-09-15 19:17:09.897 +01:00 [INF]   IsUriRecrawlingEnabled: false
+2020-09-15 19:17:09.897 +01:00 [INF]   IsExternalPageCrawlingEnabled: false
+2020-09-15 19:17:09.897 +01:00 [INF]   IsExternalPageLinksCrawlingEnabled: false
+2020-09-15 19:17:09.897 +01:00 [INF]   IsRespectUrlNamedAnchorOrHashbangEnabled: false
+2020-09-15 19:17:09.898 +01:00 [INF]   DownloadableContentTypes: text/html
+2020-09-15 19:17:09.898 +01:00 [INF]   HttpServicePointConnectionLimit: 200
+2020-09-15 19:17:09.898 +01:00 [INF]   HttpRequestTimeoutInSeconds: 15
+2020-09-15 19:17:09.899 +01:00 [INF]   HttpRequestMaxAutoRedirects: 7
+2020-09-15 19:17:09.899 +01:00 [INF]   IsHttpRequestAutoRedirectsEnabled: true
+2020-09-15 19:17:09.899 +01:00 [INF]   IsHttpRequestAutomaticDecompressionEnabled: false
+2020-09-15 19:17:09.899 +01:00 [INF]   IsSendingCookiesEnabled: false
+2020-09-15 19:17:09.899 +01:00 [INF]   IsSslCertificateValidationEnabled: false
+2020-09-15 19:17:09.900 +01:00 [INF]   MinAvailableMemoryRequiredInMb: 0
+2020-09-15 19:17:09.900 +01:00 [INF]   MaxMemoryUsageInMb: 0
+2020-09-15 19:17:09.900 +01:00 [INF]   MaxMemoryUsageCacheTimeInSeconds: 0
+2020-09-15 19:17:09.900 +01:00 [INF]   MaxCrawlDepth: 100
+2020-09-15 19:17:09.901 +01:00 [INF]   MaxLinksPerPage: 0
+2020-09-15 19:17:09.901 +01:00 [INF]   IsForcedLinkParsingEnabled: false
+2020-09-15 19:17:09.901 +01:00 [INF]   MaxRetryCount: 0
+2020-09-15 19:17:09.901 +01:00 [INF]   MinRetryDelayInMilliseconds: 0
+2020-09-15 19:17:09.902 +01:00 [INF]   IsRespectRobotsDotTextEnabled: false
+2020-09-15 19:17:09.902 +01:00 [INF]   IsRespectMetaRobotsNoFollowEnabled: false
+2020-09-15 19:17:09.902 +01:00 [INF]   IsRespectHttpXRobotsTagHeaderNoFollowEnabled: false
+2020-09-15 19:17:09.902 +01:00 [INF]   IsRespectAnchorRelNoFollowEnabled: false
+2020-09-15 19:17:09.902 +01:00 [INF]   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: false
+2020-09-15 19:17:09.902 +01:00 [INF]   RobotsDotTextUserAgentString: abot
+2020-09-15 19:17:09.902 +01:00 [INF]   MinCrawlDelayPerDomainMilliSeconds: 3000
+2020-09-15 19:17:09.903 +01:00 [INF]   MaxRobotsDotTextCrawlDelayInSeconds: 5
+2020-09-15 19:17:09.903 +01:00 [INF]   IsAlwaysLogin: false
+2020-09-15 19:17:09.903 +01:00 [INF]   LoginUser: null
+2020-09-15 19:17:09.903 +01:00 [INF]   LoginPassword: null
+2020-09-15 19:17:09.904 +01:00 [INF]   UseDefaultCredentials: false
+2020-09-15 19:17:11.327 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/parents/letters/] Elapsed:[1218.7277] Parent:["https://www.kingsleighprimary.co.uk/parents/letters/"] Retry:[0]
+2020-09-15 19:17:11.714 +01:00 [INF] MaxPagesToCrawlLimit has been reached or scheduled. No more pages will be scheduled.
+2020-09-15 19:17:14.088 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/policies/] Elapsed:[814.918] Parent:["https://www.kingsleighprimary.co.uk/parents/letters/"] Retry:[0]
+2020-09-15 19:17:17.367 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/] Elapsed:[1055.2932] Parent:["https://www.kingsleighprimary.co.uk/parents/letters/"] Retry:[0]
+2020-09-15 19:17:20.103 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/parents/] Elapsed:[747.3574] Parent:["https://www.kingsleighprimary.co.uk/parents/letters/"] Retry:[0]
+2020-09-15 19:17:23.129 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/about/] Elapsed:[726.5117] Parent:["https://www.kingsleighprimary.co.uk/parents/letters/"] Retry:[0]
+2020-09-15 19:17:23.322 +01:00 [INF] Crawl complete for site [https://www.kingsleighprimary.co.uk/parents/letters/]: Crawled [5] pages in ["00:00:13.4171080"]
+2020-09-15 19:17:23.325 +01:00 [INF] About to crawl site [https://www.kingsleighprimary.co.uk/classes/reception/]
+2020-09-15 19:17:23.325 +01:00 [INF] Configuration Values:
+2020-09-15 19:17:23.325 +01:00 [INF]   Abot Version: 2.0.64.0
+2020-09-15 19:17:23.327 +01:00 [INF]   MaxConcurrentThreads: 10
+2020-09-15 19:17:23.327 +01:00 [INF]   MaxPagesToCrawl: 5
+2020-09-15 19:17:23.327 +01:00 [INF]   MaxPagesToCrawlPerDomain: 0
+2020-09-15 19:17:23.327 +01:00 [INF]   MaxPageSizeInBytes: 0
+2020-09-15 19:17:23.327 +01:00 [INF]   UserAgentString: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+2020-09-15 19:17:23.327 +01:00 [INF]   HttpProtocolVersion: "NotSpecified"
+2020-09-15 19:17:23.329 +01:00 [INF]   CrawlTimeoutSeconds: 0
+2020-09-15 19:17:23.332 +01:00 [INF]   IsUriRecrawlingEnabled: false
+2020-09-15 19:17:23.332 +01:00 [INF]   IsExternalPageCrawlingEnabled: false
+2020-09-15 19:17:23.333 +01:00 [INF]   IsExternalPageLinksCrawlingEnabled: false
+2020-09-15 19:17:23.334 +01:00 [INF]   IsRespectUrlNamedAnchorOrHashbangEnabled: false
+2020-09-15 19:17:23.334 +01:00 [INF]   DownloadableContentTypes: text/html
+2020-09-15 19:17:23.335 +01:00 [INF]   HttpServicePointConnectionLimit: 200
+2020-09-15 19:17:23.335 +01:00 [INF]   HttpRequestTimeoutInSeconds: 15
+2020-09-15 19:17:23.337 +01:00 [INF]   HttpRequestMaxAutoRedirects: 7
+2020-09-15 19:17:23.338 +01:00 [INF]   IsHttpRequestAutoRedirectsEnabled: true
+2020-09-15 19:17:23.338 +01:00 [INF]   IsHttpRequestAutomaticDecompressionEnabled: false
+2020-09-15 19:17:23.338 +01:00 [INF]   IsSendingCookiesEnabled: false
+2020-09-15 19:17:23.338 +01:00 [INF]   IsSslCertificateValidationEnabled: false
+2020-09-15 19:17:23.339 +01:00 [INF]   MinAvailableMemoryRequiredInMb: 0
+2020-09-15 19:17:23.339 +01:00 [INF]   MaxMemoryUsageInMb: 0
+2020-09-15 19:17:23.339 +01:00 [INF]   MaxMemoryUsageCacheTimeInSeconds: 0
+2020-09-15 19:17:23.339 +01:00 [INF]   MaxCrawlDepth: 100
+2020-09-15 19:17:23.339 +01:00 [INF]   MaxLinksPerPage: 0
+2020-09-15 19:17:23.339 +01:00 [INF]   IsForcedLinkParsingEnabled: false
+2020-09-15 19:17:23.339 +01:00 [INF]   MaxRetryCount: 0
+2020-09-15 19:17:23.339 +01:00 [INF]   MinRetryDelayInMilliseconds: 0
+2020-09-15 19:17:23.339 +01:00 [INF]   IsRespectRobotsDotTextEnabled: false
+2020-09-15 19:17:23.339 +01:00 [INF]   IsRespectMetaRobotsNoFollowEnabled: false
+2020-09-15 19:17:23.339 +01:00 [INF]   IsRespectHttpXRobotsTagHeaderNoFollowEnabled: false
+2020-09-15 19:17:23.340 +01:00 [INF]   IsRespectAnchorRelNoFollowEnabled: false
+2020-09-15 19:17:23.340 +01:00 [INF]   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: false
+2020-09-15 19:17:23.340 +01:00 [INF]   RobotsDotTextUserAgentString: abot
+2020-09-15 19:17:23.340 +01:00 [INF]   MinCrawlDelayPerDomainMilliSeconds: 3000
+2020-09-15 19:17:23.340 +01:00 [INF]   MaxRobotsDotTextCrawlDelayInSeconds: 5
+2020-09-15 19:17:23.340 +01:00 [INF]   IsAlwaysLogin: false
+2020-09-15 19:17:23.340 +01:00 [INF]   LoginUser: null
+2020-09-15 19:17:23.340 +01:00 [INF]   LoginPassword: null
+2020-09-15 19:17:23.340 +01:00 [INF]   UseDefaultCredentials: false
+2020-09-15 19:17:23.341 +01:00 [INF] Crawl complete for site [https://www.kingsleighprimary.co.uk/classes/reception/]: Crawled [5] pages in ["00:00:00.0001135"]
+2020-09-15 19:17:23.441 +01:00 [INF] Sending NEW pages email
+2020-09-15 19:17:24.747 +01:00 [INF] Completed!
