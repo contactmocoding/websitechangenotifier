@@ -14,7 +14,7 @@ namespace websitechangenotifier
                 smtp.EnableSsl = true;
                 smtp.Host = "smtp.gmail.com";
                 smtp.Port = 587;
-                smtp.Credentials = new NetworkCredential("mosoftwareenterprisesemails@gmail.com", "twzszxlpuqmgrliv");
+                smtp.Credentials = new NetworkCredential("mosoftwareenterprisesemails@gmail.com", "kctboibbaivumdev");
                 // send the email
                 smtp.Send("noreply@mosoftwareenterprises.co.uk", "bigmansbro@gmail.com", subject, body);
             }

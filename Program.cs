@@ -1,15 +1,12 @@
 ﻿using System;
-using System.Net.Http;
-using System.Threading.Tasks;
-using Abot2.Core;
 using Abot2.Crawler;
-using Abot2.Poco;
 using Serilog;
-using Serilog.Formatting.Json;
 using System.Linq;
 using System.Collections.Generic;
-using System.Text;
 using System.Diagnostics;
+using System.Threading.Tasks;
+using Abot2.Poco;
+using System.Text;
 
 namespace websitechangenotifier
 {
@@ -65,9 +62,10 @@ namespace websitechangenotifier
             {
                 MaxPagesToCrawl = 0,
                 MaxLinksPerPage = 0,
-                MinCrawlDelayPerDomainMilliSeconds = 3000,
+                MinCrawlDelayPerDomainMilliSeconds = 1500,
             };
-            var crawler = new PoliteWebCrawler(config);
+
+            var crawler = new PoliteWebCrawler(config,new CustomCrawlDecisionMaker(), null, null, null, null, null, null,null);
 
             crawler.PageCrawlCompleted += Crawler_PageCrawlCompleted;
             crawler.PageCrawlDisallowed += Crawler_PageCrawlDisallowed;
