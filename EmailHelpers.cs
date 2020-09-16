@@ -1,3 +1,4 @@
+using System;
 using System.Net;
 using System.Net.Mail;
 
@@ -16,7 +17,14 @@ namespace websitechangenotifier
                 smtp.Port = 587;
                 smtp.Credentials = new NetworkCredential("mosoftwareenterprisesemails@gmail.com", "twzszxlpuqmgrliv");
                 // send the email
-                smtp.Send("noreply@mosoftwareenterprises.co.uk", "bigmansbro@gmail.com", subject, body);
+                try
+                {
+                    smtp.Send("noreply@mosoftwareenterprises.co.uk", "bigmansbro@gmail.com", subject, body);
+                }
+                catch (Exception ex)
+                {
+                    int i = 0;
+                }
             }
         }
     }

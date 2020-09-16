@@ -10,6 +10,7 @@ using System.Linq;
 using System.Collections.Generic;
 using System.Text;
 using System.Diagnostics;
+using System.Net;
 
 namespace websitechangenotifier
 {
@@ -55,19 +56,42 @@ namespace websitechangenotifier
 
         private static async Task CrawlPages()
         {
-            PoliteWebCrawler crawler = SetupCrawler();
-            var crawlResult = await crawler.CrawlAsync(new Uri("https://www.kingsleighprimary.co.uk"));
+            PoliteWebCrawler crawler = await SetupCrawler();
+            var crawlResult = await crawler.CrawlAsync(new Uri("https://mylearningbook.co.uk/Book"));
         }
 
-        private static PoliteWebCrawler SetupCrawler()
+        private static async Task<PoliteWebCrawler> SetupCrawler()
         {
+            var baseAddress = new Uri("https://mylearningbook.co.uk/");
+            var cookieContainer = new CookieContainer();
+            var handler = new HttpClientHandler() { CookieContainer = cookieContainer };
+
+            var client = new HttpClient(handler) { BaseAddress = baseAddress };
+
+            //usually i make a standard request without authentication, eg: to the home page.
+            //by doing this request you store some initial cookie values, that might be used in the subsequent login request and checked by the server
+            var homePageResult = client.GetAsync("/");
+            homePageResult.Result.EnsureSuccessStatusCode();
+
+            var content = new FormUrlEncodedContent(new[]
+            {
+                //the name of the form values must be the name of <input /> tags of the login form, in this case the tag is <input type="text" name="username">
+                new KeyValuePair<string, string>("email", "@gmail.com"),
+                new KeyValuePair<string, string>("ReturnUrl", "%2fHome%2fChild%2f331"),
+            });
+            var loginResult = await client.PostAsync("Logon?ReturnUrl=%2fHome%2fChild%2f331", content);
+            loginResult.EnsureSuccessStatusCode();
+
+
             var config = new CrawlConfiguration
             {
                 MaxPagesToCrawl = 0,
                 MaxLinksPerPage = 0,
                 MinCrawlDelayPerDomainMilliSeconds = 3000,
+                IsExternalPageCrawlingEnabled = false,
+                IsExternalPageLinksCrawlingEnabled = false,
             };
-            var crawler = new PoliteWebCrawler(config);
+            var crawler = new PoliteWebCrawler(config,null, null, null,new PageRequester(config, new WebContentExtractor(), client), null, null, null, null);
 
             crawler.PageCrawlCompleted += Crawler_PageCrawlCompleted;
             crawler.PageCrawlDisallowed += Crawler_PageCrawlDisallowed;
