@@ -186,3 +186,847 @@
 2020-09-15 19:17:23.341 +01:00 [INF] Crawl complete for site [https://www.kingsleighprimary.co.uk/classes/reception/]: Crawled [5] pages in ["00:00:00.0001135"]
 2020-09-15 19:17:23.441 +01:00 [INF] Sending NEW pages email
 2020-09-15 19:17:24.747 +01:00 [INF] Completed!
+2020-09-16 20:30:38.950 +01:00 [INF] About to crawl site [https://www.kingsleighprimary.co.uk/]
+2020-09-16 20:30:39.054 +01:00 [INF] Configuration Values:
+2020-09-16 20:30:39.055 +01:00 [INF]   Abot Version: 2.0.64.0
+2020-09-16 20:30:39.060 +01:00 [INF]   MaxConcurrentThreads: 10
+2020-09-16 20:30:39.063 +01:00 [INF]   MaxPagesToCrawl: 0
+2020-09-16 20:30:39.064 +01:00 [INF]   MaxPagesToCrawlPerDomain: 0
+2020-09-16 20:30:39.064 +01:00 [INF]   MaxPageSizeInBytes: 0
+2020-09-16 20:30:39.064 +01:00 [INF]   UserAgentString: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+2020-09-16 20:30:39.065 +01:00 [INF]   HttpProtocolVersion: "NotSpecified"
+2020-09-16 20:30:39.069 +01:00 [INF]   CrawlTimeoutSeconds: 0
+2020-09-16 20:30:39.069 +01:00 [INF]   IsUriRecrawlingEnabled: false
+2020-09-16 20:30:39.070 +01:00 [INF]   IsExternalPageCrawlingEnabled: false
+2020-09-16 20:30:39.070 +01:00 [INF]   IsExternalPageLinksCrawlingEnabled: false
+2020-09-16 20:30:39.070 +01:00 [INF]   IsRespectUrlNamedAnchorOrHashbangEnabled: false
+2020-09-16 20:30:39.070 +01:00 [INF]   DownloadableContentTypes: text/html
+2020-09-16 20:30:39.070 +01:00 [INF]   HttpServicePointConnectionLimit: 200
+2020-09-16 20:30:39.070 +01:00 [INF]   HttpRequestTimeoutInSeconds: 15
+2020-09-16 20:30:39.071 +01:00 [INF]   HttpRequestMaxAutoRedirects: 7
+2020-09-16 20:30:39.072 +01:00 [INF]   IsHttpRequestAutoRedirectsEnabled: true
+2020-09-16 20:30:39.073 +01:00 [INF]   IsHttpRequestAutomaticDecompressionEnabled: false
+2020-09-16 20:30:39.073 +01:00 [INF]   IsSendingCookiesEnabled: false
+2020-09-16 20:30:39.073 +01:00 [INF]   IsSslCertificateValidationEnabled: false
+2020-09-16 20:30:39.073 +01:00 [INF]   MinAvailableMemoryRequiredInMb: 0
+2020-09-16 20:30:39.073 +01:00 [INF]   MaxMemoryUsageInMb: 0
+2020-09-16 20:30:39.073 +01:00 [INF]   MaxMemoryUsageCacheTimeInSeconds: 0
+2020-09-16 20:30:39.073 +01:00 [INF]   MaxCrawlDepth: 100
+2020-09-16 20:30:39.073 +01:00 [INF]   MaxLinksPerPage: 0
+2020-09-16 20:30:39.073 +01:00 [INF]   IsForcedLinkParsingEnabled: false
+2020-09-16 20:30:39.074 +01:00 [INF]   MaxRetryCount: 0
+2020-09-16 20:30:39.074 +01:00 [INF]   MinRetryDelayInMilliseconds: 0
+2020-09-16 20:30:39.074 +01:00 [INF]   IsRespectRobotsDotTextEnabled: false
+2020-09-16 20:30:39.074 +01:00 [INF]   IsRespectMetaRobotsNoFollowEnabled: false
+2020-09-16 20:30:39.074 +01:00 [INF]   IsRespectHttpXRobotsTagHeaderNoFollowEnabled: false
+2020-09-16 20:30:39.074 +01:00 [INF]   IsRespectAnchorRelNoFollowEnabled: false
+2020-09-16 20:30:39.074 +01:00 [INF]   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: false
+2020-09-16 20:30:39.074 +01:00 [INF]   RobotsDotTextUserAgentString: abot
+2020-09-16 20:30:39.074 +01:00 [INF]   MinCrawlDelayPerDomainMilliSeconds: 1500
+2020-09-16 20:30:39.074 +01:00 [INF]   MaxRobotsDotTextCrawlDelayInSeconds: 5
+2020-09-16 20:30:39.074 +01:00 [INF]   IsAlwaysLogin: false
+2020-09-16 20:30:39.077 +01:00 [INF]   LoginUser: null
+2020-09-16 20:30:39.079 +01:00 [INF]   LoginPassword: null
+2020-09-16 20:30:39.079 +01:00 [INF]   UseDefaultCredentials: false
+2020-09-16 20:30:41.434 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/] Elapsed:[1360.2531] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-16 20:30:41.887 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/about/ because Ignoring intentionally
+2020-09-16 20:30:41.887 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/classes/ because Ignoring intentionally
+2020-09-16 20:30:41.887 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/events/ because Ignoring intentionally
+2020-09-16 20:30:41.887 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/pupil-parent-voice/ because Ignoring intentionally
+2020-09-16 20:30:41.888 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/contact/ because Ignoring intentionally
+2020-09-16 20:30:41.888 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/epic-everest-and-english/ because Ignoring intentionally
+2020-09-16 20:30:41.891 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/year-2s-habitat-fun/ because Ignoring intentionally
+2020-09-16 20:30:41.891 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/year-3s-creative-creations/ because Ignoring intentionally
+2020-09-16 20:30:41.891 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/taking-up-the-challenge-in-year-4/ because Ignoring intentionally
+2020-09-16 20:30:41.891 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-9/ because Ignoring intentionally
+2020-09-16 20:30:41.891 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-8/ because Ignoring intentionally
+2020-09-16 20:30:41.891 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-7/ because Ignoring intentionally
+2020-09-16 20:30:41.892 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-6/ because Ignoring intentionally
+2020-09-16 20:30:41.892 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-5/ because Ignoring intentionally
+2020-09-16 20:30:41.929 +01:00 [INF] CHANGED page: https://www.kingsleighprimary.co.uk/
+2020-09-16 20:30:44.930 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/policies/] Elapsed:[792.5167] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-16 20:30:44.935 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/home-learning-policy/ because Ignoring intentionally
+2020-09-16 20:30:44.935 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/attendance-policy/ because Ignoring intentionally
+2020-09-16 20:30:44.935 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/accessibilty-plan-policy/ because Ignoring intentionally
+2020-09-16 20:30:44.935 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/behaviour-policy/ because Ignoring intentionally
+2020-09-16 20:30:44.935 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/visitors-code-of-conduct-policy/ because Ignoring intentionally
+2020-09-16 20:30:44.935 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/admissions-and-appeals/ because Ignoring intentionally
+2020-09-16 20:30:44.935 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/charging-and-remissions-policy/ because Ignoring intentionally
+2020-09-16 20:30:44.935 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/complaints-procedure/ because Ignoring intentionally
+2020-09-16 20:30:44.935 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/data-protection/ because Ignoring intentionally
+2020-09-16 20:30:44.935 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/equality-policy/ because Ignoring intentionally
+2020-09-16 20:30:44.935 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/pupil-premium-201617/ because Ignoring intentionally
+2020-09-16 20:30:44.935 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/safeguarding-and-child-protection-2/ because Ignoring intentionally
+2020-09-16 20:30:44.936 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/sen-information-report/ because Ignoring intentionally
+2020-09-16 20:30:44.936 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/sen-policy/ because Ignoring intentionally
+2020-09-16 20:30:44.936 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/sex-and-relationships/ because Ignoring intentionally
+2020-09-16 20:30:44.936 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/trust-documents/ because Ignoring intentionally
+2020-09-16 20:30:44.936 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/sports-premium/ because Ignoring intentionally
+2020-09-16 20:30:44.936 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/esafety/ because Ignoring intentionally
+2020-09-16 20:30:44.937 +01:00 [INF] CHANGED page: https://www.kingsleighprimary.co.uk/policies/
+2020-09-16 20:30:46.722 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/blog/] Elapsed:[976.5723] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-16 20:30:46.731 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/our-year-1-art-challenges/ because Ignoring intentionally
+2020-09-16 20:30:46.731 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/marvellous-mathematicians/ because Ignoring intentionally
+2020-09-16 20:30:46.731 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/help-supertato/ because Ignoring intentionally
+2020-09-16 20:30:46.731 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/year-3s-amazing-guided-reading/ because Ignoring intentionally
+2020-09-16 20:30:46.731 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/getting-creative-in-year-4/ because Ignoring intentionally
+2020-09-16 20:30:46.731 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/year-4-explain-how-to/ because Ignoring intentionally
+2020-09-16 20:30:46.731 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/staying-fabulous-in-year-4/ because Ignoring intentionally
+2020-09-16 20:30:46.732 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/year-1-photo-frames/ because Ignoring intentionally
+2020-09-16 20:30:46.732 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/page/2/ because Ignoring intentionally
+2020-09-16 20:30:46.733 +01:00 [INF] CHANGED page: https://www.kingsleighprimary.co.uk/blog/
+2020-09-16 20:30:49.860 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/09/Behaviour-policy-Letter-to-parents-Sep-2020.pdf] Elapsed:[2105.8709] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-16 20:30:49.863 +01:00 [INF] NEW page: http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/09/Behaviour-policy-Letter-to-parents-Sep-2020.pdf
+2020-09-16 20:30:50.471 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/parents/] Elapsed:[721.7282] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-16 20:30:50.486 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/parents/latest-letters/ because Ignoring intentionally
+2020-09-16 20:30:50.487 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/parents/cool-kids-after-school-club/ because Ignoring intentionally
+2020-09-16 20:30:50.487 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/parents/clubs-timetable/ because Ignoring intentionally
+2020-09-16 20:30:50.488 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/parents/marvellous-me/ because Ignoring intentionally
+2020-09-16 20:30:50.489 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/parents/purple-mash/ because Ignoring intentionally
+2020-09-16 20:30:50.489 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/parents/pastoral-care/ because Ignoring intentionally
+2020-09-16 20:30:50.490 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/parents/school-meals/ because Ignoring intentionally
+2020-09-16 20:30:51.522 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/02/Positive-Behaviour-Policy-KPS-2019-2020.docx.pdf] Elapsed:[233.7829] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-16 20:30:52.910 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/09/Important-Information-Please-read.pdf] Elapsed:[94.8421] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-16 20:30:54.438 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/09/Letter-to-parents-Covid-positive-test.pdf] Elapsed:[95.3207] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-16 20:30:55.974 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/09/Letter-to-parents-of-bubble-Covid-positive-test.pdf] Elapsed:[90.6046] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-16 20:30:57.467 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/09/FAQ-parents.pdf] Elapsed:[58.3765] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-16 20:30:59.025 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/07/KPS-Update-8-July-2020.doc.pdf] Elapsed:[90.5022] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-16 20:31:00.937 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/07/Childrens-leaflet-final.pdf] Elapsed:[465.2015] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-16 20:31:02.134 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/07/Reception-Parents-leaflet-FINAL.pdf] Elapsed:[137.2517] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-16 20:31:04.351 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/parents/newsletters/] Elapsed:[813.4013] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-16 20:31:04.356 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-edition-3/ because Ignoring intentionally
+2020-09-16 20:31:04.356 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-3/ because Ignoring intentionally
+2020-09-16 20:31:04.356 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-2-24th-april-2020/ because Ignoring intentionally
+2020-09-16 20:31:04.356 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-1-3rd-april-2020/ because Ignoring intentionally
+2020-09-16 20:31:04.356 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-13th-march-2020/ because Ignoring intentionally
+2020-09-16 20:31:04.356 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-28th-feb-2020/ because Ignoring intentionally
+2020-09-16 20:31:04.356 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-7th-february-2020/ because Ignoring intentionally
+2020-09-16 20:31:04.356 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-newsletter-24th-january-2020/ because Ignoring intentionally
+2020-09-16 20:31:04.356 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-9th-january-2020/ because Ignoring intentionally
+2020-09-16 20:31:04.356 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-13th-dec-2019/ because Ignoring intentionally
+2020-09-16 20:31:04.356 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-29-11-19/ because Ignoring intentionally
+2020-09-16 20:31:04.357 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-15th-november-2019/ because Ignoring intentionally
+2020-09-16 20:31:04.357 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-25th-october-2019/ because Ignoring intentionally
+2020-09-16 20:31:04.357 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-11th-oct-2019/ because Ignoring intentionally
+2020-09-16 20:31:05.938 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/parents/letters/] Elapsed:[873.062] Parent:["https://www.kingsleighprimary.co.uk/parents/"] Retry:[0]
+2020-09-16 20:31:05.944 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/returning-to-school-september-2020/ because Ignoring intentionally
+2020-09-16 20:31:05.944 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/information-leaflet-for-parents-new-intake-in-reception-sep-2020/ because Ignoring intentionally
+2020-09-16 20:31:05.945 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/information-leaflet-for-children-new-intake-in-reception-sep-2020/ because Ignoring intentionally
+2020-09-16 20:31:05.945 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/kps-update-and-plans-september-2020/ because Ignoring intentionally
+2020-09-16 20:31:05.945 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/new-classes-reception-new-intake-september-2020/ because Ignoring intentionally
+2020-09-16 20:31:05.946 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/new-classes-september-2020/ because Ignoring intentionally
+2020-09-16 20:31:05.946 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/change-of-provision-key-workers/ because Ignoring intentionally
+2020-09-16 20:31:05.946 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/year-1-year-6-returning-to-school/ because Ignoring intentionally
+2020-09-16 20:31:05.946 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/reception-update/ because Ignoring intentionally
+2020-09-16 20:31:05.946 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/back-to-kingsleigh/ because Ignoring intentionally
+2020-09-16 20:31:05.947 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/learning-and-well-being-19th-march-2020-4/ because Ignoring intentionally
+2020-09-16 20:31:05.947 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/learning-and-well-being-19th-march-2020-3/ because Ignoring intentionally
+2020-09-16 20:31:05.947 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/learning-and-well-being-19th-march-2020-2/ because Ignoring intentionally
+2020-09-16 20:31:05.947 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/learning-and-well-being-19th-march-2020/ because Ignoring intentionally
+2020-09-16 20:31:05.947 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/attendance-letter-jan-2020/ because Ignoring intentionally
+2020-09-16 20:31:05.947 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/absence-at-school-clarifying-daily-procedure/ because Ignoring intentionally
+2020-09-16 20:31:07.320 +01:00 [INF] Crawl complete for site [https://www.kingsleighprimary.co.uk/]: Crawled [15] pages in ["00:00:28.2399074"]
+2020-09-16 20:31:07.474 +01:00 [INF] Sending Changed pages email containing 3 items
+2020-09-16 20:31:09.153 +01:00 [INF] Sending NEW pages email containing 1 items
+2020-09-16 20:31:10.124 +01:00 [INF] Completed in 00:00:31.5357199!
+2020-09-22 12:09:53.147 +01:00 [INF] About to crawl site [https://www.kingsleighprimary.co.uk/]
+2020-09-22 12:09:53.487 +01:00 [INF] Configuration Values:
+2020-09-22 12:09:53.489 +01:00 [INF]   Abot Version: 2.0.64.0
+2020-09-22 12:09:53.502 +01:00 [INF]   MaxConcurrentThreads: 10
+2020-09-22 12:09:53.505 +01:00 [INF]   MaxPagesToCrawl: 0
+2020-09-22 12:09:53.505 +01:00 [INF]   MaxPagesToCrawlPerDomain: 0
+2020-09-22 12:09:53.505 +01:00 [INF]   MaxPageSizeInBytes: 0
+2020-09-22 12:09:53.505 +01:00 [INF]   UserAgentString: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+2020-09-22 12:09:53.506 +01:00 [INF]   HttpProtocolVersion: "NotSpecified"
+2020-09-22 12:09:53.550 +01:00 [INF]   CrawlTimeoutSeconds: 0
+2020-09-22 12:09:53.550 +01:00 [INF]   IsUriRecrawlingEnabled: false
+2020-09-22 12:09:53.550 +01:00 [INF]   IsExternalPageCrawlingEnabled: false
+2020-09-22 12:09:53.550 +01:00 [INF]   IsExternalPageLinksCrawlingEnabled: false
+2020-09-22 12:09:53.551 +01:00 [INF]   IsRespectUrlNamedAnchorOrHashbangEnabled: false
+2020-09-22 12:09:53.551 +01:00 [INF]   DownloadableContentTypes: text/html
+2020-09-22 12:09:53.551 +01:00 [INF]   HttpServicePointConnectionLimit: 200
+2020-09-22 12:09:53.551 +01:00 [INF]   HttpRequestTimeoutInSeconds: 15
+2020-09-22 12:09:53.551 +01:00 [INF]   HttpRequestMaxAutoRedirects: 7
+2020-09-22 12:09:53.551 +01:00 [INF]   IsHttpRequestAutoRedirectsEnabled: true
+2020-09-22 12:09:53.551 +01:00 [INF]   IsHttpRequestAutomaticDecompressionEnabled: false
+2020-09-22 12:09:53.552 +01:00 [INF]   IsSendingCookiesEnabled: false
+2020-09-22 12:09:53.552 +01:00 [INF]   IsSslCertificateValidationEnabled: false
+2020-09-22 12:09:53.552 +01:00 [INF]   MinAvailableMemoryRequiredInMb: 0
+2020-09-22 12:09:53.552 +01:00 [INF]   MaxMemoryUsageInMb: 0
+2020-09-22 12:09:53.552 +01:00 [INF]   MaxMemoryUsageCacheTimeInSeconds: 0
+2020-09-22 12:09:53.552 +01:00 [INF]   MaxCrawlDepth: 100
+2020-09-22 12:09:53.552 +01:00 [INF]   MaxLinksPerPage: 0
+2020-09-22 12:09:53.552 +01:00 [INF]   IsForcedLinkParsingEnabled: false
+2020-09-22 12:09:53.552 +01:00 [INF]   MaxRetryCount: 0
+2020-09-22 12:09:53.553 +01:00 [INF]   MinRetryDelayInMilliseconds: 0
+2020-09-22 12:09:53.553 +01:00 [INF]   IsRespectRobotsDotTextEnabled: false
+2020-09-22 12:09:53.553 +01:00 [INF]   IsRespectMetaRobotsNoFollowEnabled: false
+2020-09-22 12:09:53.553 +01:00 [INF]   IsRespectHttpXRobotsTagHeaderNoFollowEnabled: false
+2020-09-22 12:09:53.553 +01:00 [INF]   IsRespectAnchorRelNoFollowEnabled: false
+2020-09-22 12:09:53.553 +01:00 [INF]   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: false
+2020-09-22 12:09:53.553 +01:00 [INF]   RobotsDotTextUserAgentString: abot
+2020-09-22 12:09:53.553 +01:00 [INF]   MinCrawlDelayPerDomainMilliSeconds: 1500
+2020-09-22 12:09:53.553 +01:00 [INF]   MaxRobotsDotTextCrawlDelayInSeconds: 5
+2020-09-22 12:09:53.554 +01:00 [INF]   IsAlwaysLogin: false
+2020-09-22 12:09:53.554 +01:00 [INF]   LoginUser: null
+2020-09-22 12:09:53.554 +01:00 [INF]   LoginPassword: null
+2020-09-22 12:09:53.554 +01:00 [INF]   UseDefaultCredentials: false
+2020-09-22 12:10:00.804 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/] Elapsed:[3287.0304] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-22 12:10:01.357 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/about/ because Ignoring intentionally
+2020-09-22 12:10:01.358 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/classes/ because Ignoring intentionally
+2020-09-22 12:10:01.358 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/events/ because Ignoring intentionally
+2020-09-22 12:10:01.358 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/pupil-parent-voice/ because Ignoring intentionally
+2020-09-22 12:10:01.358 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/contact/ because Ignoring intentionally
+2020-09-22 12:10:01.364 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/welcome-reception-2020-21/ because Ignoring intentionally
+2020-09-22 12:10:01.364 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/super-spies/ because Ignoring intentionally
+2020-09-22 12:10:01.364 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/here-be-dragons-2/ because Ignoring intentionally
+2020-09-22 12:10:01.364 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/epic-everest-and-english/ because Ignoring intentionally
+2020-09-22 12:10:01.365 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-21st-september-2020/ because Ignoring intentionally
+2020-09-22 12:10:01.365 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-9/ because Ignoring intentionally
+2020-09-22 12:10:01.365 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-8/ because Ignoring intentionally
+2020-09-22 12:10:01.365 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-7/ because Ignoring intentionally
+2020-09-22 12:10:01.365 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-6/ because Ignoring intentionally
+2020-09-22 12:10:01.451 +01:00 [INF] CHANGED page: https://www.kingsleighprimary.co.uk/
+2020-09-22 12:10:04.430 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/09/Behaviour-policy-Letter-to-parents-Sep-2020.pdf] Elapsed:[802.6435] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-22 12:10:07.187 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/parents/] Elapsed:[1853.2957] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-22 12:10:07.191 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/parents/latest-letters/ because Ignoring intentionally
+2020-09-22 12:10:07.191 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/parents/cool-kids-after-school-club/ because Ignoring intentionally
+2020-09-22 12:10:07.192 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/parents/clubs-timetable/ because Ignoring intentionally
+2020-09-22 12:10:07.192 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/parents/marvellous-me/ because Ignoring intentionally
+2020-09-22 12:10:07.192 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/parents/purple-mash/ because Ignoring intentionally
+2020-09-22 12:10:07.192 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/parents/pastoral-care/ because Ignoring intentionally
+2020-09-22 12:10:07.192 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/parents/school-meals/ because Ignoring intentionally
+2020-09-22 12:10:08.431 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/blog/] Elapsed:[1098.6016] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-22 12:10:08.439 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/year-2s-habitat-fun/ because Ignoring intentionally
+2020-09-22 12:10:08.439 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/year-3s-creative-creations/ because Ignoring intentionally
+2020-09-22 12:10:08.439 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/taking-up-the-challenge-in-year-4/ because Ignoring intentionally
+2020-09-22 12:10:08.439 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/our-year-1-art-challenges/ because Ignoring intentionally
+2020-09-22 12:10:08.439 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/marvellous-mathematicians/ because Ignoring intentionally
+2020-09-22 12:10:08.439 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/help-supertato/ because Ignoring intentionally
+2020-09-22 12:10:08.440 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/year-3s-amazing-guided-reading/ because Ignoring intentionally
+2020-09-22 12:10:08.440 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/getting-creative-in-year-4/ because Ignoring intentionally
+2020-09-22 12:10:08.440 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/page/2/ because Ignoring intentionally
+2020-09-22 12:10:08.490 +01:00 [INF] CHANGED page: https://www.kingsleighprimary.co.uk/blog/
+2020-09-22 12:10:10.154 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/policies/] Elapsed:[821.0666] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-22 12:10:10.160 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/home-learning-policy/ because Ignoring intentionally
+2020-09-22 12:10:10.160 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/attendance-policy/ because Ignoring intentionally
+2020-09-22 12:10:10.160 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/accessibilty-plan-policy/ because Ignoring intentionally
+2020-09-22 12:10:10.160 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/behaviour-policy/ because Ignoring intentionally
+2020-09-22 12:10:10.160 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/visitors-code-of-conduct-policy/ because Ignoring intentionally
+2020-09-22 12:10:10.160 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/admissions-and-appeals/ because Ignoring intentionally
+2020-09-22 12:10:10.160 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/charging-and-remissions-policy/ because Ignoring intentionally
+2020-09-22 12:10:10.160 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/complaints-procedure/ because Ignoring intentionally
+2020-09-22 12:10:10.160 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/data-protection/ because Ignoring intentionally
+2020-09-22 12:10:10.160 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/equality-policy/ because Ignoring intentionally
+2020-09-22 12:10:10.160 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/pupil-premium-201617/ because Ignoring intentionally
+2020-09-22 12:10:10.161 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/safeguarding-and-child-protection-2/ because Ignoring intentionally
+2020-09-22 12:10:10.161 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/sen-information-report/ because Ignoring intentionally
+2020-09-22 12:10:10.161 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/sen-policy/ because Ignoring intentionally
+2020-09-22 12:10:10.161 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/sex-and-relationships/ because Ignoring intentionally
+2020-09-22 12:10:10.161 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/trust-documents/ because Ignoring intentionally
+2020-09-22 12:10:10.161 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/sports-premium/ because Ignoring intentionally
+2020-09-22 12:10:10.161 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/esafety/ because Ignoring intentionally
+2020-09-22 12:10:11.124 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/02/Positive-Behaviour-Policy-KPS-2019-2020.docx.pdf] Elapsed:[252.3705] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-22 12:10:12.556 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/09/Important-Information-Please-read.pdf] Elapsed:[139.1312] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-22 12:10:14.038 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/09/Letter-to-parents-Covid-positive-test.pdf] Elapsed:[94.5256] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-22 12:10:15.589 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/09/Letter-to-parents-of-bubble-Covid-positive-test.pdf] Elapsed:[116.4883] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-22 12:10:17.097 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/09/FAQ-parents.pdf] Elapsed:[99.0774] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-22 12:10:18.629 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/07/KPS-Update-8-July-2020.doc.pdf] Elapsed:[87.9667] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-22 12:10:21.006 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/07/Childrens-leaflet-final.pdf] Elapsed:[937.821] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-22 12:10:21.796 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/07/Reception-Parents-leaflet-FINAL.pdf] Elapsed:[202.7693] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-22 12:10:24.094 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/parents/newsletters/] Elapsed:[957.1035] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-22 12:10:24.099 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-5/ because Ignoring intentionally
+2020-09-22 12:10:24.099 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-edition-3/ because Ignoring intentionally
+2020-09-22 12:10:24.099 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-3/ because Ignoring intentionally
+2020-09-22 12:10:24.100 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-2-24th-april-2020/ because Ignoring intentionally
+2020-09-22 12:10:24.100 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-1-3rd-april-2020/ because Ignoring intentionally
+2020-09-22 12:10:24.100 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-13th-march-2020/ because Ignoring intentionally
+2020-09-22 12:10:24.100 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-28th-feb-2020/ because Ignoring intentionally
+2020-09-22 12:10:24.100 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-7th-february-2020/ because Ignoring intentionally
+2020-09-22 12:10:24.100 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-newsletter-24th-january-2020/ because Ignoring intentionally
+2020-09-22 12:10:24.100 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-9th-january-2020/ because Ignoring intentionally
+2020-09-22 12:10:24.100 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-13th-dec-2019/ because Ignoring intentionally
+2020-09-22 12:10:24.100 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-29-11-19/ because Ignoring intentionally
+2020-09-22 12:10:24.100 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-15th-november-2019/ because Ignoring intentionally
+2020-09-22 12:10:24.100 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-25th-october-2019/ because Ignoring intentionally
+2020-09-22 12:10:24.100 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-11th-oct-2019/ because Ignoring intentionally
+2020-09-22 12:10:24.101 +01:00 [INF] CHANGED page: https://www.kingsleighprimary.co.uk/parents/newsletters/
+2020-09-22 12:10:25.637 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/parents/letters/] Elapsed:[958.0465] Parent:["https://www.kingsleighprimary.co.uk/parents/"] Retry:[0]
+2020-09-22 12:10:25.647 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/returning-to-school-september-2020/ because Ignoring intentionally
+2020-09-22 12:10:25.647 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/information-leaflet-for-parents-new-intake-in-reception-sep-2020/ because Ignoring intentionally
+2020-09-22 12:10:25.647 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/information-leaflet-for-children-new-intake-in-reception-sep-2020/ because Ignoring intentionally
+2020-09-22 12:10:25.647 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/kps-update-and-plans-september-2020/ because Ignoring intentionally
+2020-09-22 12:10:25.647 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/new-classes-reception-new-intake-september-2020/ because Ignoring intentionally
+2020-09-22 12:10:25.647 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/new-classes-september-2020/ because Ignoring intentionally
+2020-09-22 12:10:25.647 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/change-of-provision-key-workers/ because Ignoring intentionally
+2020-09-22 12:10:25.647 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/year-1-year-6-returning-to-school/ because Ignoring intentionally
+2020-09-22 12:10:25.647 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/reception-update/ because Ignoring intentionally
+2020-09-22 12:10:25.647 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/back-to-kingsleigh/ because Ignoring intentionally
+2020-09-22 12:10:25.647 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/learning-and-well-being-19th-march-2020-4/ because Ignoring intentionally
+2020-09-22 12:10:25.648 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/learning-and-well-being-19th-march-2020-3/ because Ignoring intentionally
+2020-09-22 12:10:25.648 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/learning-and-well-being-19th-march-2020-2/ because Ignoring intentionally
+2020-09-22 12:10:25.648 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/learning-and-well-being-19th-march-2020/ because Ignoring intentionally
+2020-09-22 12:10:25.648 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/attendance-letter-jan-2020/ because Ignoring intentionally
+2020-09-22 12:10:25.648 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/absence-at-school-clarifying-daily-procedure/ because Ignoring intentionally
+2020-09-22 12:10:26.923 +01:00 [INF] Crawl complete for site [https://www.kingsleighprimary.co.uk/]: Crawled [15] pages in ["00:00:33.3680900"]
+2020-09-22 12:10:27.014 +01:00 [INF] Sending Changed pages email containing 3 items
+2020-09-22 12:10:30.475 +01:00 [INF] Completed in 00:00:46.7977990!
+2020-09-23 17:57:01.976 +01:00 [INF] About to crawl site [https://www.kingsleighprimary.co.uk/]
+2020-09-23 17:57:02.093 +01:00 [INF] Configuration Values:
+2020-09-23 17:57:02.102 +01:00 [INF]   Abot Version: 2.0.64.0
+2020-09-23 17:57:02.115 +01:00 [INF]   MaxConcurrentThreads: 10
+2020-09-23 17:57:02.118 +01:00 [INF]   MaxPagesToCrawl: 0
+2020-09-23 17:57:02.118 +01:00 [INF]   MaxPagesToCrawlPerDomain: 0
+2020-09-23 17:57:02.118 +01:00 [INF]   MaxPageSizeInBytes: 0
+2020-09-23 17:57:02.118 +01:00 [INF]   UserAgentString: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+2020-09-23 17:57:02.119 +01:00 [INF]   HttpProtocolVersion: "NotSpecified"
+2020-09-23 17:57:02.123 +01:00 [INF]   CrawlTimeoutSeconds: 0
+2020-09-23 17:57:02.123 +01:00 [INF]   IsUriRecrawlingEnabled: false
+2020-09-23 17:57:02.124 +01:00 [INF]   IsExternalPageCrawlingEnabled: false
+2020-09-23 17:57:02.124 +01:00 [INF]   IsExternalPageLinksCrawlingEnabled: false
+2020-09-23 17:57:02.124 +01:00 [INF]   IsRespectUrlNamedAnchorOrHashbangEnabled: false
+2020-09-23 17:57:02.124 +01:00 [INF]   DownloadableContentTypes: text/html
+2020-09-23 17:57:02.124 +01:00 [INF]   HttpServicePointConnectionLimit: 200
+2020-09-23 17:57:02.124 +01:00 [INF]   HttpRequestTimeoutInSeconds: 15
+2020-09-23 17:57:02.124 +01:00 [INF]   HttpRequestMaxAutoRedirects: 7
+2020-09-23 17:57:02.124 +01:00 [INF]   IsHttpRequestAutoRedirectsEnabled: true
+2020-09-23 17:57:02.125 +01:00 [INF]   IsHttpRequestAutomaticDecompressionEnabled: false
+2020-09-23 17:57:02.125 +01:00 [INF]   IsSendingCookiesEnabled: false
+2020-09-23 17:57:02.125 +01:00 [INF]   IsSslCertificateValidationEnabled: false
+2020-09-23 17:57:02.125 +01:00 [INF]   MinAvailableMemoryRequiredInMb: 0
+2020-09-23 17:57:02.125 +01:00 [INF]   MaxMemoryUsageInMb: 0
+2020-09-23 17:57:02.125 +01:00 [INF]   MaxMemoryUsageCacheTimeInSeconds: 0
+2020-09-23 17:57:02.125 +01:00 [INF]   MaxCrawlDepth: 100
+2020-09-23 17:57:02.125 +01:00 [INF]   MaxLinksPerPage: 0
+2020-09-23 17:57:02.125 +01:00 [INF]   IsForcedLinkParsingEnabled: false
+2020-09-23 17:57:02.126 +01:00 [INF]   MaxRetryCount: 0
+2020-09-23 17:57:02.126 +01:00 [INF]   MinRetryDelayInMilliseconds: 0
+2020-09-23 17:57:02.126 +01:00 [INF]   IsRespectRobotsDotTextEnabled: false
+2020-09-23 17:57:02.126 +01:00 [INF]   IsRespectMetaRobotsNoFollowEnabled: false
+2020-09-23 17:57:02.126 +01:00 [INF]   IsRespectHttpXRobotsTagHeaderNoFollowEnabled: false
+2020-09-23 17:57:02.126 +01:00 [INF]   IsRespectAnchorRelNoFollowEnabled: false
+2020-09-23 17:57:02.126 +01:00 [INF]   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: false
+2020-09-23 17:57:02.126 +01:00 [INF]   RobotsDotTextUserAgentString: abot
+2020-09-23 17:57:02.126 +01:00 [INF]   MinCrawlDelayPerDomainMilliSeconds: 1500
+2020-09-23 17:57:02.127 +01:00 [INF]   MaxRobotsDotTextCrawlDelayInSeconds: 5
+2020-09-23 17:57:02.127 +01:00 [INF]   IsAlwaysLogin: false
+2020-09-23 17:57:02.127 +01:00 [INF]   LoginUser: null
+2020-09-23 17:57:02.127 +01:00 [INF]   LoginPassword: null
+2020-09-23 17:57:02.127 +01:00 [INF]   UseDefaultCredentials: false
+2020-09-23 17:57:06.420 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/] Elapsed:[2900.2267] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-23 17:57:06.859 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/about/ because Ignoring intentionally
+2020-09-23 17:57:06.859 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/classes/ because Ignoring intentionally
+2020-09-23 17:57:06.859 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/events/ because Ignoring intentionally
+2020-09-23 17:57:06.859 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/pupil-parent-voice/ because Ignoring intentionally
+2020-09-23 17:57:06.860 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/contact/ because Ignoring intentionally
+2020-09-23 17:57:06.863 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/welcome-reception-2020-21/ because Ignoring intentionally
+2020-09-23 17:57:06.863 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/super-spies/ because Ignoring intentionally
+2020-09-23 17:57:06.863 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/here-be-dragons-2/ because Ignoring intentionally
+2020-09-23 17:57:06.863 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/epic-everest-and-english/ because Ignoring intentionally
+2020-09-23 17:57:06.863 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-21st-september-2020/ because Ignoring intentionally
+2020-09-23 17:57:06.863 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-9/ because Ignoring intentionally
+2020-09-23 17:57:06.863 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-8/ because Ignoring intentionally
+2020-09-23 17:57:06.864 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-7/ because Ignoring intentionally
+2020-09-23 17:57:06.864 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-6/ because Ignoring intentionally
+2020-09-23 17:57:07.030 +01:00 [INF] CHANGED page: https://www.kingsleighprimary.co.uk/
+2020-09-23 17:57:08.268 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/blog/] Elapsed:[1085.1804] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-23 17:57:08.290 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/year-2s-habitat-fun/ because Ignoring intentionally
+2020-09-23 17:57:08.292 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/year-3s-creative-creations/ because Ignoring intentionally
+2020-09-23 17:57:08.292 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/taking-up-the-challenge-in-year-4/ because Ignoring intentionally
+2020-09-23 17:57:08.292 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/our-year-1-art-challenges/ because Ignoring intentionally
+2020-09-23 17:57:08.293 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/marvellous-mathematicians/ because Ignoring intentionally
+2020-09-23 17:57:08.293 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/help-supertato/ because Ignoring intentionally
+2020-09-23 17:57:08.293 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/year-3s-amazing-guided-reading/ because Ignoring intentionally
+2020-09-23 17:57:08.293 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/getting-creative-in-year-4/ because Ignoring intentionally
+2020-09-23 17:57:08.293 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/page/2/ because Ignoring intentionally
+2020-09-23 17:57:10.358 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/policies/] Elapsed:[829.1317] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-23 17:57:10.362 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/home-learning-policy/ because Ignoring intentionally
+2020-09-23 17:57:10.362 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/attendance-policy/ because Ignoring intentionally
+2020-09-23 17:57:10.362 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/accessibilty-plan-policy/ because Ignoring intentionally
+2020-09-23 17:57:10.362 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/behaviour-policy/ because Ignoring intentionally
+2020-09-23 17:57:10.362 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/visitors-code-of-conduct-policy/ because Ignoring intentionally
+2020-09-23 17:57:10.362 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/admissions-and-appeals/ because Ignoring intentionally
+2020-09-23 17:57:10.362 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/charging-and-remissions-policy/ because Ignoring intentionally
+2020-09-23 17:57:10.362 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/complaints-procedure/ because Ignoring intentionally
+2020-09-23 17:57:10.362 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/data-protection/ because Ignoring intentionally
+2020-09-23 17:57:10.362 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/equality-policy/ because Ignoring intentionally
+2020-09-23 17:57:10.362 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/pupil-premium-201617/ because Ignoring intentionally
+2020-09-23 17:57:10.362 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/safeguarding-and-child-protection-2/ because Ignoring intentionally
+2020-09-23 17:57:10.362 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/sen-information-report/ because Ignoring intentionally
+2020-09-23 17:57:10.362 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/sen-policy/ because Ignoring intentionally
+2020-09-23 17:57:10.363 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/sex-and-relationships/ because Ignoring intentionally
+2020-09-23 17:57:10.363 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/trust-documents/ because Ignoring intentionally
+2020-09-23 17:57:10.363 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/sports-premium/ because Ignoring intentionally
+2020-09-23 17:57:10.363 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/esafety/ because Ignoring intentionally
+2020-09-23 17:57:12.373 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/parents/] Elapsed:[845.0759] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-23 17:57:12.383 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/parents/latest-letters/ because Ignoring intentionally
+2020-09-23 17:57:12.384 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/parents/cool-kids-after-school-club/ because Ignoring intentionally
+2020-09-23 17:57:12.385 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/parents/clubs-timetable/ because Ignoring intentionally
+2020-09-23 17:57:12.385 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/parents/marvellous-me/ because Ignoring intentionally
+2020-09-23 17:57:12.386 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/parents/purple-mash/ because Ignoring intentionally
+2020-09-23 17:57:12.386 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/parents/pastoral-care/ because Ignoring intentionally
+2020-09-23 17:57:12.387 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/parents/school-meals/ because Ignoring intentionally
+2020-09-23 17:57:14.779 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/09/Behaviour-policy-Letter-to-parents-Sep-2020.pdf] Elapsed:[257.2232] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-23 17:57:16.337 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/02/Positive-Behaviour-Policy-KPS-2019-2020.docx.pdf] Elapsed:[292.8464] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-23 17:57:17.701 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/09/Important-Information-Please-read.pdf] Elapsed:[115.9418] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-23 17:57:19.239 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/09/Letter-to-parents-Covid-positive-test.pdf] Elapsed:[116.4407] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-23 17:57:20.760 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/09/Letter-to-parents-of-bubble-Covid-positive-test.pdf] Elapsed:[106.3644] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-23 17:57:22.260 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/09/FAQ-parents.pdf] Elapsed:[71.7461] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-23 17:57:23.838 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/07/KPS-Update-8-July-2020.doc.pdf] Elapsed:[109.2168] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-23 17:57:25.746 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/07/Childrens-leaflet-final.pdf] Elapsed:[483.6694] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-23 17:57:26.944 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/07/Reception-Parents-leaflet-FINAL.pdf] Elapsed:[148.2823] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-23 17:57:29.209 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/parents/newsletters/] Elapsed:[875.7244] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-23 17:57:29.214 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-5/ because Ignoring intentionally
+2020-09-23 17:57:29.214 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-edition-3/ because Ignoring intentionally
+2020-09-23 17:57:29.214 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-3/ because Ignoring intentionally
+2020-09-23 17:57:29.214 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-2-24th-april-2020/ because Ignoring intentionally
+2020-09-23 17:57:29.214 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-1-3rd-april-2020/ because Ignoring intentionally
+2020-09-23 17:57:29.214 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-13th-march-2020/ because Ignoring intentionally
+2020-09-23 17:57:29.214 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-28th-feb-2020/ because Ignoring intentionally
+2020-09-23 17:57:29.214 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-7th-february-2020/ because Ignoring intentionally
+2020-09-23 17:57:29.215 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-newsletter-24th-january-2020/ because Ignoring intentionally
+2020-09-23 17:57:29.215 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-9th-january-2020/ because Ignoring intentionally
+2020-09-23 17:57:29.215 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-13th-dec-2019/ because Ignoring intentionally
+2020-09-23 17:57:29.215 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-29-11-19/ because Ignoring intentionally
+2020-09-23 17:57:29.215 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-15th-november-2019/ because Ignoring intentionally
+2020-09-23 17:57:29.215 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-25th-october-2019/ because Ignoring intentionally
+2020-09-23 17:57:29.215 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-11th-oct-2019/ because Ignoring intentionally
+2020-09-23 17:57:30.741 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/parents/letters/] Elapsed:[869.5231] Parent:["https://www.kingsleighprimary.co.uk/parents/"] Retry:[0]
+2020-09-23 17:57:30.747 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/returning-to-school-september-2020/ because Ignoring intentionally
+2020-09-23 17:57:30.747 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/information-leaflet-for-parents-new-intake-in-reception-sep-2020/ because Ignoring intentionally
+2020-09-23 17:57:30.748 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/information-leaflet-for-children-new-intake-in-reception-sep-2020/ because Ignoring intentionally
+2020-09-23 17:57:30.748 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/kps-update-and-plans-september-2020/ because Ignoring intentionally
+2020-09-23 17:57:30.748 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/new-classes-reception-new-intake-september-2020/ because Ignoring intentionally
+2020-09-23 17:57:30.748 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/new-classes-september-2020/ because Ignoring intentionally
+2020-09-23 17:57:30.749 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/change-of-provision-key-workers/ because Ignoring intentionally
+2020-09-23 17:57:30.749 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/year-1-year-6-returning-to-school/ because Ignoring intentionally
+2020-09-23 17:57:30.749 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/reception-update/ because Ignoring intentionally
+2020-09-23 17:57:30.749 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/back-to-kingsleigh/ because Ignoring intentionally
+2020-09-23 17:57:30.749 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/learning-and-well-being-19th-march-2020-4/ because Ignoring intentionally
+2020-09-23 17:57:30.749 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/learning-and-well-being-19th-march-2020-3/ because Ignoring intentionally
+2020-09-23 17:57:30.750 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/learning-and-well-being-19th-march-2020-2/ because Ignoring intentionally
+2020-09-23 17:57:30.750 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/learning-and-well-being-19th-march-2020/ because Ignoring intentionally
+2020-09-23 17:57:30.750 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/attendance-letter-jan-2020/ because Ignoring intentionally
+2020-09-23 17:57:30.750 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/absence-at-school-clarifying-daily-procedure/ because Ignoring intentionally
+2020-09-23 17:57:31.113 +01:00 [INF] Crawl complete for site [https://www.kingsleighprimary.co.uk/]: Crawled [15] pages in ["00:00:28.9848504"]
+2020-09-23 17:57:31.154 +01:00 [INF] Sending Changed pages email containing 1 items
+2020-09-23 17:57:34.812 +01:00 [INF] Completed in 00:00:34.9170789!
+2020-09-23 18:02:04.298 +01:00 [INF] About to crawl site [https://www.kingsleighprimary.co.uk/]
+2020-09-23 18:02:04.369 +01:00 [INF] Configuration Values:
+2020-09-23 18:02:04.371 +01:00 [INF]   Abot Version: 2.0.64.0
+2020-09-23 18:02:04.376 +01:00 [INF]   MaxConcurrentThreads: 10
+2020-09-23 18:02:04.378 +01:00 [INF]   MaxPagesToCrawl: 0
+2020-09-23 18:02:04.378 +01:00 [INF]   MaxPagesToCrawlPerDomain: 0
+2020-09-23 18:02:04.378 +01:00 [INF]   MaxPageSizeInBytes: 0
+2020-09-23 18:02:04.378 +01:00 [INF]   UserAgentString: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+2020-09-23 18:02:04.379 +01:00 [INF]   HttpProtocolVersion: "NotSpecified"
+2020-09-23 18:02:04.383 +01:00 [INF]   CrawlTimeoutSeconds: 0
+2020-09-23 18:02:04.383 +01:00 [INF]   IsUriRecrawlingEnabled: false
+2020-09-23 18:02:04.384 +01:00 [INF]   IsExternalPageCrawlingEnabled: false
+2020-09-23 18:02:04.384 +01:00 [INF]   IsExternalPageLinksCrawlingEnabled: false
+2020-09-23 18:02:04.384 +01:00 [INF]   IsRespectUrlNamedAnchorOrHashbangEnabled: false
+2020-09-23 18:02:04.384 +01:00 [INF]   DownloadableContentTypes: text/html
+2020-09-23 18:02:04.387 +01:00 [INF]   HttpServicePointConnectionLimit: 200
+2020-09-23 18:02:04.388 +01:00 [INF]   HttpRequestTimeoutInSeconds: 15
+2020-09-23 18:02:04.388 +01:00 [INF]   HttpRequestMaxAutoRedirects: 7
+2020-09-23 18:02:04.388 +01:00 [INF]   IsHttpRequestAutoRedirectsEnabled: true
+2020-09-23 18:02:04.388 +01:00 [INF]   IsHttpRequestAutomaticDecompressionEnabled: false
+2020-09-23 18:02:04.388 +01:00 [INF]   IsSendingCookiesEnabled: false
+2020-09-23 18:02:04.388 +01:00 [INF]   IsSslCertificateValidationEnabled: false
+2020-09-23 18:02:04.388 +01:00 [INF]   MinAvailableMemoryRequiredInMb: 0
+2020-09-23 18:02:04.388 +01:00 [INF]   MaxMemoryUsageInMb: 0
+2020-09-23 18:02:04.388 +01:00 [INF]   MaxMemoryUsageCacheTimeInSeconds: 0
+2020-09-23 18:02:04.388 +01:00 [INF]   MaxCrawlDepth: 100
+2020-09-23 18:02:04.388 +01:00 [INF]   MaxLinksPerPage: 0
+2020-09-23 18:02:04.389 +01:00 [INF]   IsForcedLinkParsingEnabled: false
+2020-09-23 18:02:04.389 +01:00 [INF]   MaxRetryCount: 0
+2020-09-23 18:02:04.389 +01:00 [INF]   MinRetryDelayInMilliseconds: 0
+2020-09-23 18:02:04.389 +01:00 [INF]   IsRespectRobotsDotTextEnabled: false
+2020-09-23 18:02:04.389 +01:00 [INF]   IsRespectMetaRobotsNoFollowEnabled: false
+2020-09-23 18:02:04.389 +01:00 [INF]   IsRespectHttpXRobotsTagHeaderNoFollowEnabled: false
+2020-09-23 18:02:04.389 +01:00 [INF]   IsRespectAnchorRelNoFollowEnabled: false
+2020-09-23 18:02:04.389 +01:00 [INF]   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: false
+2020-09-23 18:02:04.389 +01:00 [INF]   RobotsDotTextUserAgentString: abot
+2020-09-23 18:02:04.389 +01:00 [INF]   MinCrawlDelayPerDomainMilliSeconds: 1500
+2020-09-23 18:02:04.389 +01:00 [INF]   MaxRobotsDotTextCrawlDelayInSeconds: 5
+2020-09-23 18:02:04.389 +01:00 [INF]   IsAlwaysLogin: false
+2020-09-23 18:02:04.389 +01:00 [INF]   LoginUser: null
+2020-09-23 18:02:04.390 +01:00 [INF]   LoginPassword: null
+2020-09-23 18:02:04.390 +01:00 [INF]   UseDefaultCredentials: false
+2020-09-23 18:02:07.559 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/] Elapsed:[1487.2065] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-23 18:02:08.304 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/about/ because Ignoring intentionally
+2020-09-23 18:02:08.304 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/classes/ because Ignoring intentionally
+2020-09-23 18:02:08.304 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/events/ because Ignoring intentionally
+2020-09-23 18:02:08.304 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/pupil-parent-voice/ because Ignoring intentionally
+2020-09-23 18:02:08.304 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/contact/ because Ignoring intentionally
+2020-09-23 18:02:08.305 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/welcome-reception-2020-21/ because Ignoring intentionally
+2020-09-23 18:02:08.310 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/super-spies/ because Ignoring intentionally
+2020-09-23 18:02:08.310 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/here-be-dragons-2/ because Ignoring intentionally
+2020-09-23 18:02:08.310 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/epic-everest-and-english/ because Ignoring intentionally
+2020-09-23 18:02:08.310 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-21st-september-2020/ because Ignoring intentionally
+2020-09-23 18:02:08.310 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-9/ because Ignoring intentionally
+2020-09-23 18:02:08.311 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-8/ because Ignoring intentionally
+2020-09-23 18:02:08.311 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-7/ because Ignoring intentionally
+2020-09-23 18:02:08.311 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-6/ because Ignoring intentionally
+2020-09-23 18:02:10.331 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/parents/] Elapsed:[833.3803] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-23 18:02:10.336 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/parents/latest-letters/ because Ignoring intentionally
+2020-09-23 18:02:10.336 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/parents/cool-kids-after-school-club/ because Ignoring intentionally
+2020-09-23 18:02:10.336 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/parents/clubs-timetable/ because Ignoring intentionally
+2020-09-23 18:02:10.336 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/parents/marvellous-me/ because Ignoring intentionally
+2020-09-23 18:02:10.336 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/parents/purple-mash/ because Ignoring intentionally
+2020-09-23 18:02:10.336 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/parents/pastoral-care/ because Ignoring intentionally
+2020-09-23 18:02:10.336 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/parents/school-meals/ because Ignoring intentionally
+2020-09-23 18:02:12.166 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/blog/] Elapsed:[1044.1422] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-23 18:02:12.173 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/year-2s-habitat-fun/ because Ignoring intentionally
+2020-09-23 18:02:12.174 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/year-3s-creative-creations/ because Ignoring intentionally
+2020-09-23 18:02:12.174 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/taking-up-the-challenge-in-year-4/ because Ignoring intentionally
+2020-09-23 18:02:12.174 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/our-year-1-art-challenges/ because Ignoring intentionally
+2020-09-23 18:02:12.174 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/marvellous-mathematicians/ because Ignoring intentionally
+2020-09-23 18:02:12.174 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/help-supertato/ because Ignoring intentionally
+2020-09-23 18:02:12.174 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/year-3s-amazing-guided-reading/ because Ignoring intentionally
+2020-09-23 18:02:12.174 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/getting-creative-in-year-4/ because Ignoring intentionally
+2020-09-23 18:02:12.174 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/page/2/ because Ignoring intentionally
+2020-09-23 18:02:14.237 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/09/Behaviour-policy-Letter-to-parents-Sep-2020.pdf] Elapsed:[1115.2822] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-23 18:02:15.911 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/policies/] Elapsed:[792.1585] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-23 18:02:15.915 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/home-learning-policy/ because Ignoring intentionally
+2020-09-23 18:02:15.915 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/attendance-policy/ because Ignoring intentionally
+2020-09-23 18:02:15.915 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/accessibilty-plan-policy/ because Ignoring intentionally
+2020-09-23 18:02:15.915 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/behaviour-policy/ because Ignoring intentionally
+2020-09-23 18:02:15.915 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/visitors-code-of-conduct-policy/ because Ignoring intentionally
+2020-09-23 18:02:15.916 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/admissions-and-appeals/ because Ignoring intentionally
+2020-09-23 18:02:15.916 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/charging-and-remissions-policy/ because Ignoring intentionally
+2020-09-23 18:02:15.916 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/complaints-procedure/ because Ignoring intentionally
+2020-09-23 18:02:15.916 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/data-protection/ because Ignoring intentionally
+2020-09-23 18:02:15.916 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/equality-policy/ because Ignoring intentionally
+2020-09-23 18:02:15.916 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/pupil-premium-201617/ because Ignoring intentionally
+2020-09-23 18:02:15.916 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/safeguarding-and-child-protection-2/ because Ignoring intentionally
+2020-09-23 18:02:15.916 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/sen-information-report/ because Ignoring intentionally
+2020-09-23 18:02:15.916 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/sen-policy/ because Ignoring intentionally
+2020-09-23 18:02:15.916 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/sex-and-relationships/ because Ignoring intentionally
+2020-09-23 18:02:15.916 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/trust-documents/ because Ignoring intentionally
+2020-09-23 18:02:15.917 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/sports-premium/ because Ignoring intentionally
+2020-09-23 18:02:15.917 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/esafety/ because Ignoring intentionally
+2020-09-23 18:02:16.871 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/02/Positive-Behaviour-Policy-KPS-2019-2020.docx.pdf] Elapsed:[228.8433] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-23 18:02:18.290 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/09/Important-Information-Please-read.pdf] Elapsed:[114.1361] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-23 18:02:19.820 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/09/Letter-to-parents-Covid-positive-test.pdf] Elapsed:[113.1853] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-23 18:02:21.349 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/09/Letter-to-parents-of-bubble-Covid-positive-test.pdf] Elapsed:[100.5675] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-23 18:02:22.845 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/09/FAQ-parents.pdf] Elapsed:[62.6659] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-23 18:02:24.408 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/07/KPS-Update-8-July-2020.doc.pdf] Elapsed:[92.7255] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-23 18:02:26.313 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/07/Childrens-leaflet-final.pdf] Elapsed:[463.9984] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-23 18:02:27.565 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/07/Reception-Parents-leaflet-FINAL.pdf] Elapsed:[182.488] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-23 18:02:29.925 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/parents/newsletters/] Elapsed:[1007.7284] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-23 18:02:29.933 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-5/ because Ignoring intentionally
+2020-09-23 18:02:29.934 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-edition-3/ because Ignoring intentionally
+2020-09-23 18:02:29.934 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-3/ because Ignoring intentionally
+2020-09-23 18:02:29.935 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-2-24th-april-2020/ because Ignoring intentionally
+2020-09-23 18:02:29.935 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-1-3rd-april-2020/ because Ignoring intentionally
+2020-09-23 18:02:29.935 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-13th-march-2020/ because Ignoring intentionally
+2020-09-23 18:02:29.936 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-28th-feb-2020/ because Ignoring intentionally
+2020-09-23 18:02:29.936 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-7th-february-2020/ because Ignoring intentionally
+2020-09-23 18:02:29.937 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-newsletter-24th-january-2020/ because Ignoring intentionally
+2020-09-23 18:02:29.937 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-9th-january-2020/ because Ignoring intentionally
+2020-09-23 18:02:29.937 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-13th-dec-2019/ because Ignoring intentionally
+2020-09-23 18:02:29.982 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-29-11-19/ because Ignoring intentionally
+2020-09-23 18:02:29.982 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-15th-november-2019/ because Ignoring intentionally
+2020-09-23 18:02:29.982 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-25th-october-2019/ because Ignoring intentionally
+2020-09-23 18:02:29.983 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-11th-oct-2019/ because Ignoring intentionally
+2020-09-23 18:02:31.337 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/parents/letters/] Elapsed:[893.8157] Parent:["https://www.kingsleighprimary.co.uk/parents/"] Retry:[0]
+2020-09-23 18:02:31.345 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/returning-to-school-september-2020/ because Ignoring intentionally
+2020-09-23 18:02:31.346 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/information-leaflet-for-parents-new-intake-in-reception-sep-2020/ because Ignoring intentionally
+2020-09-23 18:02:31.346 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/information-leaflet-for-children-new-intake-in-reception-sep-2020/ because Ignoring intentionally
+2020-09-23 18:02:31.346 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/kps-update-and-plans-september-2020/ because Ignoring intentionally
+2020-09-23 18:02:31.346 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/new-classes-reception-new-intake-september-2020/ because Ignoring intentionally
+2020-09-23 18:02:31.346 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/new-classes-september-2020/ because Ignoring intentionally
+2020-09-23 18:02:31.346 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/change-of-provision-key-workers/ because Ignoring intentionally
+2020-09-23 18:02:31.346 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/year-1-year-6-returning-to-school/ because Ignoring intentionally
+2020-09-23 18:02:31.346 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/reception-update/ because Ignoring intentionally
+2020-09-23 18:02:31.346 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/back-to-kingsleigh/ because Ignoring intentionally
+2020-09-23 18:02:31.346 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/learning-and-well-being-19th-march-2020-4/ because Ignoring intentionally
+2020-09-23 18:02:31.346 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/learning-and-well-being-19th-march-2020-3/ because Ignoring intentionally
+2020-09-23 18:02:31.346 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/learning-and-well-being-19th-march-2020-2/ because Ignoring intentionally
+2020-09-23 18:02:31.346 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/learning-and-well-being-19th-march-2020/ because Ignoring intentionally
+2020-09-23 18:02:31.347 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/attendance-letter-jan-2020/ because Ignoring intentionally
+2020-09-23 18:02:31.347 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/absence-at-school-clarifying-daily-procedure/ because Ignoring intentionally
+2020-09-23 18:02:31.718 +01:00 [INF] Crawl complete for site [https://www.kingsleighprimary.co.uk/]: Crawled [15] pages in ["00:00:27.3272830"]
+2020-09-23 18:02:31.790 +01:00 [INF] Completed in 00:00:28.1011327!
+2020-09-30 10:54:11.561 +01:00 [INF] About to crawl site [https://www.kingsleighprimary.co.uk/]
+2020-09-30 10:54:11.717 +01:00 [INF] Configuration Values:
+2020-09-30 10:54:11.718 +01:00 [INF]   Abot Version: 2.0.64.0
+2020-09-30 10:54:11.723 +01:00 [INF]   MaxConcurrentThreads: 10
+2020-09-30 10:54:11.726 +01:00 [INF]   MaxPagesToCrawl: 0
+2020-09-30 10:54:11.726 +01:00 [INF]   MaxPagesToCrawlPerDomain: 0
+2020-09-30 10:54:11.726 +01:00 [INF]   MaxPageSizeInBytes: 0
+2020-09-30 10:54:11.726 +01:00 [INF]   UserAgentString: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+2020-09-30 10:54:11.727 +01:00 [INF]   HttpProtocolVersion: "NotSpecified"
+2020-09-30 10:54:11.730 +01:00 [INF]   CrawlTimeoutSeconds: 0
+2020-09-30 10:54:11.730 +01:00 [INF]   IsUriRecrawlingEnabled: false
+2020-09-30 10:54:11.731 +01:00 [INF]   IsExternalPageCrawlingEnabled: false
+2020-09-30 10:54:11.731 +01:00 [INF]   IsExternalPageLinksCrawlingEnabled: false
+2020-09-30 10:54:11.731 +01:00 [INF]   IsRespectUrlNamedAnchorOrHashbangEnabled: false
+2020-09-30 10:54:11.731 +01:00 [INF]   DownloadableContentTypes: text/html
+2020-09-30 10:54:11.731 +01:00 [INF]   HttpServicePointConnectionLimit: 200
+2020-09-30 10:54:11.731 +01:00 [INF]   HttpRequestTimeoutInSeconds: 15
+2020-09-30 10:54:11.731 +01:00 [INF]   HttpRequestMaxAutoRedirects: 7
+2020-09-30 10:54:11.731 +01:00 [INF]   IsHttpRequestAutoRedirectsEnabled: true
+2020-09-30 10:54:11.731 +01:00 [INF]   IsHttpRequestAutomaticDecompressionEnabled: false
+2020-09-30 10:54:11.731 +01:00 [INF]   IsSendingCookiesEnabled: false
+2020-09-30 10:54:11.732 +01:00 [INF]   IsSslCertificateValidationEnabled: false
+2020-09-30 10:54:11.732 +01:00 [INF]   MinAvailableMemoryRequiredInMb: 0
+2020-09-30 10:54:11.732 +01:00 [INF]   MaxMemoryUsageInMb: 0
+2020-09-30 10:54:11.732 +01:00 [INF]   MaxMemoryUsageCacheTimeInSeconds: 0
+2020-09-30 10:54:11.732 +01:00 [INF]   MaxCrawlDepth: 100
+2020-09-30 10:54:11.732 +01:00 [INF]   MaxLinksPerPage: 0
+2020-09-30 10:54:11.732 +01:00 [INF]   IsForcedLinkParsingEnabled: false
+2020-09-30 10:54:11.732 +01:00 [INF]   MaxRetryCount: 0
+2020-09-30 10:54:11.732 +01:00 [INF]   MinRetryDelayInMilliseconds: 0
+2020-09-30 10:54:11.732 +01:00 [INF]   IsRespectRobotsDotTextEnabled: false
+2020-09-30 10:54:11.733 +01:00 [INF]   IsRespectMetaRobotsNoFollowEnabled: false
+2020-09-30 10:54:11.733 +01:00 [INF]   IsRespectHttpXRobotsTagHeaderNoFollowEnabled: false
+2020-09-30 10:54:11.733 +01:00 [INF]   IsRespectAnchorRelNoFollowEnabled: false
+2020-09-30 10:54:11.733 +01:00 [INF]   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: false
+2020-09-30 10:54:11.733 +01:00 [INF]   RobotsDotTextUserAgentString: abot
+2020-09-30 10:54:11.733 +01:00 [INF]   MinCrawlDelayPerDomainMilliSeconds: 1500
+2020-09-30 10:54:11.733 +01:00 [INF]   MaxRobotsDotTextCrawlDelayInSeconds: 5
+2020-09-30 10:54:11.733 +01:00 [INF]   IsAlwaysLogin: false
+2020-09-30 10:54:11.734 +01:00 [INF]   LoginUser: null
+2020-09-30 10:54:11.734 +01:00 [INF]   LoginPassword: null
+2020-09-30 10:54:11.734 +01:00 [INF]   UseDefaultCredentials: false
+2020-09-30 10:54:15.807 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/] Elapsed:[1809.6107] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-30 10:54:16.220 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/about/ because Ignoring intentionally
+2020-09-30 10:54:16.220 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/classes/ because Ignoring intentionally
+2020-09-30 10:54:16.221 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/events/ because Ignoring intentionally
+2020-09-30 10:54:16.221 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/pupil-parent-voice/ because Ignoring intentionally
+2020-09-30 10:54:16.221 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/contact/ because Ignoring intentionally
+2020-09-30 10:54:16.224 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/aliens-in-underpants-save-the-world/ because Ignoring intentionally
+2020-09-30 10:54:16.224 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/marvellous-mathematicians-return-to-y5/ because Ignoring intentionally
+2020-09-30 10:54:16.224 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/reflection-madness/ because Ignoring intentionally
+2020-09-30 10:54:16.224 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/awesome-learning-with-lawrence/ because Ignoring intentionally
+2020-09-30 10:54:16.224 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-21st-september-2020/ because Ignoring intentionally
+2020-09-30 10:54:16.224 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-9/ because Ignoring intentionally
+2020-09-30 10:54:16.225 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-8/ because Ignoring intentionally
+2020-09-30 10:54:16.225 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-7/ because Ignoring intentionally
+2020-09-30 10:54:16.225 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-6/ because Ignoring intentionally
+2020-09-30 10:54:16.290 +01:00 [INF] CHANGED page: https://www.kingsleighprimary.co.uk/
+2020-09-30 10:54:17.583 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/parents/] Elapsed:[768.9012] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-30 10:54:17.588 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/parents/latest-letters/ because Ignoring intentionally
+2020-09-30 10:54:17.588 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/parents/cool-kids-after-school-club/ because Ignoring intentionally
+2020-09-30 10:54:17.588 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/parents/clubs-timetable/ because Ignoring intentionally
+2020-09-30 10:54:17.589 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/parents/marvellous-me/ because Ignoring intentionally
+2020-09-30 10:54:17.589 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/parents/purple-mash/ because Ignoring intentionally
+2020-09-30 10:54:17.589 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/parents/pastoral-care/ because Ignoring intentionally
+2020-09-30 10:54:17.589 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/parents/school-meals/ because Ignoring intentionally
+2020-09-30 10:54:19.423 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/blog/] Elapsed:[1083.6309] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-30 10:54:19.430 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/welcome-reception-2020-21/ because Ignoring intentionally
+2020-09-30 10:54:19.431 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/super-spies/ because Ignoring intentionally
+2020-09-30 10:54:19.431 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/here-be-dragons-2/ because Ignoring intentionally
+2020-09-30 10:54:19.431 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/epic-everest-and-english/ because Ignoring intentionally
+2020-09-30 10:54:19.431 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/year-2s-habitat-fun/ because Ignoring intentionally
+2020-09-30 10:54:19.431 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/year-3s-creative-creations/ because Ignoring intentionally
+2020-09-30 10:54:19.431 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/taking-up-the-challenge-in-year-4/ because Ignoring intentionally
+2020-09-30 10:54:19.431 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/our-year-1-art-challenges/ because Ignoring intentionally
+2020-09-30 10:54:19.431 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/page/2/ because Ignoring intentionally
+2020-09-30 10:54:19.432 +01:00 [INF] CHANGED page: https://www.kingsleighprimary.co.uk/blog/
+2020-09-30 10:54:22.481 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/09/Attendance-letter-to-parents-Sep-2020.doc.pdf] Elapsed:[2144.6587] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-30 10:54:22.483 +01:00 [INF] NEW page: http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/09/Attendance-letter-to-parents-Sep-2020.doc.pdf
+2020-09-30 10:54:23.199 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/policies/] Elapsed:[864.3181] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-30 10:54:23.211 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/home-learning-policy/ because Ignoring intentionally
+2020-09-30 10:54:23.212 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/attendance-policy/ because Ignoring intentionally
+2020-09-30 10:54:23.212 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/accessibilty-plan-policy/ because Ignoring intentionally
+2020-09-30 10:54:23.213 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/behaviour-policy/ because Ignoring intentionally
+2020-09-30 10:54:23.214 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/visitors-code-of-conduct-policy/ because Ignoring intentionally
+2020-09-30 10:54:23.214 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/admissions-and-appeals/ because Ignoring intentionally
+2020-09-30 10:54:23.215 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/charging-and-remissions-policy/ because Ignoring intentionally
+2020-09-30 10:54:23.215 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/complaints-procedure/ because Ignoring intentionally
+2020-09-30 10:54:23.216 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/data-protection/ because Ignoring intentionally
+2020-09-30 10:54:23.216 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/equality-policy/ because Ignoring intentionally
+2020-09-30 10:54:23.216 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/pupil-premium-201617/ because Ignoring intentionally
+2020-09-30 10:54:23.217 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/safeguarding-and-child-protection-2/ because Ignoring intentionally
+2020-09-30 10:54:23.217 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/sen-information-report/ because Ignoring intentionally
+2020-09-30 10:54:23.218 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/sen-policy/ because Ignoring intentionally
+2020-09-30 10:54:23.218 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/sex-and-relationships/ because Ignoring intentionally
+2020-09-30 10:54:23.219 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/trust-documents/ because Ignoring intentionally
+2020-09-30 10:54:23.219 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/sports-premium/ because Ignoring intentionally
+2020-09-30 10:54:23.220 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/esafety/ because Ignoring intentionally
+2020-09-30 10:54:23.942 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/09/Pupil-Attendance-Policy-September-2020-21.pdf] Elapsed:[89.8867] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-30 10:54:23.944 +01:00 [INF] NEW page: http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/09/Pupil-Attendance-Policy-September-2020-21.pdf
+2020-09-30 10:54:25.486 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/09/Behaviour-policy-Letter-to-parents-Sep-2020.pdf] Elapsed:[93.5427] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-30 10:54:27.146 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/02/Positive-Behaviour-Policy-KPS-2019-2020.docx.pdf] Elapsed:[229.302] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-30 10:54:28.542 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/09/Important-Information-Please-read.pdf] Elapsed:[90.2967] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-30 10:54:30.035 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/09/FAQ-parents.pdf] Elapsed:[46.0469] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-30 10:54:31.596 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/07/KPS-Update-8-July-2020.doc.pdf] Elapsed:[84.8425] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-30 10:54:33.909 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/parents/newsletters/] Elapsed:[858.0749] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-09-30 10:54:33.914 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-5/ because Ignoring intentionally
+2020-09-30 10:54:33.914 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-edition-3/ because Ignoring intentionally
+2020-09-30 10:54:33.914 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-3/ because Ignoring intentionally
+2020-09-30 10:54:33.914 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-2-24th-april-2020/ because Ignoring intentionally
+2020-09-30 10:54:33.914 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-1-3rd-april-2020/ because Ignoring intentionally
+2020-09-30 10:54:33.914 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-13th-march-2020/ because Ignoring intentionally
+2020-09-30 10:54:33.914 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-28th-feb-2020/ because Ignoring intentionally
+2020-09-30 10:54:33.914 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-7th-february-2020/ because Ignoring intentionally
+2020-09-30 10:54:33.914 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-newsletter-24th-january-2020/ because Ignoring intentionally
+2020-09-30 10:54:33.914 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-9th-january-2020/ because Ignoring intentionally
+2020-09-30 10:54:33.914 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-13th-dec-2019/ because Ignoring intentionally
+2020-09-30 10:54:33.914 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-29-11-19/ because Ignoring intentionally
+2020-09-30 10:54:33.914 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-15th-november-2019/ because Ignoring intentionally
+2020-09-30 10:54:33.914 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-25th-october-2019/ because Ignoring intentionally
+2020-09-30 10:54:33.914 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-11th-oct-2019/ because Ignoring intentionally
+2020-09-30 10:54:35.437 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/parents/letters/] Elapsed:[859.869] Parent:["https://www.kingsleighprimary.co.uk/parents/"] Retry:[0]
+2020-09-30 10:54:35.443 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/returning-to-school-september-2020/ because Ignoring intentionally
+2020-09-30 10:54:35.444 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/information-leaflet-for-parents-new-intake-in-reception-sep-2020/ because Ignoring intentionally
+2020-09-30 10:54:35.513 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/information-leaflet-for-children-new-intake-in-reception-sep-2020/ because Ignoring intentionally
+2020-09-30 10:54:35.514 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/kps-update-and-plans-september-2020/ because Ignoring intentionally
+2020-09-30 10:54:35.514 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/new-classes-reception-new-intake-september-2020/ because Ignoring intentionally
+2020-09-30 10:54:35.514 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/new-classes-september-2020/ because Ignoring intentionally
+2020-09-30 10:54:35.514 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/change-of-provision-key-workers/ because Ignoring intentionally
+2020-09-30 10:54:35.514 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/year-1-year-6-returning-to-school/ because Ignoring intentionally
+2020-09-30 10:54:35.514 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/reception-update/ because Ignoring intentionally
+2020-09-30 10:54:35.515 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/back-to-kingsleigh/ because Ignoring intentionally
+2020-09-30 10:54:35.515 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/learning-and-well-being-19th-march-2020-4/ because Ignoring intentionally
+2020-09-30 10:54:35.515 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/learning-and-well-being-19th-march-2020-3/ because Ignoring intentionally
+2020-09-30 10:54:35.515 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/learning-and-well-being-19th-march-2020-2/ because Ignoring intentionally
+2020-09-30 10:54:35.515 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/learning-and-well-being-19th-march-2020/ because Ignoring intentionally
+2020-09-30 10:54:35.515 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/attendance-letter-jan-2020/ because Ignoring intentionally
+2020-09-30 10:54:35.515 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/absence-at-school-clarifying-daily-procedure/ because Ignoring intentionally
+2020-09-30 10:54:37.400 +01:00 [INF] Crawl complete for site [https://www.kingsleighprimary.co.uk/]: Crawled [13] pages in ["00:00:25.6653988"]
+2020-09-30 10:54:37.481 +01:00 [INF] Sending Changed pages email containing 2 items
+2020-09-30 10:54:40.183 +01:00 [INF] Sending NEW pages email containing 2 items
+2020-09-30 10:54:41.159 +01:00 [INF] Completed in 00:00:31.8217057!
+2020-10-02 09:39:18.442 +01:00 [INF] About to crawl site [https://www.kingsleighprimary.co.uk/]
+2020-10-02 09:39:18.588 +01:00 [INF] Configuration Values:
+2020-10-02 09:39:18.589 +01:00 [INF]   Abot Version: 2.0.64.0
+2020-10-02 09:39:18.596 +01:00 [INF]   MaxConcurrentThreads: 10
+2020-10-02 09:39:18.599 +01:00 [INF]   MaxPagesToCrawl: 0
+2020-10-02 09:39:18.599 +01:00 [INF]   MaxPagesToCrawlPerDomain: 0
+2020-10-02 09:39:18.599 +01:00 [INF]   MaxPageSizeInBytes: 0
+2020-10-02 09:39:18.600 +01:00 [INF]   UserAgentString: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+2020-10-02 09:39:18.600 +01:00 [INF]   HttpProtocolVersion: "NotSpecified"
+2020-10-02 09:39:18.604 +01:00 [INF]   CrawlTimeoutSeconds: 0
+2020-10-02 09:39:18.604 +01:00 [INF]   IsUriRecrawlingEnabled: false
+2020-10-02 09:39:18.604 +01:00 [INF]   IsExternalPageCrawlingEnabled: false
+2020-10-02 09:39:18.604 +01:00 [INF]   IsExternalPageLinksCrawlingEnabled: false
+2020-10-02 09:39:18.605 +01:00 [INF]   IsRespectUrlNamedAnchorOrHashbangEnabled: false
+2020-10-02 09:39:18.605 +01:00 [INF]   DownloadableContentTypes: text/html
+2020-10-02 09:39:18.605 +01:00 [INF]   HttpServicePointConnectionLimit: 200
+2020-10-02 09:39:18.605 +01:00 [INF]   HttpRequestTimeoutInSeconds: 15
+2020-10-02 09:39:18.606 +01:00 [INF]   HttpRequestMaxAutoRedirects: 7
+2020-10-02 09:39:18.606 +01:00 [INF]   IsHttpRequestAutoRedirectsEnabled: true
+2020-10-02 09:39:18.607 +01:00 [INF]   IsHttpRequestAutomaticDecompressionEnabled: false
+2020-10-02 09:39:18.607 +01:00 [INF]   IsSendingCookiesEnabled: false
+2020-10-02 09:39:18.607 +01:00 [INF]   IsSslCertificateValidationEnabled: false
+2020-10-02 09:39:18.607 +01:00 [INF]   MinAvailableMemoryRequiredInMb: 0
+2020-10-02 09:39:18.607 +01:00 [INF]   MaxMemoryUsageInMb: 0
+2020-10-02 09:39:18.607 +01:00 [INF]   MaxMemoryUsageCacheTimeInSeconds: 0
+2020-10-02 09:39:18.607 +01:00 [INF]   MaxCrawlDepth: 100
+2020-10-02 09:39:18.607 +01:00 [INF]   MaxLinksPerPage: 0
+2020-10-02 09:39:18.607 +01:00 [INF]   IsForcedLinkParsingEnabled: false
+2020-10-02 09:39:18.608 +01:00 [INF]   MaxRetryCount: 0
+2020-10-02 09:39:18.608 +01:00 [INF]   MinRetryDelayInMilliseconds: 0
+2020-10-02 09:39:18.608 +01:00 [INF]   IsRespectRobotsDotTextEnabled: false
+2020-10-02 09:39:18.608 +01:00 [INF]   IsRespectMetaRobotsNoFollowEnabled: false
+2020-10-02 09:39:18.608 +01:00 [INF]   IsRespectHttpXRobotsTagHeaderNoFollowEnabled: false
+2020-10-02 09:39:18.608 +01:00 [INF]   IsRespectAnchorRelNoFollowEnabled: false
+2020-10-02 09:39:18.608 +01:00 [INF]   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: false
+2020-10-02 09:39:18.608 +01:00 [INF]   RobotsDotTextUserAgentString: abot
+2020-10-02 09:39:18.608 +01:00 [INF]   MinCrawlDelayPerDomainMilliSeconds: 1500
+2020-10-02 09:39:18.608 +01:00 [INF]   MaxRobotsDotTextCrawlDelayInSeconds: 5
+2020-10-02 09:39:18.608 +01:00 [INF]   IsAlwaysLogin: false
+2020-10-02 09:39:18.608 +01:00 [INF]   LoginUser: null
+2020-10-02 09:39:18.608 +01:00 [INF]   LoginPassword: null
+2020-10-02 09:39:18.608 +01:00 [INF]   UseDefaultCredentials: false
+2020-10-02 09:39:22.382 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/] Elapsed:[1898.696] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-10-02 09:39:22.914 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/about/ because Ignoring intentionally
+2020-10-02 09:39:22.914 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/classes/ because Ignoring intentionally
+2020-10-02 09:39:22.914 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/events/ because Ignoring intentionally
+2020-10-02 09:39:22.914 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/pupil-parent-voice/ because Ignoring intentionally
+2020-10-02 09:39:22.914 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/contact/ because Ignoring intentionally
+2020-10-02 09:39:22.914 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/the-three-little-pigs/ because Ignoring intentionally
+2020-10-02 09:39:22.914 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/year-2-have-fun-outdoors/ because Ignoring intentionally
+2020-10-02 09:39:22.914 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/aliens-in-underpants-save-the-world/ because Ignoring intentionally
+2020-10-02 09:39:22.914 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/marvellous-mathematicians-return-to-y5/ because Ignoring intentionally
+2020-10-02 09:39:22.917 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-21st-september-2020/ because Ignoring intentionally
+2020-10-02 09:39:22.917 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-9/ because Ignoring intentionally
+2020-10-02 09:39:22.917 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-8/ because Ignoring intentionally
+2020-10-02 09:39:22.917 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-7/ because Ignoring intentionally
+2020-10-02 09:39:22.917 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-6/ because Ignoring intentionally
+2020-10-02 09:39:23.014 +01:00 [INF] CHANGED page: https://www.kingsleighprimary.co.uk/
+2020-10-02 09:39:24.487 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/policies/] Elapsed:[812.491] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-10-02 09:39:24.493 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/home-learning-policy/ because Ignoring intentionally
+2020-10-02 09:39:24.493 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/attendance-policy/ because Ignoring intentionally
+2020-10-02 09:39:24.493 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/accessibilty-plan-policy/ because Ignoring intentionally
+2020-10-02 09:39:24.493 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/behaviour-policy/ because Ignoring intentionally
+2020-10-02 09:39:24.493 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/visitors-code-of-conduct-policy/ because Ignoring intentionally
+2020-10-02 09:39:24.493 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/admissions-and-appeals/ because Ignoring intentionally
+2020-10-02 09:39:24.494 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/charging-and-remissions-policy/ because Ignoring intentionally
+2020-10-02 09:39:24.494 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/complaints-procedure/ because Ignoring intentionally
+2020-10-02 09:39:24.494 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/data-protection/ because Ignoring intentionally
+2020-10-02 09:39:24.494 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/equality-policy/ because Ignoring intentionally
+2020-10-02 09:39:24.494 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/pupil-premium-201617/ because Ignoring intentionally
+2020-10-02 09:39:24.494 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/safeguarding-and-child-protection-2/ because Ignoring intentionally
+2020-10-02 09:39:24.494 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/sen-information-report/ because Ignoring intentionally
+2020-10-02 09:39:24.494 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/sen-policy/ because Ignoring intentionally
+2020-10-02 09:39:24.494 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/sex-and-relationships/ because Ignoring intentionally
+2020-10-02 09:39:24.494 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/trust-documents/ because Ignoring intentionally
+2020-10-02 09:39:24.495 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/sports-premium/ because Ignoring intentionally
+2020-10-02 09:39:24.495 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/policies/esafety/ because Ignoring intentionally
+2020-10-02 09:39:27.893 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/09/Attendance-letter-to-parents-Sep-2020.doc.pdf] Elapsed:[2101.8539] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-10-02 09:39:28.839 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/blog/] Elapsed:[1046.3515] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-10-02 09:39:28.859 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/reflection-madness/ because Ignoring intentionally
+2020-10-02 09:39:28.860 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/awesome-learning-with-lawrence/ because Ignoring intentionally
+2020-10-02 09:39:28.860 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/welcome-reception-2020-21/ because Ignoring intentionally
+2020-10-02 09:39:28.860 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/super-spies/ because Ignoring intentionally
+2020-10-02 09:39:28.860 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/here-be-dragons-2/ because Ignoring intentionally
+2020-10-02 09:39:28.860 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/epic-everest-and-english/ because Ignoring intentionally
+2020-10-02 09:39:28.860 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/year-2s-habitat-fun/ because Ignoring intentionally
+2020-10-02 09:39:28.860 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/year-3s-creative-creations/ because Ignoring intentionally
+2020-10-02 09:39:28.860 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/blog/page/2/ because Ignoring intentionally
+2020-10-02 09:39:28.866 +01:00 [INF] CHANGED page: https://www.kingsleighprimary.co.uk/blog/
+2020-10-02 09:39:30.112 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/parents/] Elapsed:[786.457] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-10-02 09:39:30.122 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/parents/latest-letters/ because Ignoring intentionally
+2020-10-02 09:39:30.123 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/parents/cool-kids-after-school-club/ because Ignoring intentionally
+2020-10-02 09:39:30.123 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/parents/clubs-timetable/ because Ignoring intentionally
+2020-10-02 09:39:30.123 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/parents/marvellous-me/ because Ignoring intentionally
+2020-10-02 09:39:30.123 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/parents/purple-mash/ because Ignoring intentionally
+2020-10-02 09:39:30.123 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/parents/pastoral-care/ because Ignoring intentionally
+2020-10-02 09:39:30.123 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/parents/school-meals/ because Ignoring intentionally
+2020-10-02 09:39:31.424 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/09/Pupil-Attendance-Policy-September-2020-21.pdf] Elapsed:[103.7126] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-10-02 09:39:32.963 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/09/Behaviour-policy-Letter-to-parents-Sep-2020.pdf] Elapsed:[121.3271] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-10-02 09:39:34.685 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/02/Positive-Behaviour-Policy-KPS-2019-2020.docx.pdf] Elapsed:[309.3269] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-10-02 09:39:36.017 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/09/Important-Information-Please-read.pdf] Elapsed:[106.6965] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-10-02 09:39:37.502 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/09/FAQ-parents.pdf] Elapsed:[70.9912] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-10-02 09:39:39.131 +01:00 [INF] Page crawl complete, Status:[200] Url:[http://www.kingsleighprimary.co.uk/wp-content/uploads/2020/07/KPS-Update-8-July-2020.doc.pdf] Elapsed:[166.0974] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-10-02 09:39:41.392 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/parents/newsletters/] Elapsed:[888.7741] Parent:["https://www.kingsleighprimary.co.uk/"] Retry:[0]
+2020-10-02 09:39:41.400 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-5/ because Ignoring intentionally
+2020-10-02 09:39:41.401 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-edition-3/ because Ignoring intentionally
+2020-10-02 09:39:41.401 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-3/ because Ignoring intentionally
+2020-10-02 09:39:41.402 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-2-24th-april-2020/ because Ignoring intentionally
+2020-10-02 09:39:41.402 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-timeout-issue-1-3rd-april-2020/ because Ignoring intentionally
+2020-10-02 09:39:41.402 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-13th-march-2020/ because Ignoring intentionally
+2020-10-02 09:39:41.403 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-28th-feb-2020/ because Ignoring intentionally
+2020-10-02 09:39:41.403 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-7th-february-2020/ because Ignoring intentionally
+2020-10-02 09:39:41.403 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-newsletter-24th-january-2020/ because Ignoring intentionally
+2020-10-02 09:39:41.404 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-9th-january-2020/ because Ignoring intentionally
+2020-10-02 09:39:41.404 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-13th-dec-2019/ because Ignoring intentionally
+2020-10-02 09:39:41.404 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-29-11-19/ because Ignoring intentionally
+2020-10-02 09:39:41.404 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-15th-november-2019/ because Ignoring intentionally
+2020-10-02 09:39:41.405 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-25th-october-2019/ because Ignoring intentionally
+2020-10-02 09:39:41.405 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/newsletters/kingsleigh-times-11th-oct-2019/ because Ignoring intentionally
+2020-10-02 09:39:42.895 +01:00 [INF] Page crawl complete, Status:[200] Url:[https://www.kingsleighprimary.co.uk/parents/letters/] Elapsed:[868.7301] Parent:["https://www.kingsleighprimary.co.uk/parents/"] Retry:[0]
+2020-10-02 09:39:42.908 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/returning-to-school-september-2020/ because Ignoring intentionally
+2020-10-02 09:39:42.908 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/information-leaflet-for-parents-new-intake-in-reception-sep-2020/ because Ignoring intentionally
+2020-10-02 09:39:42.908 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/information-leaflet-for-children-new-intake-in-reception-sep-2020/ because Ignoring intentionally
+2020-10-02 09:39:42.908 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/kps-update-and-plans-september-2020/ because Ignoring intentionally
+2020-10-02 09:39:42.908 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/new-classes-reception-new-intake-september-2020/ because Ignoring intentionally
+2020-10-02 09:39:42.908 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/new-classes-september-2020/ because Ignoring intentionally
+2020-10-02 09:39:42.909 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/change-of-provision-key-workers/ because Ignoring intentionally
+2020-10-02 09:39:42.909 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/year-1-year-6-returning-to-school/ because Ignoring intentionally
+2020-10-02 09:39:42.909 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/reception-update/ because Ignoring intentionally
+2020-10-02 09:39:42.909 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/back-to-kingsleigh/ because Ignoring intentionally
+2020-10-02 09:39:42.909 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/learning-and-well-being-19th-march-2020-4/ because Ignoring intentionally
+2020-10-02 09:39:42.909 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/learning-and-well-being-19th-march-2020-3/ because Ignoring intentionally
+2020-10-02 09:39:42.909 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/learning-and-well-being-19th-march-2020-2/ because Ignoring intentionally
+2020-10-02 09:39:42.909 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/learning-and-well-being-19th-march-2020/ because Ignoring intentionally
+2020-10-02 09:39:42.909 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/attendance-letter-jan-2020/ because Ignoring intentionally
+2020-10-02 09:39:42.910 +01:00 [ERR] Unable to parse https://www.kingsleighprimary.co.uk/letter/absence-at-school-clarifying-daily-procedure/ because Ignoring intentionally
+2020-10-02 09:39:43.856 +01:00 [INF] Crawl complete for site [https://www.kingsleighprimary.co.uk/]: Crawled [13] pages in ["00:00:25.2464825"]
+2020-10-02 09:39:44.269 +01:00 [INF] Sending Changed pages email containing 2 items
+2020-10-02 09:39:47.318 +01:00 [INF] Completed in 00:00:29.5452900!
