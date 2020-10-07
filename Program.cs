@@ -13,7 +13,7 @@ using System.Diagnostics;
 
 namespace websitechangenotifier
 {
-    class Program
+    public class Program
     {
         private static Dictionary<Uri, string> allUrisFound = new Dictionary<Uri, string>();
         private static Dictionary<Uri, string> previouslyFoundUris = new Dictionary<Uri, string>();
