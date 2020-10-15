@@ -11,12 +11,16 @@ namespace websitechangenotifier
         internal async Task<Dictionary<Uri, string>> LoadPreviousResults()
         {
             Dictionary<Uri, string> previousResults = new Dictionary<Uri, string>();
-                        //Load in the previous results
-            var previousItems = await System.IO.File.ReadAllLinesAsync(@"AllUrisFound.txt");
-            foreach (string lineItem in previousItems)
+            string fileName = "AllUrisFound.txt";
+            if (System.IO.File.Exists( fileName )                )
             {
-                var lineData = lineItem.Split(',');
-                previousResults[new Uri(lineData[0].Trim())] = lineData[1].Trim();
+                //Load in the previous results
+                var previousItems = await System.IO.File.ReadAllLinesAsync(fileName);
+                foreach (string lineItem in previousItems)
+                {
+                    var lineData = lineItem.Split( ',' );
+                    previousResults[new Uri( lineData[0].Trim() )] = lineData[1].Trim();
+                }
             }
             return previousResults;
         }
