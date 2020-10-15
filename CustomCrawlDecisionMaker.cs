@@ -1,7 +1,5 @@
-using System;
 using Abot2.Core;
 using Abot2.Poco;
-using System.Linq;
 
 namespace websitechangenotifier
 {
