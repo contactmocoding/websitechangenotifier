@@ -17,11 +17,12 @@ namespace websitechangenotifier
         }
 
         internal async Task<Dictionary<Uri, string>> LoadPreviousResults()
-        {
+        {            
             Dictionary<Uri, string> previousResults = new Dictionary<Uri, string>();
 
             if (System.IO.File.Exists( fileName ))
             {
+                logger.LogInformation( $"Reading previous results from  {fileName}." );
                 //Load in the previous results
                 var previousItems = await System.IO.File.ReadAllLinesAsync( fileName );
                 foreach (string lineItem in previousItems)
@@ -33,9 +34,9 @@ namespace websitechangenotifier
             return previousResults;
         }
 
-        internal async Task ExportData( string fileName, Dictionary<Uri, string> itemToExport )
+        internal async Task ExportData( string fileNameToExport, Dictionary<Uri, string> itemToExport )
         {
-            logger.LogInformation( $"Logging to {fileName}" );
+            logger.LogInformation( $"Logging to {fileNameToExport}" );
             StringBuilder fileContents = new StringBuilder();
             foreach (KeyValuePair<Uri, string> kvp in itemToExport.OrderBy( t => t.Key.AbsoluteUri ))
             {
@@ -44,17 +45,19 @@ namespace websitechangenotifier
 
             try
             {
-                await System.IO.File.WriteAllTextAsync( fileName, fileContents.ToString() );
+                logger.LogInformation( $"Trying to write out {fileNameToExport}.");
+                await System.IO.File.WriteAllTextAsync( fileNameToExport, fileContents.ToString() );
+                logger.LogInformation( $"Finished writing out {fileNameToExport}." );
             }
             catch(Exception ex)
             {
-                logger.LogError( $"Unable to write out {fileName}. Error was:", ex );
+                logger.LogError( $"Unable to write out {fileNameToExport}. Error was:", ex );
             }
         }
 
-        internal void StoreCurrentResults( Dictionary<Uri, string> allUrisFound )
+        internal async Task StoreCurrentResults( Dictionary<Uri, string> allUrisFound )
         {
-            ExportData( fileName, allUrisFound );
+            await ExportData( fileName, allUrisFound );
         }
 
         internal StringBuilder GetUris( Dictionary<Uri, string> itemToExport )

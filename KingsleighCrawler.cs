@@ -37,7 +37,7 @@ namespace websitechangenotifier
             //await dataManipulator.ExportData( @"ChangedUrisFound.txt", changedPages );
             //await dataManipulator.ExportData( @"NewUrisFound.txt", newPages );
             //await dataManipulator.ExportData( @"AllUrisFound.txt", allUrisFound );
-            dataManipulator.StoreCurrentResults(allUrisFound);
+            await dataManipulator.StoreCurrentResults(allUrisFound);
             logger.LogInformation( "Exported data" );
             if (changedPages.Any())
             {
