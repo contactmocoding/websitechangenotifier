@@ -34,9 +34,10 @@ namespace websitechangenotifier
             logger.LogInformation( $"Previously found {previouslyFoundUris.Count} Uris" );
             await CrawlPages();
             logger.LogInformation( $"Finished Crawling. found {changedPages.Count} changes. Found {newPages.Count} new pages." );
-            await dataManipulator.ExportData( @"ChangedUrisFound.txt", changedPages );
-            await dataManipulator.ExportData( @"NewUrisFound.txt", newPages );
-            await dataManipulator.ExportData( @"AllUrisFound.txt", allUrisFound );
+            //await dataManipulator.ExportData( @"ChangedUrisFound.txt", changedPages );
+            //await dataManipulator.ExportData( @"NewUrisFound.txt", newPages );
+            //await dataManipulator.ExportData( @"AllUrisFound.txt", allUrisFound );
+            dataManipulator.StoreCurrentResults(allUrisFound);
             logger.LogInformation( "Exported data" );
             if (changedPages.Any())
             {

@@ -9,8 +9,9 @@ namespace websitechangenotifier
 {
     public class ExternalDataManipulator
     {
+        private const string fileName = "AllUrisFound.txt";
         ILogger logger;
-        public ExternalDataManipulator(ILogger logger)
+        public ExternalDataManipulator( ILogger logger )
         {
 
         }
@@ -18,11 +19,11 @@ namespace websitechangenotifier
         internal async Task<Dictionary<Uri, string>> LoadPreviousResults()
         {
             Dictionary<Uri, string> previousResults = new Dictionary<Uri, string>();
-            string fileName = "AllUrisFound.txt";
-            if (System.IO.File.Exists( fileName )                )
+
+            if (System.IO.File.Exists( fileName ))
             {
                 //Load in the previous results
-                var previousItems = await System.IO.File.ReadAllLinesAsync(fileName);
+                var previousItems = await System.IO.File.ReadAllLinesAsync( fileName );
                 foreach (string lineItem in previousItems)
                 {
                     var lineData = lineItem.Split( ',' );
@@ -31,25 +32,37 @@ namespace websitechangenotifier
             }
             return previousResults;
         }
-       
-        internal async Task ExportData(string fileName, Dictionary<Uri,string> itemToExport)
+
+        internal async Task ExportData( string fileName, Dictionary<Uri, string> itemToExport )
         {
-            logger.LogInformation($"Logging to {fileName}");
+            logger.LogInformation( $"Logging to {fileName}" );
             StringBuilder fileContents = new StringBuilder();
-            foreach (KeyValuePair<Uri, string> kvp in itemToExport.OrderBy(t => t.Key.AbsoluteUri))
+            foreach (KeyValuePair<Uri, string> kvp in itemToExport.OrderBy( t => t.Key.AbsoluteUri ))
             {
-                fileContents.AppendLine($"{kvp.Key}, {kvp.Value}");
+                fileContents.AppendLine( $"{kvp.Key}, {kvp.Value}" );
             }
-            
-            await System.IO.File.WriteAllTextAsync(fileName, fileContents.ToString());
+
+            try
+            {
+                await System.IO.File.WriteAllTextAsync( fileName, fileContents.ToString() );
+            }
+            catch(Exception ex)
+            {
+                logger.LogError( $"Unable to write out {fileName}. Error was:", ex );
+            }
         }
 
-        internal StringBuilder GetUris( Dictionary<Uri,string> itemToExport)
+        internal void StoreCurrentResults( Dictionary<Uri, string> allUrisFound )
+        {
+            ExportData( fileName, allUrisFound );
+        }
+
+        internal StringBuilder GetUris( Dictionary<Uri, string> itemToExport )
         {
             StringBuilder fileContents = new StringBuilder();
-            foreach (KeyValuePair<Uri, string> kvp in itemToExport.OrderBy(t => t.Key.AbsoluteUri))
+            foreach (KeyValuePair<Uri, string> kvp in itemToExport.OrderBy( t => t.Key.AbsoluteUri ))
             {
-                fileContents.AppendLine($"{kvp.Key}");
+                fileContents.AppendLine( $"{kvp.Key}" );
             }
             return fileContents;
         }
