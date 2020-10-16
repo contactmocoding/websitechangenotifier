@@ -1,12 +1,13 @@
 ﻿using System;
 using Abot2.Crawler;
-using Serilog;
+
 using System.Linq;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading.Tasks;
 using Abot2.Poco;
 using System.Text;
+using Microsoft.Extensions.Logging;
 
 namespace websitechangenotifier
 {
@@ -16,39 +17,40 @@ namespace websitechangenotifier
         private Dictionary<Uri, string> previouslyFoundUris = new Dictionary<Uri, string>();
         private Dictionary<Uri, string> newPages = new Dictionary<Uri, string>();
         private Dictionary<Uri, string> changedPages = new Dictionary<Uri, string>();
+        ILogger logger;
+
+        public KingsleighCrawler( ILogger logger )
+        {
+            this.logger = logger;
+        }
 
         public async Task RunCrawler()
         {
             Stopwatch timedRun = new Stopwatch();
             timedRun.Start();
-            Log.Logger = new LoggerConfiguration()
-                .MinimumLevel.Information()
-                .Enrich.WithThreadId()
-                .WriteTo.Console( outputTemplate: "[{Timestamp:yyyy-MM-dd HH:mm:ss:fff zzz}] [{ThreadId}] [{Level:u3}] - {Message:lj}{NewLine}{Exception}" )
-                .WriteTo.File( "log.txt" )
-                .CreateLogger();
-            ExternalDataManipulator dataManipulator = new ExternalDataManipulator();
+            ExternalDataManipulator dataManipulator = new ExternalDataManipulator( logger);
 
             previouslyFoundUris = await dataManipulator.LoadPreviousResults();
-            Log.Information( $"Previously found {previouslyFoundUris.Count} Uris" );
+            logger.LogInformation( $"Previously found {previouslyFoundUris.Count} Uris" );
             await CrawlPages();
+            logger.LogInformation( $"Finished Crawling. found {changedPages.Count} changes. Found {newPages.Count} new pages." );
             await dataManipulator.ExportData( @"ChangedUrisFound.txt", changedPages );
             await dataManipulator.ExportData( @"NewUrisFound.txt", newPages );
             await dataManipulator.ExportData( @"AllUrisFound.txt", allUrisFound );
-
+            logger.LogInformation( "Exported data" );
             if (changedPages.Any())
             {
-                Log.Information( $"Sending Changed pages email containing {changedPages.Count} items" );
+                logger.LogInformation( $"Sending Changed pages email containing {changedPages.Count} items" );
                 new EmailHelpers().SendEmail( $"Kingsleigh have {changedPages.Count} CHANGED pages", dataManipulator.GetUris( changedPages ).ToString() );
             }
 
             if (newPages.Any())
             {
-                Log.Information( $"Sending NEW pages email containing {newPages.Count} items" );
+                logger.LogInformation( $"Sending NEW pages email containing {newPages.Count} items" );
                 new EmailHelpers().SendEmail( $"Kingsleigh have {newPages.Count} NEW pages", dataManipulator.GetUris( newPages ).ToString() );
             }
 
-            Log.Information( $"Completed in {timedRun.Elapsed}!" );
+            logger.LogInformation( $"Completed in {timedRun.Elapsed}!" );
         }
 
         private async Task CrawlPages()
@@ -75,7 +77,7 @@ namespace websitechangenotifier
 
         private void Crawler_PageCrawlDisallowed( object sender, PageCrawlDisallowedArgs e )
         {
-            Log.Error( $"Unable to parse {e.PageToCrawl.Uri.AbsoluteUri} because {e.DisallowedReason}" );
+            logger.LogError( $"Unable to parse {e.PageToCrawl.Uri.AbsoluteUri} because {e.DisallowedReason}" );
         }
 
         private void Crawler_PageCrawlCompleted( object sender, PageCrawlCompletedArgs e )
@@ -89,14 +91,14 @@ namespace websitechangenotifier
             {
                 //Did not find it previously.
                 //Alert about the new page
-                Log.Information( $"NEW page: {e.CrawledPage.Uri}" );
+                logger.LogInformation( $"NEW page: {e.CrawledPage.Uri}" );
                 newPages[e.CrawledPage.Uri] = pageContent;
             }
             else if (retrievedValue != hash)
             {
                 //Found it previously, but the content has changed
                 //Alert about content changed
-                Log.Information( $"CHANGED page: {e.CrawledPage.Uri}" );
+                logger.LogInformation( $"CHANGED page: {e.CrawledPage.Uri}" );
                 changedPages[e.CrawledPage.Uri] = pageContent;
             }
 

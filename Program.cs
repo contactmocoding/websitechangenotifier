@@ -6,7 +6,7 @@ namespace websitechangenotifier
     {
         public static async Task Main(string[] args)
         {
-            await new KingsleighCrawler().RunCrawler();
+            //await new KingsleighCrawler( ).RunCrawler();
         }
 
     }
