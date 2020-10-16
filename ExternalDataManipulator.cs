@@ -3,11 +3,18 @@ using System.Threading.Tasks;
 using System.Linq;
 using System.Collections.Generic;
 using System.Text;
+using Microsoft.Extensions.Logging;
 
 namespace websitechangenotifier
 {
     public class ExternalDataManipulator
     {
+        ILogger logger;
+        public ExternalDataManipulator(ILogger logger)
+        {
+
+        }
+
         internal async Task<Dictionary<Uri, string>> LoadPreviousResults()
         {
             Dictionary<Uri, string> previousResults = new Dictionary<Uri, string>();
@@ -27,11 +34,13 @@ namespace websitechangenotifier
        
         internal async Task ExportData(string fileName, Dictionary<Uri,string> itemToExport)
         {
+            logger.LogInformation($"Logging to {fileName}");
             StringBuilder fileContents = new StringBuilder();
             foreach (KeyValuePair<Uri, string> kvp in itemToExport.OrderBy(t => t.Key.AbsoluteUri))
             {
                 fileContents.AppendLine($"{kvp.Key}, {kvp.Value}");
             }
+            
             await System.IO.File.WriteAllTextAsync(fileName, fileContents.ToString());
         }
 
